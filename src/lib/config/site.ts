@@ -10,7 +10,11 @@ export const site = {
   web3formsAccessKey: PUBLIC_WEB3FORMS_ACCESS_KEY,
   origin: PUBLIC_SITE_URL,
   basePath: BASE_PATH,
-  homeUrl: `${PUBLIC_SITE_URL}${BASE_PATH}/`
+  homeUrl: `${PUBLIC_SITE_URL}${BASE_PATH}/`,
+  serviceArea: {
+    locations: ['Gatineau', 'Hull', 'Aylmer', 'Buckingham', 'Cantley'],
+    approximateRadiusKm: 40
+  }
 } as const;
 
 export const absoluteUrl = (path: string) => `${site.origin}${site.basePath}/${path.replace(/^\//, '')}`;

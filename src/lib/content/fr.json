@@ -18,7 +18,7 @@
   },
   "meta": {
     "title": "Vitreva | Remplacement de pare-brise mobile à Gatineau",
-    "description": "Demandez une soumission pour le remplacement mobile de votre pare-brise à Gatineau. Joignez Vitreva pour préciser votre besoin et convenir d’un rendez-vous."
+    "description": "Remplacement de pare-brise mobile à Gatineau, Hull, Aylmer, Buckingham et Cantley, dans un rayon d’environ 40 km. Demandez votre soumission."
   },
   "navigation": {
     "service": "Le service",
@@ -48,7 +48,7 @@
       },
       {
         "title": "Le service mobile",
-        "body": "Convenons du lieu de votre rendez-vous à Gatineau."
+        "body": "Convenons du lieu de votre rendez-vous dans votre secteur."
       },
       {
         "title": "Un contact direct",
@@ -58,7 +58,7 @@
   },
   "area": {
     "title": "À Gatineau, là où vous êtes.",
-    "body": "Vitreva se déplace à Gatineau pour le remplacement de votre pare-brise. Une démarche simple, de la soumission au rendez-vous."
+    "body": "Vitreva se déplace à Gatineau, notamment dans les secteurs de Hull, d’Aylmer et de Buckingham, ainsi qu’à Cantley et dans un rayon d’environ 40 km autour de Gatineau. Nous confirmons avec vous le lieu et le rendez-vous pour le remplacement de votre pare-brise."
   },
   "information": {
     "title": "Le remplacement, expliqué simplement.",
@@ -171,35 +171,35 @@
     "items": [
       {
         "question": "Que faut-il pour une soumission et où trouver le NIV?",
-        "answer": "Indiquez l’année, la marque, le modèle et votre secteur. Ajoutez le NIV (VIN) si vous l’avez : il figure généralement sur l’immatriculation, l’assurance ou au bas du pare-brise côté conducteur. Décrivez aussi votre besoin."
+        "answer": "Pour commencer, indiquez simplement l’année, la marque et le modèle du véhicule, votre secteur et une courte description de votre besoin. Le NIV (VIN) est utile si vous l’avez : cherchez-le sur l’immatriculation, l’assurance ou au bas du pare-brise côté conducteur. Vous pouvez aussi nous contacter sans le NIV pour faire le point ensemble."
       },
       {
         "question": "Dans quels secteurs vous déplacez-vous?",
-        "answer": "Vitreva propose le remplacement mobile de pare-brise à Gatineau. Envoyez votre ville ou code postal avec votre demande : nous confirmerons si le déplacement est possible à votre emplacement avant de convenir d’un rendez-vous."
+        "answer": "Nous venons à vous à Gatineau, y compris dans les secteurs de Hull, d’Aylmer et de Buckingham, ainsi qu’à Cantley et dans un rayon d’environ 40 km autour de Gatineau. Donnez-nous votre ville ou code postal : nous vérifierons les possibilités de déplacement à votre emplacement, puis conviendrons ensemble du lieu et du rendez-vous."
       },
       {
         "question": "Combien coûte un remplacement?",
-        "answer": "La soumission dépend du véhicule et du pare-brise nécessaire. Transmettez les renseignements du véhicule, le NIV si disponible et votre emplacement pour préciser le travail et obtenir un prix avant de confirmer l’intervention."
+        "answer": "Nous préparons une soumission adaptée à votre véhicule et au pare-brise nécessaire. Envoyez les renseignements du véhicule, le NIV si vous l’avez et votre emplacement : nous clarifierons avec vous le travail et le prix avant que vous donniez votre accord."
       },
       {
         "question": "Ma demande confirme-t-elle un rendez-vous?",
-        "answer": "Non. Le formulaire sert à demander une soumission. Vitreva doit ensuite confirmer avec vous le travail, le lieu et la disponibilité. Attendez cette confirmation avant de considérer un rendez-vous comme fixé."
+        "answer": "Votre demande lance simplement la discussion. Nous précisons ensuite avec vous le travail, le lieu et les disponibilités. Vous pourrez confirmer votre rendez-vous une fois ces détails convenus ensemble."
       },
       {
         "question": "Mon véhicule a une caméra : qu’en est-il de la calibration?",
-        "answer": "Signalez toute caméra ou aide à la conduite dans votre demande. Si une calibration ADAS est nécessaire, Vitreva vous orientera vers un prestataire adapté. Cette étape doit être clarifiée avant de confirmer l’intervention."
+        "answer": "Dites-nous si votre véhicule possède une caméra ou une aide à la conduite : nous examinerons ces besoins avec vous. Si une calibration ADAS est nécessaire, nous vous orienterons vers un fournisseur approprié afin de clarifier cette étape avant de confirmer l’intervention."
       },
       {
         "question": "Réparation ou remplacement : que proposez-vous?",
-        "answer": "Vitreva propose un service de remplacement de pare-brise. Si vous hésitez entre réparation et remplacement, décrivez le dommage et votre véhicule dans votre demande pour clarifier le besoin avant de confirmer des travaux."
+        "answer": "Notre service est le remplacement de pare-brise. Si vous hésitez entre réparation et remplacement, commencez par nous décrire le dommage et votre véhicule : nous vous aiderons à clarifier la prochaine étape avant de convenir des travaux."
       },
       {
         "question": "Puis-je vous contacter pour un véhicule d’entreprise?",
-        "answer": "Oui. Les particuliers sont notre clientèle principale, mais les entreprises peuvent aussi nous contacter. Précisez le nombre et le type de véhicules ainsi que leur emplacement pour discuter de votre besoin et confirmer la prise en charge."
+        "answer": "Oui, vous pouvez nous contacter pour un véhicule d’entreprise. Indiquez le nombre et le type de véhicules ainsi que leur emplacement : nous pourrons discuter de votre besoin et confirmer ensemble la prise en charge."
       },
       {
         "question": "Mon assurance peut-elle couvrir le remplacement?",
-        "answer": "La couverture et la franchise dépendent de votre contrat. Votre assureur pourra confirmer vos options. Contactez Vitreva pour préparer une soumission à joindre à votre dossier."
+        "answer": "Votre assureur pourra vous confirmer la couverture et la franchise prévues à votre contrat. De notre côté, nous pouvons préparer une soumission à joindre à votre dossier, pour vous aider à vérifier avec lui le montant qui resterait à votre charge."
       }
     ]
   }

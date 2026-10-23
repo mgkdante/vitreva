@@ -18,7 +18,7 @@
   },
   "meta": {
     "title": "Vitreva | Mobile windshield replacement in Gatineau",
-    "description": "Request a quote for mobile windshield replacement in Gatineau. Contact Vitreva to discuss your needs and arrange an appointment."
+    "description": "Mobile windshield replacement in Gatineau, Hull, Aylmer, Buckingham and Cantley, within roughly 40 km of Gatineau. Request your quote."
   },
   "navigation": {
     "service": "The service",
@@ -48,7 +48,7 @@
       },
       {
         "title": "Mobile service",
-        "body": "Let’s agree on a location for your appointment in Gatineau."
+        "body": "Let’s agree on a location for your appointment in your area."
       },
       {
         "title": "Direct contact",
@@ -58,7 +58,7 @@
   },
   "area": {
     "title": "In Gatineau, where you are.",
-    "body": "Vitreva brings windshield replacement to you in Gatineau. A straightforward experience, from your quote to your appointment."
+    "body": "Vitreva comes to you in Gatineau, including the Hull, Aylmer and Buckingham sectors, as well as Cantley and locations within roughly 40 km of Gatineau. We confirm the location and appointment with you for your windshield replacement."
   },
   "information": {
     "title": "Windshield replacement, explained simply.",
@@ -171,35 +171,35 @@
     "items": [
       {
         "question": "What do I need for a quote, and where is my VIN?",
-        "answer": "Share your vehicle’s year, make and model, plus your area. Add the VIN if available: it is usually on registration or insurance documents, or at the lower driver-side windshield. Describe what you need as well."
+        "answer": "Start with your vehicle’s year, make and model, your area and a short description of what you need. Your VIN is helpful if you have it: look on your registration or insurance documents, or at the lower driver-side windshield. You can also contact us without the VIN so we can work through the details together."
       },
       {
         "question": "Which areas do you serve?",
-        "answer": "Vitreva offers mobile windshield replacement in Gatineau. Include your city or postal code in your request so we can confirm whether a visit to your location is possible before arranging an appointment."
+        "answer": "We come to you in Gatineau, including the Hull, Aylmer and Buckingham sectors, as well as Cantley and locations within roughly 40 km of Gatineau. Share your city or postal code so we can check travel availability at your location, then agree on the place and appointment together."
       },
       {
         "question": "How much does replacement cost?",
-        "answer": "The quote depends on your vehicle and the windshield it needs. Send the vehicle details, VIN if available and your location so the work and price can be clarified before you confirm the replacement."
+        "answer": "We prepare a quote for your vehicle and the windshield it needs. Send your vehicle details, VIN if you have it and your location, and we’ll clarify the work and price with you before you agree to go ahead."
       },
       {
         "question": "Does my request confirm an appointment?",
-        "answer": "No. The form is a quote request. Vitreva must then confirm the work, location and availability with you. Wait for that confirmation before treating an appointment as booked."
+        "answer": "Your request simply starts the conversation. We then work through the details, location and availability with you. You can confirm your appointment once we’ve agreed on those details together."
       },
       {
         "question": "My vehicle has a camera. What about calibration?",
-        "answer": "Mention any camera or driver assistance features in your request. If ADAS calibration is required, Vitreva will refer you to a suitable provider. This step must be clarified before confirming the replacement."
+        "answer": "Tell us about any cameras or driver assistance features so we can work through those needs with you. If ADAS calibration is required, we’ll refer you to an appropriate provider and help clarify that step before confirming the replacement."
       },
       {
         "question": "Do you offer repair or replacement?",
-        "answer": "Vitreva offers windshield replacement. If you are unsure whether you need repair or replacement, describe the damage and your vehicle in your request so the work can be clarified before you confirm anything."
+        "answer": "Our service is windshield replacement. If you’re unsure whether you need repair or replacement, start by describing the damage and your vehicle: we’ll help you understand the next step before agreeing on the work."
       },
       {
         "question": "Can I contact you about a business vehicle?",
-        "answer": "Yes. Individual drivers are our main customers, and businesses are welcome to inquire. Share the number and type of vehicles and their location so we can discuss your needs and confirm whether we can take on the work."
+        "answer": "Yes, you’re welcome to contact us about a business vehicle. Share the number and type of vehicles and their location so we can discuss your needs and confirm together whether we can take on the work."
       },
       {
         "question": "Can my insurance cover the replacement?",
-        "answer": "Coverage and deductibles depend on your policy. Your insurer can confirm your options. Contact Vitreva for a quote to help clarify the work for your claim."
+        "answer": "Your insurer can confirm the coverage and deductible under your policy. We can prepare a quote for your claim so you can check with them what amount, if any, you would need to pay."
       }
     ]
   }

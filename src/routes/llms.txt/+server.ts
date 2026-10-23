@@ -4,7 +4,12 @@ export const prerender = true;
 
 export const GET = () => new Response(`# Vitreva
 
-> Service mobile de vitrage automobile à Gatineau. Mobile auto glass service in Gatineau.
+> Remplacement de pare-brise mobile à Gatineau et dans les environs. Mobile windshield replacement in Gatineau and nearby areas.
+
+## Zone desservie / Service area
+- Secteurs et municipalités / Areas and municipalities: ${site.serviceArea.locations.join(', ')}.
+- Rayon approximatif autour de Gatineau / Approximate radius around Gatineau: ${site.serviceArea.approximateRadiusKm} km.
+- Le lieu, les conditions d’intervention et le rendez-vous sont confirmés individuellement avec Vitreva. The location, working conditions and appointment are confirmed individually with Vitreva.
 
 ## Pages
 - [Français](${absoluteUrl('')}): Services et demande de soumission.

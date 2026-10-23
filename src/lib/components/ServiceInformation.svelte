@@ -11,7 +11,7 @@
         <div><h3>{item.title}</h3><p>{item.body}</p></div>
       {/each}
     </div>
-    <p class="closing">{content.closing}</p>
+    <p class="closing"><a href="#quote">{content.closing}</a></p>
   </div>
 </section>
 
@@ -21,6 +21,7 @@
   h3 { font-size: 25px; line-height: 38px; font-weight: 700; }
   .information-grid p { margin-top: 10px; font-size: 16px; line-height: 24px; color: var(--muted); }
   .closing { margin-top: 30px; font-size: 16px; line-height: 24px; font-weight: 500; }
+  .closing a { text-underline-offset: 4px; }
   @media (max-width: 749px) { .information-grid { grid-template-columns: 1fr; gap: 26px; } }
   @media (max-width: 599px) { .information-section { padding-block: 52px; } h3 { font-size: 22px; line-height: 33px; } }
 </style>

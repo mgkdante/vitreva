@@ -15,7 +15,7 @@
 </section>
 
 <style>
-  .commitment-section { background: white; padding-block: 58px; }
+  .commitment-section { background: var(--paper); padding-block: 58px; }
   h2 { font-size: 42px; line-height: 46px; }
   .commitments { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; margin-top: 28px; }
   h3 { font-size: 19px; line-height: 29px; font-weight: 700; }

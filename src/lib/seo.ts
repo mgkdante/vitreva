@@ -12,7 +12,8 @@ export function getSeo(locale: Locale, content: { meta: { title: string; descrip
     image: ogImage,
     telephone: '+18192098023',
     email: site.email,
-    areaServed: 'Gatineau'
+    description: content.meta.description,
+    areaServed: site.serviceArea.locations.map((name) => ({ '@type': 'Place', name }))
   };
 
   return {
