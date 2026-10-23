@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
           origin: new URL(env.PUBLIC_SITE_URL || 'https://vitreva.ca').origin,
           relative: false
         },
-        prerender: { entries: ['/', '/fr/', '/en/', '/robots.txt', '/sitemap.xml', '/llms.txt'] }
+        prerender: { entries: ['/', '/en/', '/robots.txt', '/sitemap.xml', '/llms.txt'] }
       })
     ]
   };

@@ -26,5 +26,18 @@
   .faq-toggle::before { content: '+'; }
   details[open] .faq-toggle::before { content: '−'; }
   details p { margin-top: 12px; font-size: 16px; line-height: 24px; }
+  @supports (interpolate-size: allow-keywords) and (transition-behavior: allow-discrete) {
+    details { interpolate-size: allow-keywords; }
+    details::details-content {
+      block-size: 0;
+      overflow: clip;
+      opacity: 0;
+      transition: block-size 240ms ease, opacity 180ms ease, content-visibility 240ms allow-discrete;
+    }
+    details[open]::details-content { block-size: auto; opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    details::details-content { transition: none; }
+  }
   @media (max-width: 599px) { .faq-section { padding-block: 52px; } }
 </style>

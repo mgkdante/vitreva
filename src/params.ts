@@ -1,5 +1,5 @@
 import { defineParams } from '@sveltejs/kit/params';
 
 export const params = defineParams({
-  lang: (value) => value === 'fr' || value === 'en' ? value : undefined
+  lang: (value) => value === 'en' ? value : undefined
 });

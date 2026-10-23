@@ -8,6 +8,7 @@
     "process": "Comment ça marche",
     "faq": "Questions",
     "contact": "Soumission",
+    "call": "Appeler",
     "home": "Accueil Vitreva",
     "language": "Changer de langue",
     "skip": "Aller au contenu"
@@ -90,6 +91,7 @@
     ]
   },
   "quote": {
+    "call": "Appeler",
     "submitting": "Envoi en cours…",
     "privacyNote": "Les renseignements transmis servent à traiter votre demande et à vous répondre.",
     "privacyLabel": "Confidentialité",

@@ -12,7 +12,7 @@
     <h1 id="hero-title">{#each content.hero.lines as line}<span>{line}</span>{/each}</h1>
     <p>{content.hero.subtitle}</p>
     <div class="hero-actions">
-      <a class="button button-white" href={site.phoneHref}>{site.phoneDisplay}</a>
+      <a class="button button-white" href={site.phoneHref}>{content.navigation.call}</a>
       <a class="button button-clear glass" href="#quote">{content.hero.quote}</a>
     </div>
     <a class="email-link" href={site.emailHref}>{content.hero.email}</a>

@@ -2,7 +2,7 @@ import { absoluteUrl, site } from '#lib/config/site.ts';
 import type { Locale } from '#lib/content/index.ts';
 
 export function getSeo(locale: Locale, content: { meta: { title: string; description: string } }) {
-  const canonical = absoluteUrl(`${locale}/`);
+  const canonical = absoluteUrl(locale === 'en' ? 'en/' : '');
   const ogImage = absoluteUrl('images/social.jpg');
   const structuredData = {
     '@context': 'https://schema.org',
@@ -20,9 +20,9 @@ export function getSeo(locale: Locale, content: { meta: { title: string; descrip
     description: content.meta.description,
     canonical,
     alternates: [
-      { locale: 'fr-CA', href: absoluteUrl('fr/') },
+      { locale: 'fr-CA', href: absoluteUrl('') },
       { locale: 'en-CA', href: absoluteUrl('en/') },
-      { locale: 'x-default', href: absoluteUrl('fr/') }
+      { locale: 'x-default', href: absoluteUrl('') }
     ],
     ogLocale: locale === 'fr' ? 'fr_CA' : 'en_CA',
     ogImage,

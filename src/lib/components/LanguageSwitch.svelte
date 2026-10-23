@@ -6,9 +6,9 @@
 </script>
 
 <div class="language-switch" aria-label={label}>
-  <a href={`${resolve('/[lang=lang]', { lang: 'fr' })}/`} lang="fr" hreflang="fr-CA" aria-current={locale === 'fr' ? 'page' : undefined}>FR</a>
+  <a href={`${resolve('/[[lang=lang]]', {}).replace(/\/$/, '')}/`} lang="fr" hreflang="fr-CA" aria-current={locale === 'fr' ? 'page' : undefined}>FR</a>
   <span aria-hidden="true">|</span>
-  <a href={`${resolve('/[lang=lang]', { lang: 'en' })}/`} lang="en" hreflang="en-CA" aria-current={locale === 'en' ? 'page' : undefined}>EN</a>
+  <a href={`${resolve('/[[lang=lang]]', { lang: 'en' })}/`} lang="en" hreflang="en-CA" aria-current={locale === 'en' ? 'page' : undefined}>EN</a>
 </div>
 
 <style>

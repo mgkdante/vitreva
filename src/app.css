@@ -17,6 +17,9 @@
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 128px; }
 body { margin: 0; }
+main > section + section { border-top: 1px solid var(--line); }
+main > section:is(.service-area, .quote-section) { border-top-color: rgb(255 255 255 / 20%); }
+main + .site-footer { border-top: 1px solid rgb(255 255 255 / 15%); }
 h1, h2, h3, p { margin: 0; }
 h2 { font-size: 44px; line-height: 48px; font-weight: 800; }
 a { color: inherit; }

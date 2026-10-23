@@ -31,7 +31,7 @@
       <h2 id="quote-title">{content.title}</h2>
       <p>{content.intro}</p>
       <div class="direct-actions">
-        <a class="button button-white" href={site.phoneHref}>{site.phoneDisplay}</a>
+        <a class="button button-white" href={site.phoneHref}>{content.call}</a>
         <a href={site.emailHref}>{site.email}</a>
       </div>
     </div>

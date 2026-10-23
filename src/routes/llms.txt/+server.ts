@@ -7,7 +7,7 @@ export const GET = () => new Response(`# Vitreva
 > Service mobile de vitrage automobile à Gatineau. Mobile auto glass service in Gatineau.
 
 ## Pages
-- [Français](${absoluteUrl('fr/')}): Services et demande de soumission.
+- [Français](${absoluteUrl('')}): Services et demande de soumission.
 - [English](${absoluteUrl('en/')}): Services and quote request.
 
 ## Contact

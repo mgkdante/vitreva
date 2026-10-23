@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-Open `/fr/` or `/en/`. The root opens the French page and retains both language links without JavaScript.
+Open `/` for French or `/en/` for English. Both pages render complete HTML and retain both language links without JavaScript.
 
 ```sh
 npm run check

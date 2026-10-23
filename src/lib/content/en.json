@@ -8,6 +8,7 @@
     "process": "How it works",
     "faq": "Questions",
     "contact": "Get a quote",
+    "call": "Call",
     "home": "Vitreva home",
     "language": "Change language",
     "skip": "Skip to content"
@@ -90,6 +91,7 @@
     ]
   },
   "quote": {
+    "call": "Call",
     "submitting": "Sending…",
     "privacyNote": "The details you send are used to handle your request and respond to you.",
     "privacyLabel": "Privacy",

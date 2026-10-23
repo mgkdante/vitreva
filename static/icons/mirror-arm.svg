@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 36" fill="none">
+  <defs>
+    <linearGradient id="arm" x1="34" y1="0" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#252b30"/>
+      <stop offset=".48" stop-color="#586168"/>
+      <stop offset="1" stop-color="#171b1f"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="25" y1="2" x2="44" y2="29" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e4eaed" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#89939a" stop-opacity=".18"/>
+    </linearGradient>
+    <filter id="shadow" x="2" y="-4" width="64" height="44" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  <path d="M18 3h32v4H18z" fill="#080a0c" fill-opacity=".68" filter="url(#shadow)"/>
+  <path d="M23 0h22v4H23z" fill="url(#arm)"/>
+  <path d="M25 1h18" stroke="url(#edge)" stroke-linecap="round" stroke-width=".8"/>
+  <path d="M31 3.5h6v16.3l3.8 5.4c.7 1 .1 2.4-1.1 2.4h-11.4c-1.2 0-1.8-1.4-1.1-2.4l3.8-5.4V3.5Z" fill="url(#arm)"/>
+  <path d="M32.2 5v14.9l-4 5.7" stroke="url(#edge)" stroke-linecap="round" stroke-width=".85"/>
+  <path d="M29 28h10" stroke="#d7dfe3" stroke-opacity=".48" stroke-linecap="round" stroke-width=".8"/>
+</svg>
