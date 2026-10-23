@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Vitreva | Mobile windshield replacement in Gatineau",
+    "description": "Request a quote for mobile windshield replacement in Gatineau. Contact Vitreva to discuss your needs and arrange an appointment."
+  },
+  "navigation": {
+    "service": "The service",
+    "process": "How it works",
+    "faq": "Questions",
+    "contact": "Get a quote",
+    "home": "Vitreva home",
+    "language": "Change language",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "lines": [
+      "Your windshield.",
+      "We come to you."
+    ],
+    "subtitle": "Mobile windshield replacement in Gatineau.",
+    "quote": "Request a quote",
+    "email": "Send an email"
+  },
+  "commitment": {
+    "title": "Simple service. Careful work.",
+    "items": [
+      {
+        "title": "A clear quote",
+        "body": "Understand the next step before confirming the work."
+      },
+      {
+        "title": "Mobile service",
+        "body": "Let’s agree on a location for your appointment in Gatineau."
+      },
+      {
+        "title": "Direct contact",
+        "body": "Reach Vitreva by phone or email."
+      }
+    ]
+  },
+  "area": {
+    "title": "In Gatineau, where you are.",
+    "body": "Vitreva brings windshield replacement to you in Gatineau. A straightforward experience, from your quote to your appointment."
+  },
+  "information": {
+    "title": "Windshield replacement, explained simply.",
+    "items": [
+      {
+        "title": "A windshield suited to your vehicle",
+        "body": "The year, make, model and VIN help us identify your windshield and its features. Mention cameras and sensors when you contact us."
+      },
+      {
+        "title": "A location agreed together",
+        "body": "Tell us where your vehicle will be parked. We confirm the location, working conditions and availability with you."
+      },
+      {
+        "title": "The right care after installation",
+        "body": "Ask for instructions specific to your installation: when you can drive again and what precautions to take when washing and using your vehicle."
+      }
+    ],
+    "closing": "Unsure? Describe the damage to discuss the next step."
+  },
+  "process": {
+    "previous": "Previous step",
+    "next": "Next step",
+    "regionLabel": "Service steps",
+    "title": "How it works",
+    "steps": [
+      {
+        "id": "request",
+        "label": "01 · Request",
+        "title": "Tell us about your vehicle",
+        "body": "Share your vehicle’s make, model, year and the area where you need service. Add the VIN if you have it and a description of the windshield to help Vitreva prepare your quote.",
+        "image": "van"
+      },
+      {
+        "id": "confirm",
+        "label": "02 · Confirm",
+        "title": "Let’s clarify the details",
+        "body": "Vitreva gets back to you to clarify the quote, your vehicle’s needs and availability. Mention cameras and driver assistance features. If ADAS calibration is required, we refer you to an appropriate provider. Your appointment still needs confirmation.",
+        "image": "installation"
+      },
+      {
+        "id": "replace",
+        "label": "03 · Replacement",
+        "title": "Your agreed mobile service",
+        "body": "Once the location and appointment are confirmed, Vitreva comes to you for the agreed replacement. Aftercare instructions and the time before you can drive again are explained for the conditions of your particular installation.",
+        "image": "aftercare"
+      }
+    ]
+  },
+  "quote": {
+    "submitting": "Sending…",
+    "privacyNote": "The details you send are used to handle your request and respond to you.",
+    "privacyLabel": "Privacy",
+    "success": "Your request has been sent. Vitreva will contact you to clarify the details. No appointment is confirmed at this stage.",
+    "error": "Your request could not be sent. Try again or contact Vitreva by phone or email.",
+    "unconfigured": "Form submission is not available yet. Your request has not been sent. Contact Vitreva by phone or email.",
+    "consent": "I agree that Vitreva may use these details to handle my request and respond to me.",
+    "required": "Required",
+    "subject": "Vitreva quote request",
+    "title": "Let’s talk about your windshield.",
+    "intro": "Send your vehicle and location details to request a quote.",
+    "vinHelp": "If available. On registration or insurance documents, or usually at the lower driver-side windshield.",
+    "submit": "Send my request",
+    "note": "This request does not confirm an appointment.",
+    "fields": {
+      "name": "Name",
+      "contact": "Phone or email",
+      "vehicle": "Year, make and model",
+      "vin": "VIN",
+      "location": "City or postal code",
+      "message": "What you need"
+    }
+  },
+  "footer": {
+    "privacy": "Privacy",
+    "terms": "Terms of use",
+    "language": "Language",
+    "creditPrefix": "Powered by",
+    "description": "Mobile windshield replacement · Gatineau"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy",
+      "paragraphs": [
+        "You can browse this site without creating an account. The site does not use audience analytics or store your request in your browser.",
+        "When you submit a request, the details you enter are sent to Vitreva through the external form provider configured for this site. They are used to understand your needs, prepare a quote and respond to you. The provider also processes the data needed to deliver the form according to its own practices.",
+        "Please do not send sensitive information that is unnecessary for your request. Your VIN is optional.",
+        "For questions about your personal information, or to request its correction or deletion, email contact@vitreva.ca."
+      ]
+    },
+    "terms": {
+      "title": "Terms of use",
+      "paragraphs": [
+        "This site presents Vitreva’s mobile windshield replacement service in Gatineau and lets you request a quote.",
+        "Submitting a request does not confirm a price or an appointment. The work, price, location and availability must be confirmed directly with Vitreva.",
+        "ADAS calibration needs are referred to an appropriate provider. Aftercare instructions are provided for your particular installation.",
+        "Illustrative photographs show the service; they are not evidence of completed jobs.",
+        "For any questions, contact Vitreva at contact@vitreva.ca."
+      ]
+    },
+    "close": "Close"
+  },
+  "images": {
+    "van": "Illustration of the Vitreva mobile service vehicle in Gatineau.",
+    "installation": "Illustration of an outdoor windshield replacement.",
+    "aftercare": "Illustration of a windshield after installation."
+  },
+  "faq": {
+    "title": "Your questions",
+    "items": [
+      {
+        "question": "What do I need for a quote, and where is my VIN?",
+        "answer": "Share your vehicle’s year, make and model, plus your area. Add the VIN if available: it is usually on registration or insurance documents, or at the lower driver-side windshield. Describe what you need as well."
+      },
+      {
+        "question": "Which areas do you serve?",
+        "answer": "Vitreva offers mobile windshield replacement in Gatineau. Include your city or postal code in your request so we can confirm whether a visit to your location is possible before arranging an appointment."
+      },
+      {
+        "question": "How much does replacement cost?",
+        "answer": "The quote depends on your vehicle and the windshield it needs. Send the vehicle details, VIN if available and your location so the work and price can be clarified before you confirm the replacement."
+      },
+      {
+        "question": "Does my request confirm an appointment?",
+        "answer": "No. The form is a quote request. Vitreva must then confirm the work, location and availability with you. Wait for that confirmation before treating an appointment as booked."
+      },
+      {
+        "question": "My vehicle has a camera. What about calibration?",
+        "answer": "Mention any camera or driver assistance features in your request. If ADAS calibration is required, Vitreva will refer you to a suitable provider. This step must be clarified before confirming the replacement."
+      },
+      {
+        "question": "Do you offer repair or replacement?",
+        "answer": "Vitreva offers windshield replacement. If you are unsure whether you need repair or replacement, describe the damage and your vehicle in your request so the work can be clarified before you confirm anything."
+      },
+      {
+        "question": "Can I contact you about a business vehicle?",
+        "answer": "Yes. Individual drivers are our main customers, and businesses are welcome to inquire. Share the number and type of vehicles and their location so we can discuss your needs and confirm whether we can take on the work."
+      },
+      {
+        "question": "Can my insurance cover the replacement?",
+        "answer": "Coverage and deductibles depend on your policy. Your insurer can confirm your options. Contact Vitreva for a quote to help clarify the work for your claim."
+      }
+    ]
+  }
+}

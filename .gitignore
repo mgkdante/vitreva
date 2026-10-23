@@ -1,0 +1,14 @@
+/documents/
+/docs/
+node_modules/
+.svelte-kit/
+build/
+.wrangler/
+*.log
+/qa-artifacts/
+/test-results/
+/playwright-report/
+/design-qa.md
+.env
+.env.*
+!.env.example

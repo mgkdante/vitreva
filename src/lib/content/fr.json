@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Vitreva | Remplacement de pare-brise mobile à Gatineau",
+    "description": "Demandez une soumission pour le remplacement mobile de votre pare-brise à Gatineau. Joignez Vitreva pour préciser votre besoin et convenir d’un rendez-vous."
+  },
+  "navigation": {
+    "service": "Le service",
+    "process": "Comment ça marche",
+    "faq": "Questions",
+    "contact": "Soumission",
+    "home": "Accueil Vitreva",
+    "language": "Changer de langue",
+    "skip": "Aller au contenu"
+  },
+  "hero": {
+    "lines": [
+      "Votre pare-brise.",
+      "On vient à vous."
+    ],
+    "subtitle": "Remplacement de pare-brise mobile à Gatineau.",
+    "quote": "Demander une soumission",
+    "email": "Envoyer un courriel"
+  },
+  "commitment": {
+    "title": "Un service simple. Un travail soigné.",
+    "items": [
+      {
+        "title": "Une soumission claire",
+        "body": "Comprenez la prochaine étape avant de confirmer les travaux."
+      },
+      {
+        "title": "Le service mobile",
+        "body": "Convenons du lieu de votre rendez-vous à Gatineau."
+      },
+      {
+        "title": "Un contact direct",
+        "body": "Joignez Vitreva par téléphone ou par courriel."
+      }
+    ]
+  },
+  "area": {
+    "title": "À Gatineau, là où vous êtes.",
+    "body": "Vitreva se déplace à Gatineau pour le remplacement de votre pare-brise. Une démarche simple, de la soumission au rendez-vous."
+  },
+  "information": {
+    "title": "Le remplacement, expliqué simplement.",
+    "items": [
+      {
+        "title": "Un pare-brise adapté à votre véhicule",
+        "body": "L’année, la marque, le modèle et le NIV nous aident à préciser le pare-brise et ses équipements. Mentionnez les caméras et capteurs lors de votre demande."
+      },
+      {
+        "title": "Un lieu convenu ensemble",
+        "body": "Indiquez l’endroit où le véhicule sera stationné. Nous confirmons avec vous le lieu, les conditions d’intervention et les disponibilités."
+      },
+      {
+        "title": "Les bons gestes après la pose",
+        "body": "Demandez les consignes propres à votre installation : quand reprendre la route et les précautions à suivre pour le lavage et l’utilisation du véhicule."
+      }
+    ],
+    "closing": "Vous hésitez? Décrivez le dommage pour discuter de la prochaine étape."
+  },
+  "process": {
+    "previous": "Étape précédente",
+    "next": "Étape suivante",
+    "regionLabel": "Les étapes du service",
+    "title": "Comment ça se passe",
+    "steps": [
+      {
+        "id": "request",
+        "label": "01 · Demande",
+        "title": "Présentez-nous votre véhicule",
+        "body": "Indiquez la marque, le modèle, l’année et le secteur où vous souhaitez le service. Ajoutez le NIV si vous l’avez et une description du pare-brise pour aider Vitreva à préparer la soumission.",
+        "image": "van"
+      },
+      {
+        "id": "confirm",
+        "label": "02 · Confirmation",
+        "title": "Clarifions les détails",
+        "body": "Vitreva vous recontacte pour préciser la soumission, les besoins du véhicule et les disponibilités. Signalez les caméras et aides à la conduite. Si une calibration ADAS est nécessaire, nous vous orientons vers un fournisseur approprié. Le rendez-vous reste à confirmer.",
+        "image": "installation"
+      },
+      {
+        "id": "replace",
+        "label": "03 · Remplacement",
+        "title": "Le service mobile convenu",
+        "body": "Une fois le lieu et le rendez-vous confirmés, Vitreva se déplace pour le remplacement convenu. Les consignes après l’installation et le délai avant de reprendre la route sont précisés selon les conditions propres à votre intervention.",
+        "image": "aftercare"
+      }
+    ]
+  },
+  "quote": {
+    "submitting": "Envoi en cours…",
+    "privacyNote": "Les renseignements transmis servent à traiter votre demande et à vous répondre.",
+    "privacyLabel": "Confidentialité",
+    "success": "Votre demande a été transmise. Vitreva vous contactera pour préciser les détails. Aucun rendez-vous n’est confirmé à cette étape.",
+    "error": "La demande n’a pas pu être transmise. Réessayez ou joignez Vitreva par téléphone ou par courriel.",
+    "unconfigured": "L’envoi du formulaire n’est pas encore disponible. Votre demande n’a pas été transmise. Joignez Vitreva par téléphone ou par courriel.",
+    "consent": "J’accepte que Vitreva utilise ces renseignements pour traiter ma demande et me répondre.",
+    "required": "Obligatoire",
+    "subject": "Demande de soumission Vitreva",
+    "title": "Parlons de votre pare-brise.",
+    "intro": "Envoyez les détails de votre véhicule et de votre emplacement pour demander une soumission.",
+    "vinHelp": "Si disponible. Sur l’immatriculation, l’assurance ou généralement au bas du pare-brise côté conducteur.",
+    "submit": "Envoyer ma demande",
+    "note": "Cette demande ne confirme pas un rendez-vous.",
+    "fields": {
+      "name": "Nom",
+      "contact": "Téléphone ou courriel",
+      "vehicle": "Année, marque et modèle",
+      "vin": "NIV (VIN)",
+      "location": "Ville ou code postal",
+      "message": "Votre besoin"
+    }
+  },
+  "footer": {
+    "privacy": "Confidentialité",
+    "terms": "Conditions d’utilisation",
+    "language": "Langue",
+    "creditPrefix": "Powered by",
+    "description": "Remplacement de pare-brise mobile · Gatineau"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Confidentialité",
+      "paragraphs": [
+        "Vous pouvez consulter ce site sans créer de compte. Le site n’utilise pas d’outil d’analyse d’audience et ne conserve pas votre demande dans votre navigateur.",
+        "Lorsque vous envoyez une demande, les renseignements saisis sont transmis à Vitreva par le fournisseur externe de formulaire configuré pour ce site. Ils servent à comprendre votre besoin, préparer la soumission et vous répondre. Le fournisseur traite aussi les données nécessaires à l’acheminement du formulaire selon ses propres pratiques.",
+        "Ne transmettez pas de renseignements sensibles qui ne sont pas nécessaires à votre demande. Le NIV est facultatif.",
+        "Pour toute question sur vos renseignements personnels ou pour demander leur correction ou leur suppression, écrivez à contact@vitreva.ca."
+      ]
+    },
+    "terms": {
+      "title": "Conditions d’utilisation",
+      "paragraphs": [
+        "Ce site présente le service de remplacement mobile de pare-brise de Vitreva à Gatineau et permet de demander une soumission.",
+        "L’envoi d’une demande ne confirme ni un prix ni un rendez-vous. Le travail, le prix, le lieu et les disponibilités sont à confirmer directement avec Vitreva.",
+        "Les besoins de calibration ADAS sont orientés vers un fournisseur approprié. Les consignes après la pose sont précisées selon votre installation.",
+        "Les photographies illustratives présentent le service; elles ne constituent pas une preuve de travaux réalisés.",
+        "Pour toute question, contactez Vitreva à contact@vitreva.ca."
+      ]
+    },
+    "close": "Fermer"
+  },
+  "images": {
+    "van": "Illustration du véhicule de service mobile Vitreva à Gatineau.",
+    "installation": "Illustration d’un remplacement de pare-brise à l’extérieur.",
+    "aftercare": "Illustration d’un pare-brise après son installation."
+  },
+  "faq": {
+    "title": "Vos questions",
+    "items": [
+      {
+        "question": "Que faut-il pour une soumission et où trouver le NIV?",
+        "answer": "Indiquez l’année, la marque, le modèle et votre secteur. Ajoutez le NIV (VIN) si vous l’avez : il figure généralement sur l’immatriculation, l’assurance ou au bas du pare-brise côté conducteur. Décrivez aussi votre besoin."
+      },
+      {
+        "question": "Dans quels secteurs vous déplacez-vous?",
+        "answer": "Vitreva propose le remplacement mobile de pare-brise à Gatineau. Envoyez votre ville ou code postal avec votre demande : nous confirmerons si le déplacement est possible à votre emplacement avant de convenir d’un rendez-vous."
+      },
+      {
+        "question": "Combien coûte un remplacement?",
+        "answer": "La soumission dépend du véhicule et du pare-brise nécessaire. Transmettez les renseignements du véhicule, le NIV si disponible et votre emplacement pour préciser le travail et obtenir un prix avant de confirmer l’intervention."
+      },
+      {
+        "question": "Ma demande confirme-t-elle un rendez-vous?",
+        "answer": "Non. Le formulaire sert à demander une soumission. Vitreva doit ensuite confirmer avec vous le travail, le lieu et la disponibilité. Attendez cette confirmation avant de considérer un rendez-vous comme fixé."
+      },
+      {
+        "question": "Mon véhicule a une caméra : qu’en est-il de la calibration?",
+        "answer": "Signalez toute caméra ou aide à la conduite dans votre demande. Si une calibration ADAS est nécessaire, Vitreva vous orientera vers un prestataire adapté. Cette étape doit être clarifiée avant de confirmer l’intervention."
+      },
+      {
+        "question": "Réparation ou remplacement : que proposez-vous?",
+        "answer": "Vitreva propose un service de remplacement de pare-brise. Si vous hésitez entre réparation et remplacement, décrivez le dommage et votre véhicule dans votre demande pour clarifier le besoin avant de confirmer des travaux."
+      },
+      {
+        "question": "Puis-je vous contacter pour un véhicule d’entreprise?",
+        "answer": "Oui. Les particuliers sont notre clientèle principale, mais les entreprises peuvent aussi nous contacter. Précisez le nombre et le type de véhicules ainsi que leur emplacement pour discuter de votre besoin et confirmer la prise en charge."
+      },
+      {
+        "question": "Mon assurance peut-elle couvrir le remplacement?",
+        "answer": "La couverture et la franchise dépendent de votre contrat. Votre assureur pourra confirmer vos options. Contactez Vitreva pour préparer une soumission à joindre à votre dossier."
+      }
+    ]
+  }
+}
