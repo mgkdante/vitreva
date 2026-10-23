@@ -10,7 +10,6 @@
   <div class="container footer-content">
     <a class="footer-brand" href="#top" aria-label={content.navigation.home}>{site.brand.toUpperCase()}</a>
     <p class="description">{content.footer.description}</p>
-    <a class="phone" href={site.phoneHref}>{content.navigation.call}</a>
     <a class="email" href={site.emailHref}>{site.email}</a>
     <div class="footer-links">
       <button class="text-button" type="button" onclick={() => onLegal('privacy')}>{content.footer.privacy}</button>
@@ -27,7 +26,6 @@
   .footer-content { display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center; }
   .footer-brand { font-size: 24px; line-height: 36px; font-weight: 700; text-decoration: none; }
   .description { font-size: 15px; line-height: 23px; }
-  .phone { font-size: 17px; line-height: 26px; font-weight: 600; text-decoration: none; }
   .email { font-size: 16px; line-height: 24px; text-decoration: none; }
   .footer-links { align-self: center; display: flex; align-items: center; flex-wrap: wrap; gap: 28px; }
   .footer-links .text-button { font-size: 14px; line-height: 21px; text-decoration: none; }
