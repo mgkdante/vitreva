@@ -1,8 +1,13 @@
 import { absoluteUrl, site } from '#lib/config/site.ts';
-import type { Locale } from '#lib/content/index.ts';
+import { locales, type Locale } from '#lib/content/index.ts';
+
+export const languagePages = locales.map((locale) => ({
+  locale,
+  href: absoluteUrl(locale === 'fr' ? '' : `${locale}/`)
+}));
 
 export function getSeo(locale: Locale, content: { meta: { title: string; description: string } }) {
-  const canonical = absoluteUrl(locale === 'en' ? 'en/' : '');
+  const canonical = absoluteUrl(locale === 'fr' ? '' : `${locale}/`);
   const ogImage = absoluteUrl('images/social.jpg');
   const structuredData = {
     '@context': 'https://schema.org',
@@ -25,11 +30,10 @@ export function getSeo(locale: Locale, content: { meta: { title: string; descrip
     description: content.meta.description,
     canonical,
     alternates: [
-      { locale: 'fr-CA', href: absoluteUrl('') },
-      { locale: 'en-CA', href: absoluteUrl('en/') },
+      ...languagePages.map(({ locale, href }) => ({ locale: `${locale}-CA`, href })),
       { locale: 'x-default', href: absoluteUrl('') }
     ],
-    ogLocale: locale === 'fr' ? 'fr_CA' : 'en_CA',
+    ogLocale: `${locale}_CA`,
     ogImage,
     jsonLd: JSON.stringify(structuredData).replace(/</g, '\\u003c')
   };

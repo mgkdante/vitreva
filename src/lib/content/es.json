@@ -1,0 +1,206 @@
+{
+  "error": {
+    "statusLabel": "Error",
+    "illustrationAlt": "Ilustración de la Ford Transit Connect 2010 negra de Vitreva, una furgoneta de carga compacta.",
+    "home": "Volver al inicio",
+    "email": "Escríbenos",
+    "footer": "Vitreva · Reemplazo móvil de parabrisas en Gatineau",
+    "notFound": {
+      "eyebrow": "Parece que tomamos la salida equivocada.",
+      "title": "No encontramos esta página.",
+      "body": "Es posible que el enlace haya cambiado o que la página ya no exista. Volvamos al inicio."
+    },
+    "unavailable": {
+      "eyebrow": "Una pequeña parada en el camino.",
+      "title": "Esta página no está disponible.",
+      "body": "Un problema impide que se cargue esta página. Inténtalo más tarde o vuelve al inicio."
+    }
+  },
+  "meta": {
+    "title": "Vitreva | Reemplazo móvil de parabrisas en Gatineau",
+    "description": "Reemplazo móvil de parabrisas en Gatineau y la región de Outaouais, en Québec, dentro de un radio de unos 50 km de nuestra base en Gatineau. Solicita tu cotización."
+  },
+  "navigation": {
+    "service": "El servicio",
+    "process": "Cómo funciona",
+    "faq": "Preguntas",
+    "contact": "Cotización",
+    "call": "Llamar",
+    "home": "Inicio de Vitreva",
+    "language": "Cambiar de idioma",
+    "skip": "Ir al contenido"
+  },
+  "hero": {
+    "lines": [
+      "Tu parabrisas.",
+      "Vamos hasta ti."
+    ],
+    "subtitle": "Servicio móvil de reemplazo de parabrisas en Gatineau.",
+    "quote": "Solicitar una cotización",
+    "email": "Enviar un correo"
+  },
+  "commitment": {
+    "title": "Un servicio sencillo y profesional.",
+    "items": [
+      {
+        "title": "Una cotización clara",
+        "body": "Conoce el siguiente paso antes de confirmar el trabajo."
+      },
+      {
+        "title": "Servicio móvil",
+        "body": "Acordemos el lugar de tu cita en tu zona."
+      },
+      {
+        "title": "Contacto directo",
+        "body": "Comunícate con Vitreva por teléfono o correo electrónico."
+      }
+    ]
+  },
+  "area": {
+    "title": "En Gatineau, donde estés.",
+    "body": "Servicio móvil en Québec: Gatineau (Hull, Aylmer, Buckingham y Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts y sus alrededores. Envíanos tu ciudad o código postal para confirmar juntos el traslado hasta tu ubicación."
+  },
+  "information": {
+    "title": "El reemplazo de tu parabrisas, explicado con claridad.",
+    "items": [
+      {
+        "title": "Un parabrisas adecuado para tu vehículo",
+        "body": "El año, la marca, el modelo y el VIN nos ayudan a identificar el parabrisas y sus características. Menciona las cámaras y los sensores cuando nos contactes."
+      },
+      {
+        "title": "Un lugar acordado contigo",
+        "body": "Indica dónde estará estacionado tu vehículo. Confirmamos contigo el lugar, las condiciones de trabajo y la disponibilidad."
+      },
+      {
+        "title": "Los cuidados adecuados después de la instalación",
+        "body": "Pide las indicaciones específicas para tu instalación: cuándo puedes volver a conducir y qué precauciones debes tomar al lavar y usar tu vehículo."
+      }
+    ],
+    "closing": "¿Tienes dudas? Describe el daño para que conversemos sobre el siguiente paso."
+  },
+  "process": {
+    "previous": "Paso anterior",
+    "next": "Paso siguiente",
+    "regionLabel": "Los pasos del servicio",
+    "title": "Cómo funciona",
+    "steps": [
+      {
+        "id": "request",
+        "label": "01 · Solicitud",
+        "title": "Cuéntanos sobre tu vehículo",
+        "body": "Indica la marca, el modelo, el año y la zona donde necesitas el servicio. Agrega el VIN si lo tienes y una descripción del parabrisas para ayudar a Vitreva a preparar tu cotización.",
+        "image": "van"
+      },
+      {
+        "id": "confirm",
+        "label": "02 · Confirmación",
+        "title": "Aclaremos los detalles",
+        "body": "Vitreva se comunica contigo para precisar la cotización, las necesidades de tu vehículo y la disponibilidad. Menciona las cámaras y los sistemas de asistencia a la conducción. Si se necesita una calibración ADAS, te orientamos hacia un proveedor adecuado. La cita aún debe confirmarse.",
+        "image": "installation"
+      },
+      {
+        "id": "replace",
+        "label": "03 · Reemplazo",
+        "title": "El servicio móvil que acordamos",
+        "body": "Una vez confirmados el lugar y la cita, Vitreva va hasta ti para realizar el reemplazo acordado. Las indicaciones de cuidado y el tiempo de espera antes de volver a conducir se explican según las condiciones de tu instalación.",
+        "image": "aftercare"
+      }
+    ]
+  },
+  "quote": {
+    "call": "Llamar",
+    "submitting": "Enviando…",
+    "privacyNote": "Los datos que envías se utilizan para atender tu solicitud y responderte.",
+    "privacyLabel": "Privacidad",
+    "success": "Tu solicitud se ha enviado. Vitreva se comunicará contigo para precisar los detalles. En esta etapa todavía no se ha confirmado ninguna cita.",
+    "error": "No se pudo enviar tu solicitud. Inténtalo de nuevo o comunícate con Vitreva por teléfono o correo electrónico.",
+    "unconfigured": "El envío del formulario aún no está disponible. Tu solicitud no se ha enviado. Comunícate con Vitreva por teléfono o correo electrónico.",
+    "consent": "Acepto que Vitreva utilice estos datos para atender mi solicitud y responderme.",
+    "required": "Obligatorio",
+    "subject": "Solicitud de cotización de Vitreva",
+    "title": "Hablemos de tu parabrisas.",
+    "intro": "Envíanos los datos de tu vehículo y tu ubicación para solicitar una cotización.",
+    "vinHelp": "Si lo tienes. Aparece en los documentos de registro o del seguro, o normalmente en la parte inferior del parabrisas, del lado del conductor.",
+    "submit": "Enviar mi solicitud",
+    "note": "Esta solicitud no confirma una cita.",
+    "fields": {
+      "name": "Nombre",
+      "contact": "Teléfono o correo electrónico",
+      "vehicle": "Año, marca y modelo",
+      "vin": "VIN",
+      "location": "Ciudad o código postal",
+      "message": "Qué necesitas"
+    }
+  },
+  "footer": {
+    "privacy": "Privacidad",
+    "terms": "Condiciones de uso",
+    "language": "Idioma",
+    "creditPrefix": "Desarrollado por",
+    "description": "Reemplazo móvil de parabrisas · Gatineau"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacidad",
+      "paragraphs": [
+        "Puedes navegar por este sitio sin crear una cuenta. El sitio no utiliza herramientas de análisis de audiencia ni guarda tu solicitud en tu navegador.",
+        "Cuando envías una solicitud, los datos que ingresas se transmiten a Vitreva a través de Web3Forms, el proveedor del formulario utilizado en este sitio. Se utilizan para entender lo que necesitas, preparar una cotización y responderte. Web3Forms también procesa los datos necesarios para entregar el formulario según sus propias prácticas.",
+        "No envíes información sensible que no sea necesaria para tu solicitud. El VIN es opcional.",
+        "Si tienes preguntas sobre tus datos personales o quieres solicitar su corrección o eliminación, escribe a contact@vitreva.ca."
+      ]
+    },
+    "terms": {
+      "title": "Condiciones de uso",
+      "paragraphs": [
+        "Este sitio presenta el servicio móvil de reemplazo de parabrisas de Vitreva en Gatineau y te permite solicitar una cotización.",
+        "Enviar una solicitud no confirma un precio ni una cita. El trabajo, el precio, el lugar y la disponibilidad deben confirmarse directamente con Vitreva.",
+        "Si se necesita una calibración ADAS, te orientamos hacia un proveedor adecuado. Las indicaciones de cuidado después de la instalación se proporcionan según tu instalación.",
+        "Las fotografías ilustrativas muestran el servicio; no constituyen evidencia de trabajos realizados.",
+        "Si tienes preguntas, comunícate con Vitreva en contact@vitreva.ca."
+      ]
+    },
+    "close": "Cerrar"
+  },
+  "images": {
+    "van": "Ilustración del vehículo de servicio móvil de Vitreva en Gatineau.",
+    "installation": "Ilustración de un reemplazo de parabrisas al aire libre.",
+    "aftercare": "Ilustración de un parabrisas después de su instalación."
+  },
+  "faq": {
+    "title": "Tus preguntas",
+    "items": [
+      {
+        "question": "¿Qué necesito para una cotización y dónde encuentro el VIN?",
+        "answer": "Para empezar, indica el año, la marca y el modelo de tu vehículo, tu zona y una breve descripción de lo que necesitas. El VIN es útil si lo tienes: búscalo en los documentos de registro o del seguro, o en la parte inferior del parabrisas, del lado del conductor. También puedes contactarnos sin el VIN para que revisemos los detalles juntos."
+      },
+      {
+        "question": "¿Qué zonas atienden?",
+        "answer": "Atendemos Gatineau (Hull, Aylmer, Buckingham y Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts, La Pêche, Pontiac, Notre-Dame-de-la-Salette, Thurso, Mayo, Lochaber, Lochaber-Partie-Ouest, Denholm, Low, Saint-Sixte, Bowman, Mulgrave-et-Derry y Plaisance, según tu dirección dentro de un radio aproximado de 50 km de nuestra base en Gatineau, únicamente en Québec. También se incluyen las localidades de Perkins, Saint-Pierre-de-Wakefield, Poltimore, Wakefield, Sainte-Cécile-de-Masham, Lascelles, Duclos, Lac-des-Loups, Luskville y Quyon. Para las direcciones cercanas al límite, incluidas las de Val-des-Bois, envíanos tu ciudad o código postal para confirmar contigo el traslado y la cita."
+      },
+      {
+        "question": "¿Cuánto cuesta el reemplazo?",
+        "answer": "Preparamos una cotización según tu vehículo y el parabrisas que necesita. Envíanos los datos de tu vehículo, el VIN si lo tienes y tu ubicación. Aclararemos contigo el trabajo y el precio antes de que des tu aprobación."
+      },
+      {
+        "question": "¿Mi solicitud confirma una cita?",
+        "answer": "Tu solicitud simplemente inicia la conversación. Después revisamos contigo el trabajo, el lugar y la disponibilidad. Podrás confirmar tu cita una vez que hayamos acordado esos detalles."
+      },
+      {
+        "question": "Mi vehículo tiene una cámara. ¿Qué pasa con la calibración?",
+        "answer": "Cuéntanos si tu vehículo tiene cámaras o sistemas de asistencia a la conducción para revisar contigo esas necesidades. Si se necesita una calibración ADAS, te orientaremos hacia un proveedor adecuado y te ayudaremos a aclarar ese paso antes de confirmar el reemplazo."
+      },
+      {
+        "question": "¿Ofrecen reparación o reemplazo?",
+        "answer": "Nuestro servicio es el reemplazo de parabrisas. Si no sabes si necesitas una reparación o un reemplazo, empieza por describirnos el daño y tu vehículo. Te ayudaremos a entender el siguiente paso antes de acordar el trabajo."
+      },
+      {
+        "question": "¿Puedo contactarlos por un vehículo de empresa?",
+        "answer": "Sí, puedes contactarnos por un vehículo de empresa. Indica la cantidad y el tipo de vehículos, además de su ubicación, para que conversemos sobre lo que necesitas y confirmemos juntos si podemos realizar el trabajo."
+      },
+      {
+        "question": "¿Mi seguro puede cubrir el reemplazo?",
+        "answer": "Tu aseguradora puede confirmar la cobertura y el deducible de tu póliza. Podemos preparar una cotización para tu reclamación, para que consultes con ella si tendrías que pagar algún monto y cuál sería."
+      }
+    ]
+  }
+}

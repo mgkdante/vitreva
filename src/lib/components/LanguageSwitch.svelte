@@ -5,10 +5,12 @@
   let { locale, label }: { locale: Locale; label: string } = $props();
 </script>
 
-<div class="language-switch" aria-label={label}>
+<div class="language-switch" role="group" aria-label={label}>
   <a href={`${resolve('/[[lang=lang]]', {}).replace(/\/$/, '')}/`} lang="fr" hreflang="fr-CA" aria-current={locale === 'fr' ? 'page' : undefined}>FR</a>
   <span aria-hidden="true">|</span>
   <a href={`${resolve('/[[lang=lang]]', { lang: 'en' })}/`} lang="en" hreflang="en-CA" aria-current={locale === 'en' ? 'page' : undefined}>EN</a>
+  <span aria-hidden="true">|</span>
+  <a href={`${resolve('/[[lang=lang]]', { lang: 'es' })}/`} lang="es" hreflang="es-CA" aria-current={locale === 'es' ? 'page' : undefined}>ES</a>
 </div>
 
 <style>

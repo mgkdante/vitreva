@@ -1,6 +1,6 @@
 # Vitreva
 
-One-page French and English website for mobile windshield replacement in Gatineau. Built with SvelteKit 3, Svelte 5 and plain CSS, and prerendered for GitHub Pages.
+One-page French, English and Spanish website for mobile windshield replacement in Gatineau. Built with SvelteKit 3, Svelte 5 and plain CSS, and prerendered for GitHub Pages.
 
 ## Develop
 
@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-Open `/` for French or `/en/` for English. Both pages render complete HTML and retain both language links without JavaScript.
+Open `/` for French, `/en/` for English or `/es/` for Spanish. All three pages render complete HTML and retain their language links without JavaScript.
 
 ```sh
 npm run check
@@ -24,7 +24,7 @@ The static site is written to `build/`. There is no server to run in production.
 
 ## Edit content
 
-- `src/lib/content/fr.json` and `en.json`: page copy, metadata, FAQs, form labels and legal text. Keep their keys aligned.
+- `src/lib/content/fr.json`, `en.json` and `es.json`: page copy, metadata, FAQs, form labels and legal text. Keep their keys aligned.
 - `src/lib/content/index.ts`: typed locale selection.
 - `src/lib/config/site.ts`: public business contact details and shared settings.
 - `src/lib/components/`: named page sections, language switching, photography and legal dialog.

@@ -3,13 +3,14 @@
   import { page } from '$app/state';
   import { asset } from '$app/paths';
   import { site } from '#lib/config/site.ts';
+  import { getLocaleFromPath } from '#lib/content/index.ts';
   import type { Snippet } from 'svelte';
   import manrope from '@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2?url';
 
   let { children }: { children: Snippet } = $props();
 
   $effect(() => {
-    document.documentElement.lang = page.url.pathname.slice(site.basePath.length).split('/')[1] === 'en' ? 'en' : 'fr';
+    document.documentElement.lang = getLocaleFromPath(page.url.pathname.slice(site.basePath.length));
   });
 </script>
 

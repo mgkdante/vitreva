@@ -8,9 +8,9 @@
   const content = $derived(getContent(locale));
   const copy = $derived(content.error);
   const message = $derived(status === 404 ? copy.notFound : copy.unavailable);
-  const home = $derived(locale === 'en'
-    ? `${resolve('/[[lang=lang]]', { lang: 'en' })}/`
-    : `${resolve('/[[lang=lang]]', {}).replace(/\/$/, '')}/`);
+  const home = $derived(locale === 'fr'
+    ? `${resolve('/[[lang=lang]]', {}).replace(/\/$/, '')}/`
+    : `${resolve('/[[lang=lang]]', { lang: locale })}/`);
 </script>
 
 <svelte:head>
