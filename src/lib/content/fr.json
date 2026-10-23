@@ -1,4 +1,21 @@
 {
+  "error": {
+    "statusLabel": "Erreur",
+    "illustrationAlt": "Illustration d’un Ford Transit Connect 2010 noir, le petit fourgon de Vitreva.",
+    "home": "Retour à l’accueil",
+    "email": "Nous écrire",
+    "footer": "Vitreva · Remplacement de pare-brise mobile à Gatineau",
+    "notFound": {
+      "eyebrow": "On dirait qu’on a pris la mauvaise sortie.",
+      "title": "Cette page est introuvable.",
+      "body": "Le lien a peut-être changé ou la page n’existe plus. Reprenons la route vers l’accueil."
+    },
+    "unavailable": {
+      "eyebrow": "Un petit arrêt en chemin.",
+      "title": "Cette page est indisponible.",
+      "body": "Un problème empêche l’affichage de cette page. Réessayez plus tard ou revenez à l’accueil."
+    }
+  },
   "meta": {
     "title": "Vitreva | Remplacement de pare-brise mobile à Gatineau",
     "description": "Demandez une soumission pour le remplacement mobile de votre pare-brise à Gatineau. Joignez Vitreva pour préciser votre besoin et convenir d’un rendez-vous."

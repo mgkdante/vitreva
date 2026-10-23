@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Black 2010 Ford Transit Connect</title>
+  <desc id="description">A compact first-generation cargo van, with a tall roof, short hood, square headlights and silver wheels, illustrated in three-quarter view.</desc>
+  <defs>
+    <linearGradient id="body" x1="410" y1="116" x2="412" y2="387" gradientUnits="userSpaceOnUse"><stop stop-color="#343a3d"/><stop offset=".32" stop-color="#171b1e"/><stop offset=".7" stop-color="#080b0d"/><stop offset="1" stop-color="#282d30"/></linearGradient>
+    <linearGradient id="front" x1="649" y1="250" x2="737" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#343b40"/><stop offset=".45" stop-color="#12171a"/><stop offset="1" stop-color="#090c0e"/></linearGradient>
+    <linearGradient id="glass" x1="479" y1="150" x2="621" y2="275" gradientUnits="userSpaceOnUse"><stop stop-color="#84939b"/><stop offset=".45" stop-color="#4e606a"/><stop offset="1" stop-color="#28353c"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="-47" x2="0" y2="47" gradientUnits="userSpaceOnUse"><stop stop-color="#e8edef"/><stop offset=".5" stop-color="#9ba6ac"/><stop offset="1" stop-color="#cdd4d8"/></linearGradient>
+    <radialGradient id="shadow"><stop stop-color="#11181c" stop-opacity=".2"/><stop offset="1" stop-color="#11181c" stop-opacity="0"/></radialGradient>
+    <g id="wheel">
+      <ellipse rx="43" ry="62" fill="#101416" stroke="#292f33" stroke-width="4"/>
+      <ellipse rx="31" ry="48" fill="url(#metal)" stroke="#06090a" stroke-width="4"/>
+      <g fill="#48545b">
+        <path d="m-5-38 10 1 3 18-13 1Z"/><path d="m15-27 8 10-9 11-6-8Z"/><path d="m19 2 4 13-13 8-3-11Z"/><path d="m4 25 1 15-11-1-3-16Z"/><path d="m-18 8 8 8-8 13-7-11Z"/><path d="m-24-20 8-10 7 14-9 9Z"/>
+      </g>
+      <ellipse rx="9" ry="14" fill="#c9d1d5" stroke="#7e898f" stroke-width="2"/>
+    </g>
+  </defs>
+  <ellipse cx="487" cy="411" rx="367" ry="35" fill="url(#shadow)"/>
+  <path d="M165 414H839" stroke="#cdd3d6" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="m722 323 60 10 2 48c-5 37-18 51-40 47-22-4-32-29-30-58Z" fill="#111619"/>
+  <path d="m226 309 66 6 9 60c-3 36-16 54-39 49-22-4-35-28-35-61Z" fill="#111619"/>
+  <path d="m198 172 14-27q7-15 28-18l292-24q31-2 56 13l94 50 40 83 69 26q23 9 28 31l8 59q1 13-13 18l-125 25-68-12-19-65-53-7-24 52-205-26-17-46-47-4-26 39-34-16-5-134Z" fill="url(#body)" stroke="#101619" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m219 146 304-25q20-2 39 7l91 41-65-53q-25-15-56-13l-292 24q-21 3-28 18Z" fill="#444c51"/>
+  <path d="m220 154 291-25M209 174l-2 127" stroke="#78838a" stroke-width="2" stroke-linecap="round"/>
+  <path d="m232 165 191-16-5 151-197-20 4-91q0-17 7-24Z" fill="#121719" stroke="#444e54" stroke-width="2"/>
+  <path d="m248 173 158-13-2 110-171-9 2-61q1-18 13-27Z" fill="#1e2529"/>
+  <path d="m250 178 148-12" stroke="#626e75" stroke-opacity=".6" stroke-width="2"/>
+  <path d="m422 149-5 162 12 54m-199-78 178 16m-172 2 172 20" stroke="#080c0e" stroke-width="3"/>
+  <path d="m232 292 177 18" stroke="#59636a" stroke-width="2"/>
+  <rect x="385" y="269" width="24" height="9" rx="4.5" transform="rotate(4 385 269)" fill="#69747a" stroke="#0a0e10" stroke-width="3"/>
+  <path d="m442 148 52-5q13 0 22 13l45 94-125-9Z" fill="url(#glass)" stroke="#070b0d" stroke-width="7" stroke-linejoin="round"/>
+  <path d="m452 156 39-3q10 0 16 11l33 69-92-5Z" stroke="#a3b0b7" stroke-opacity=".5" stroke-width="2"/>
+  <path d="m529 141 134 42 43 78-132-8Z" fill="url(#glass)" stroke="#090e10" stroke-width="7" stroke-linejoin="round"/>
+  <path d="m541 152 113 36 30 54" stroke="#bac5ca" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/>
+  <path d="m549 155 45 89m6-72 36 75" stroke="#ced5d8" stroke-opacity=".12" stroke-width="9"/>
+  <path d="m582 246 53 4m7 1 51 3" stroke="#080c0e" stroke-width="5" stroke-linecap="round"/>
+  <path d="m449 246-4 99 103 17 13-90" stroke="#3b464c" stroke-width="2"/>
+  <path d="m450 254 109 10" stroke="#070b0d" stroke-width="3"/>
+  <rect x="450" y="267" width="25" height="10" rx="5" transform="rotate(5 450 267)" fill="#667177" stroke="#080c0e" stroke-width="3"/>
+  <path d="m534 232 22 6 5 21-21-3" fill="#080c0e"/>
+  <path d="M523 218q0-7 7-6l24 4q7 1 8 8l1 15q0 6-7 6l-27-4q-6-1-6-7Z" fill="#343e44" stroke="#080c0e" stroke-width="3"/>
+  <path d="m529 217 24 4" stroke="#87939a" stroke-width="2" stroke-linecap="round"/>
+  <path d="m574 257 132 9 81 23-146-9Z" fill="#3a444b" stroke="#080c0e" stroke-width="2"/>
+  <path d="m593 261 111 10 52 15" stroke="#89959c" stroke-opacity=".7" stroke-width="2"/>
+  <path d="m641 280 146 9q23 9 28 27l8 48q1 14-13 19l-122 23-47-26Z" fill="url(#front)" stroke="#090e10" stroke-width="3"/>
+  <path d="m648 288 34 5 12 49-35-1Z" fill="#cbd4da" stroke="#53616a" stroke-width="3"/>
+  <path d="m655 295 20 3 4 13-21-1Zm5 22 21 2 4 15-21-1Z" fill="#f3f6f7" stroke="#8e9ca4" stroke-width="2"/>
+  <path d="m782 298 16 5 7 33-17 3Z" fill="#cbd4da" stroke="#53616a" stroke-width="2"/>
+  <path d="m787 305 8 3 2 9-9-1m2 6 9 1 2 8-10 2" stroke="#f3f6f7" stroke-width="4"/>
+  <path d="m693 304 82 3 5 26-80 7Z" fill="#080d10" stroke="#53616a" stroke-width="2"/>
+  <path d="m698 313 78-1m-75 12 77-5" stroke="#697780" stroke-width="3"/>
+  <path d="m647 346 45 8 113-14 9 9-6 27-119 23-39-21Z" fill="#171f24" stroke="#060a0c" stroke-width="3"/>
+  <path d="m708 355 72-10 10 29-89 17Z" fill="#080d10" stroke="#4d5a62" stroke-width="2"/>
+  <path d="m709 372 74-13" stroke="#303d45" stroke-width="2"/>
+  <ellipse cx="672" cy="366" rx="9" ry="11" fill="#080d10" stroke="#4c5a62" stroke-width="2"/>
+  <path d="m632 328 13 2 3 8-14-1Z" fill="#b0bac0"/>
+  <path d="m202 275 3 34 7 1v-34Z" fill="#8c969c"/>
+  <path d="M228 351q-2-63 39-66 42-2 52 74l-17-3q-9-57-34-55-26 2-25 56Z" fill="#3f494f" stroke="#11171a" stroke-width="3"/>
+  <path d="M547 381q-8-80 34-85 43-6 60 84l-20 12q-13-76-38-72-26 4-18 66Z" fill="#414c53" stroke="#11171a" stroke-width="3"/>
+  <use href="#wheel" transform="translate(271 362) scale(.83 .87)"/>
+  <use href="#wheel" transform="translate(589 375)"/>
+  <path d="m322 359 217 33" stroke="#8e999f" stroke-opacity=".5" stroke-width="2"/>
+  <path d="m566 122 5-33" stroke="#252e33" stroke-width="3" stroke-linecap="round"/>
+</svg>

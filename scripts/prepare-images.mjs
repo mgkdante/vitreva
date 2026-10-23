@@ -26,3 +26,8 @@ await sharp(path.join(root, 'assets', 'source', sources.van))
   .resize(1200, 630, { fit: 'cover', position: 'centre' })
   .jpeg({ quality: 85 })
   .toFile(path.join(output, 'social.jpg'));
+
+for (const size of [32, 96, 180]) {
+  const name = size === 180 ? 'apple-touch-icon.png' : `favicon-${size}.png`;
+  await sharp(path.join(root, 'static', 'favicon.svg')).resize(size, size).png().toFile(path.join(root, 'static', name));
+}

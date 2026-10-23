@@ -38,6 +38,10 @@ Current photographs are generated illustrations, used temporarily until real bus
 
 Source images are in `assets/source/`. After replacing them, run `node scripts/prepare-images.mjs` to regenerate the responsive WebP files and social image in `static/images/`. Preserve the intended subjects and crops when replacing them. Manrope is self-hosted through Fontsource. Carousel arrows are exported from the approved Figma design.
 
+`static/favicon.svg` is the windshield mark; the image script also generates its PNG and Apple touch variants. The custom Transit Connect illustration is `static/images/transit-connect-404.svg`.
+
+The shared error page uses localized copy from the content files. The `/404` route overrides trailing slashes to prerender the exact `404.html` file GitHub Pages serves for unknown URLs; the SvelteKit error handler uses the same design.
+
 ## Form inbox
 
 Create and verify a Formspree form that delivers to `contact@vitreva.ca`. Set its HTTPS endpoint as `PUBLIC_QUOTE_ENDPOINT` locally or `QUOTE_ENDPOINT` in GitHub repository variables. The endpoint is public configuration, not a secret.
