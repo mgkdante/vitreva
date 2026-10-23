@@ -1,4 +1,4 @@
-import { BASE_PATH, PUBLIC_QUOTE_ENDPOINT, PUBLIC_SITE_URL } from '$app/env/public';
+import { BASE_PATH, PUBLIC_WEB3FORMS_ACCESS_KEY, PUBLIC_SITE_URL } from '$app/env/public';
 
 export const site = {
   brand: 'Vitreva',
@@ -7,7 +7,7 @@ export const site = {
   email: 'contact@vitreva.ca',
   emailHref: 'mailto:contact@vitreva.ca',
   creditUrl: 'https://yesid.dev',
-  quoteEndpoint: PUBLIC_QUOTE_ENDPOINT,
+  web3formsAccessKey: PUBLIC_WEB3FORMS_ACCESS_KEY,
   origin: PUBLIC_SITE_URL,
   basePath: BASE_PATH,
   homeUrl: `${PUBLIC_SITE_URL}${BASE_PATH}/`

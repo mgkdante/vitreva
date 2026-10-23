@@ -144,7 +144,7 @@
       "title": "Privacy",
       "paragraphs": [
         "You can browse this site without creating an account. The site does not use audience analytics or store your request in your browser.",
-        "When you submit a request, the details you enter are sent to Vitreva through the external form provider configured for this site. They are used to understand your needs, prepare a quote and respond to you. The provider also processes the data needed to deliver the form according to its own practices.",
+        "When you submit a request, the details you enter are sent to Vitreva through Web3Forms, the form provider used on this site. They are used to understand your needs, prepare a quote and respond to you. Web3Forms also processes the data needed to deliver the form according to its own practices.",
         "Please do not send sensitive information that is unnecessary for your request. Your VIN is optional.",
         "For questions about your personal information, or to request its correction or deletion, email contact@vitreva.ca."
       ]

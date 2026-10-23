@@ -144,7 +144,7 @@
       "title": "Confidentialité",
       "paragraphs": [
         "Vous pouvez consulter ce site sans créer de compte. Le site n’utilise pas d’outil d’analyse d’audience et ne conserve pas votre demande dans votre navigateur.",
-        "Lorsque vous envoyez une demande, les renseignements saisis sont transmis à Vitreva par le fournisseur externe de formulaire configuré pour ce site. Ils servent à comprendre votre besoin, préparer la soumission et vous répondre. Le fournisseur traite aussi les données nécessaires à l’acheminement du formulaire selon ses propres pratiques.",
+        "Lorsque vous envoyez une demande, les renseignements saisis sont transmis à Vitreva par Web3Forms, le prestataire de formulaire utilisé sur ce site. Ils servent à comprendre votre besoin, préparer la soumission et vous répondre. Web3Forms traite aussi les données nécessaires à l’acheminement du formulaire selon ses propres pratiques.",
         "Ne transmettez pas de renseignements sensibles qui ne sont pas nécessaires à votre demande. Le NIV est facultatif.",
         "Pour toute question sur vos renseignements personnels ou pour demander leur correction ou leur suppression, écrivez à contact@vitreva.ca."
       ]

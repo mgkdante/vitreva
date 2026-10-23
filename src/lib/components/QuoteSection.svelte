@@ -2,7 +2,7 @@
   import type { Content, Locale } from '#lib/content/index.ts';
   import { site } from '#lib/config/site.ts';
   import { glassHighlight } from '#lib/glass.ts';
-  import { sendQuote } from '#lib/quote.ts';
+  import { quoteEndpoint, sendQuote } from '#lib/quote.ts';
   import Photo from './Photo.svelte';
 
   let { content, locale, onPrivacy }: { content: Content['quote']; locale: Locale; onPrivacy: () => void } = $props();
@@ -10,11 +10,11 @@
 
   async function submit(event: SubmitEvent) {
     event.preventDefault();
-    if (!site.quoteEndpoint || status === 'sending') return;
+    if (!site.web3formsAccessKey || status === 'sending') return;
     const form = event.currentTarget as HTMLFormElement;
     status = 'sending';
     try {
-      await sendQuote(site.quoteEndpoint, new FormData(form));
+      await sendQuote(new FormData(form));
       status = 'success';
       form.reset();
     } catch {
@@ -35,10 +35,11 @@
         <a href={site.emailHref}>{site.email}</a>
       </div>
     </div>
-    <form class="quote-form glass" action={site.quoteEndpoint || undefined} method="POST" onsubmit={submit} use:glassHighlight aria-busy={status === 'sending'}>
-      <input type="hidden" name="_subject" value={content.subject} />
+    <form class="quote-form glass" action={quoteEndpoint} method="POST" onsubmit={submit} use:glassHighlight aria-busy={status === 'sending'}>
+      <input type="hidden" name="access_key" value={site.web3formsAccessKey} />
+      <input type="hidden" name="subject" value={content.subject} />
       <input type="hidden" name="language" value={locale} />
-      <input class="honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <input class="honeypot" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" />
       <label>{content.fields.name}<input name="name" autocomplete="name" maxlength="100" required /></label>
       <label>{content.fields.contact}<input name="contact" autocomplete="email" maxlength="254" minlength="5" required /></label>
       <label>{content.fields.vehicle}<input name="vehicle" maxlength="160" required /></label>
@@ -47,8 +48,8 @@
       <label>{content.fields.location}<input name="location" autocomplete="postal-code" maxlength="160" required /></label>
       <label>{content.fields.message}<textarea name="message" rows="1" maxlength="3000" required></textarea></label>
       <label class="consent"><input type="checkbox" name="consent" value="yes" required /><span>{content.consent}</span></label>
-      <button class="button button-white" type="submit" disabled={!site.quoteEndpoint || status === 'sending'}>{status === 'sending' ? content.submitting : content.submit}</button>
-      {#if !site.quoteEndpoint}<p class="form-message" role="status">{content.unconfigured}</p>{/if}
+      <button class="button button-white" type="submit" disabled={!site.web3formsAccessKey || status === 'sending'}>{status === 'sending' ? content.submitting : content.submit}</button>
+      {#if !site.web3formsAccessKey}<p class="form-message" role="status">{content.unconfigured}</p>{/if}
       {#if status === 'success'}<p class="form-message" role="status">{content.success}</p>{/if}
       {#if status === 'error'}<p class="form-message" role="alert">{content.error}</p>{/if}
       <p class="form-note">{content.note}</p>

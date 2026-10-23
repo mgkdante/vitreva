@@ -23,14 +23,11 @@ export const variables = defineEnvVars({
       return path;
     }
   },
-  PUBLIC_QUOTE_ENDPOINT: {
+  PUBLIC_WEB3FORMS_ACCESS_KEY: {
     public: true,
     static: true,
     schema: (value) => {
-      if (!value?.trim()) return '';
-      const url = new URL(value.trim());
-      if (url.protocol !== 'https:') throw new Error('PUBLIC_QUOTE_ENDPOINT must use HTTPS');
-      return url.href;
+      return value?.trim() || '';
     }
   }
 });

@@ -44,9 +44,9 @@ The shared error page uses localized copy from the content files. The `/404` rou
 
 ## Form inbox
 
-Create and verify a Formspree form that delivers to `contact@vitreva.ca`. Set its HTTPS endpoint as `PUBLIC_QUOTE_ENDPOINT` locally or `QUOTE_ENDPOINT` in GitHub repository variables. The endpoint is public configuration, not a secret.
+The quote form uses Web3Forms directly from the browser, following the same pattern as yesid.dev. Create a Vitreva form, verify `contact@vitreva.ca` and select it as the recipient. Set the form's access key as `PUBLIC_WEB3FORMS_ACCESS_KEY` locally or `WEB3FORMS_ACCESS_KEY` in GitHub repository variables. This is a public client-side form key. Use Vitreva's own key rather than the one associated with yesid.dev.
 
-The form validates required fields, leaves the VIN optional, sends details to the configured endpoint, and displays success only after an accepted HTTP response. Failed requests retain entered details. A blank endpoint disables submission and offers telephone/email contact. No request data is stored in browser storage.
+The form validates required fields, leaves the VIN optional and sends quote details as JSON to `https://api.web3forms.com/submit`. A contact email becomes the reply-to address; phone-only contact stays a separate phone field. Vehicle, VIN, location, language, consent and message are forwarded with the request. Success requires both an accepted HTTP response and Web3Forms' explicit success acknowledgement. Failed requests retain entered details. A blank key disables submission and offers telephone/email contact. No request data is stored in browser storage.
 
 Before launch, verify an actual message reaches the inbox, configure provider spam/domain protections, and review privacy text against the provider and business practices. The preview does not claim operational email delivery while that setup is pending.
 
@@ -58,9 +58,9 @@ The `Deploy GitHub Pages` workflow is manually started from the Actions tab. Ena
 | --- | --- |
 | `SITE_URL` | Public origin, for example `https://mgkdante.github.io` or `https://vitreva.ca`. |
 | `PAGES_BASE_PATH` | `/vitreva` for the project URL; empty for a custom domain. |
-| `QUOTE_ENDPOINT` | Verified form inbox HTTPS endpoint; leave empty until connected. |
+| `WEB3FORMS_ACCESS_KEY` | Public form access key linked to the verified Vitreva recipient; leave empty until connected. |
 
-Without overrides, the workflow uses GitHub Pages metadata for origin and base path. Locally, copy `.env.example` to `.env` and set `PUBLIC_SITE_URL`, `BASE_PATH` and `PUBLIC_QUOTE_ENDPOINT` as needed. Build-time settings require rebuilding the site.
+Without overrides, the workflow uses GitHub Pages metadata for origin and base path. Locally, copy `.env.example` to `.env` and set `PUBLIC_SITE_URL`, `BASE_PATH` and `PUBLIC_WEB3FORMS_ACCESS_KEY` as needed. Build-time settings require rebuilding the site.
 
 The site emits complete localized HTML, canonical and reciprocal language links, social metadata, LocalBusiness data with known facts, `sitemap.xml`, `robots.txt` and an optional `llms.txt`. The latter does not guarantee recommendations or rankings.
 
