@@ -12,8 +12,18 @@ export const site = {
   basePath: BASE_PATH,
   homeUrl: `${PUBLIC_SITE_URL}${BASE_PATH}/`,
   serviceArea: {
-    locations: ['Gatineau', 'Hull', 'Aylmer', 'Buckingham', 'Cantley'],
-    approximateRadiusKm: 40
+    province: 'Québec',
+    locations: [
+      'Gatineau', 'Hull', 'Aylmer', 'Buckingham', 'Masson-Angers',
+      'Cantley', 'Chelsea', 'L’Ange-Gardien', 'Val-des-Monts',
+      'Perkins', 'Saint-Pierre-de-Wakefield', 'Poltimore',
+      'La Pêche', 'Wakefield', 'Sainte-Cécile-de-Masham', 'Lascelles', 'Duclos', 'Lac-des-Loups',
+      'Pontiac', 'Luskville', 'Quyon', 'Notre-Dame-de-la-Salette',
+      'Thurso', 'Mayo', 'Lochaber', 'Lochaber-Partie-Ouest',
+      'Denholm', 'Low', 'Saint-Sixte', 'Bowman', 'Mulgrave-et-Derry', 'Plaisance'
+    ],
+    boundaryLocations: ['Val-des-Bois'],
+    approximateRadiusKm: 50
   }
 } as const;
 

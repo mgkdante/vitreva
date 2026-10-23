@@ -13,7 +13,11 @@ export function getSeo(locale: Locale, content: { meta: { title: string; descrip
     telephone: '+18192098023',
     email: site.email,
     description: content.meta.description,
-    areaServed: site.serviceArea.locations.map((name) => ({ '@type': 'Place', name }))
+    areaServed: site.serviceArea.locations.map((name) => ({
+      '@type': 'Place',
+      name,
+      containedInPlace: { '@type': 'AdministrativeArea', name: site.serviceArea.province }
+    }))
   };
 
   return {
