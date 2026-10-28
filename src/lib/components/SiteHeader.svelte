@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import { asset } from '$app/paths';
   import type { Content, Locale } from '#lib/content/index.ts';
   import { site } from '#lib/config/site.ts';
@@ -6,6 +7,32 @@
   import LanguageSwitch from './LanguageSwitch.svelte';
 
   let { content, locale }: { content: Content; locale: Locale } = $props();
+
+  let dockVisible = $state(false);
+
+  onMount(() => {
+    const hero = document.getElementById('hero');
+    if (!hero) return;
+
+    const isPast = () => hero.getBoundingClientRect().bottom <= 0;
+    dockVisible = isPast();
+
+    if (typeof IntersectionObserver === 'undefined') {
+      const update = () => (dockVisible = isPast());
+      addEventListener('scroll', update, { passive: true });
+      addEventListener('resize', update);
+      return () => {
+        removeEventListener('scroll', update);
+        removeEventListener('resize', update);
+      };
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => (dockVisible = !entry.isIntersecting && entry.boundingClientRect.bottom <= 0)
+    );
+    observer.observe(hero);
+    return () => observer.disconnect();
+  });
 </script>
 
 <a class="skip-link" href="#main">{content.navigation.skip}</a>
@@ -21,7 +48,13 @@
   <LanguageSwitch {locale} label={content.navigation.language} />
 </header>
 
-<aside class="contact-dock glass glass-dark" aria-label={content.navigation.contact}>
+<aside
+  class="contact-dock glass glass-dark"
+  class:dock-visible={dockVisible}
+  aria-label={content.navigation.contact}
+  aria-hidden={!dockVisible}
+  inert={!dockVisible}
+>
   <a class="button button-white" href={site.phoneHref}>{content.navigation.call}</a>
   <a class="button button-clear" href="#quote">{content.navigation.contact}</a>
 </aside>
@@ -37,8 +70,13 @@
   @media (max-width: 1099px) {
     .site-header { width: calc(100% - 48px); }
     .full-menu { display: none; }
-    .contact-dock { position: fixed; z-index: 20; bottom: max(16px, env(safe-area-inset-bottom)); left: 50%; transform: translateX(-50%); display: flex; gap: 10px; padding: 10px; border-radius: 22px; width: min(calc(100% - 32px), 480px); color: white; }
+    .contact-dock { position: fixed; z-index: 20; --dock-bottom: max(16px, env(safe-area-inset-bottom)); bottom: var(--dock-bottom); left: 50%; transform: translate(-50%, calc(100% + var(--dock-bottom))); display: flex; gap: 10px; padding: 10px; border-radius: 22px; width: min(calc(100% - 32px), 480px); color: white; opacity: 0; visibility: hidden; pointer-events: none; }
+    .contact-dock.dock-visible { transform: translate(-50%, 0); opacity: 1; visibility: visible; pointer-events: auto; }
     .contact-dock .button { flex: 1; min-width: 0; padding-inline: 12px; min-height: 48px; font-size: 14px; }
+  }
+  @media (max-width: 1099px) and (prefers-reduced-motion: no-preference) {
+    .contact-dock { transition: transform 240ms ease-out, opacity 240ms ease-out, visibility 0s linear 240ms; }
+    .contact-dock.dock-visible { transition: transform 240ms ease-out, opacity 240ms ease-out; }
   }
   @media (max-width: 599px) {
     .mirror-arm { width: 50px; height: 28px; }

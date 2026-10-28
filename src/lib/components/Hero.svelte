@@ -6,7 +6,7 @@
   let { content }: { content: Content } = $props();
 </script>
 
-<section class="hero" aria-labelledby="hero-title">
+<section class="hero" id="hero" aria-labelledby="hero-title">
   <Photo image="van" alt={content.images.van} class="hero-photo" priority sizes="(max-width: 599px) 1500px, 100vw" />
   <div class="hero-content container">
     <h1 id="hero-title">{#each content.hero.lines as line}<span>{line}</span>{/each}</h1>
