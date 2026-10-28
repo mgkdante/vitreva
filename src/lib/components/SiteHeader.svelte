@@ -14,24 +14,33 @@
     const hero = document.getElementById('hero');
     if (!hero) return;
 
-    const isPast = () => hero.getBoundingClientRect().bottom <= 0;
-    dockVisible = isPast();
+    let frame = 0;
 
-    if (typeof IntersectionObserver === 'undefined') {
-      const update = () => (dockVisible = isPast());
-      addEventListener('scroll', update, { passive: true });
-      addEventListener('resize', update);
-      return () => {
-        removeEventListener('scroll', update);
-        removeEventListener('resize', update);
-      };
-    }
+    const update = () => {
+      frame = 0;
+      const rect = hero.getBoundingClientRect();
+      dockVisible = rect.top + rect.height / 2 <= 0;
+    };
 
-    const observer = new IntersectionObserver(
-      ([entry]) => (dockVisible = !entry.isIntersecting && entry.boundingClientRect.bottom <= 0)
-    );
-    observer.observe(hero);
-    return () => observer.disconnect();
+    const scheduleUpdate = () => {
+      if (frame) return;
+      frame = requestAnimationFrame(update);
+    };
+
+    update();
+
+    addEventListener('scroll', scheduleUpdate, { passive: true });
+    addEventListener('resize', scheduleUpdate);
+
+    const observer = typeof ResizeObserver === 'undefined' ? null : new ResizeObserver(scheduleUpdate);
+    observer?.observe(hero);
+
+    return () => {
+      removeEventListener('scroll', scheduleUpdate);
+      removeEventListener('resize', scheduleUpdate);
+      observer?.disconnect();
+      if (frame) cancelAnimationFrame(frame);
+    };
   });
 </script>
 
