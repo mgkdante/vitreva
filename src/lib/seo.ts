@@ -55,13 +55,6 @@ export function getSeo(locale: Locale, key?: PageKey): Seo {
   const meta = key ? getPage(locale, key).meta : content.meta;
   const canonical = absoluteUrl(pagePath(locale, key));
   const ogImage = absoluteUrl(shareImagePath(locale, key));
-  const pageNodes = key ? [{
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: site.brand, item: absoluteUrl(pagePath(locale)) },
-      { '@type': 'ListItem', position: 2, name: getPage(locale, key).label, item: canonical }
-    ]
-  }] : [];
   const serviceNodes = !key || key === 'replacement' ? [{
     '@type': 'Service',
     name: getPage(locale, 'replacement').label,
@@ -83,7 +76,7 @@ export function getSeo(locale: Locale, key?: PageKey): Seo {
     ogImage,
     jsonLd: JSON.stringify({
       '@context': 'https://schema.org',
-      '@graph': [businessNode(locale, content.meta.description), ...serviceNodes, ...pageNodes]
+      '@graph': [businessNode(locale, content.meta.description), ...serviceNodes]
     }).replace(/</g, '\\u003c')
   };
 }
