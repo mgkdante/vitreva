@@ -73,10 +73,10 @@
         "body": "An answer within 24 hours of your request."
       },
       {
-        "value": "50 km",
+        "value": "1 h",
         "level": 0.62,
-        "title": "Approximate service radius",
-        "body": "Quebec only, straight-line, confirmed by address."
+        "title": "Replacement in less than 1 hour",
+        "body": "On site, once your appointment is confirmed."
       },
       {
         "value": "9 to 9",

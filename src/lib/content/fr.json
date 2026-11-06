@@ -73,10 +73,10 @@
         "body": "Une réponse dans les 24 heures suivant votre demande."
       },
       {
-        "value": "50 km",
+        "value": "1 h",
         "level": 0.62,
-        "title": "Rayon de service approximatif",
-        "body": "Québec seulement, à vol d’oiseau, confirmé selon l’adresse."
+        "title": "Remplacement en moins de 1 h",
+        "body": "Sur place, une fois le rendez-vous confirmé."
       },
       {
         "value": "9 h à 21 h",

@@ -73,10 +73,10 @@
         "body": "Una respuesta dentro de las 24 horas siguientes a tu solicitud."
       },
       {
-        "value": "50 km",
+        "value": "1 h",
         "level": 0.62,
-        "title": "Radio de servicio aproximado",
-        "body": "Solo en Québec, en línea recta, confirmado según la dirección."
+        "title": "Reemplazo en menos de 1 hora",
+        "body": "En el lugar, una vez confirmada la cita."
       },
       {
         "value": "9 a 9",

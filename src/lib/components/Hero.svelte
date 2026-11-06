@@ -63,7 +63,7 @@
               trigger: '#hero-pin',
               start: 'top top',
               end: 'bottom bottom',
-              scrub: 0.5,
+              scrub: 0.3,
               // Links that have started leaving the screen must also leave the keyboard order.
               onUpdate: ({ progress }) => { if (cockpit) cockpit.inert = progress > 0.66; }
             }
@@ -136,7 +136,7 @@
 
 <style>
   .hero-pin { position: relative; background: var(--ink); }
-  :global(html.hero-motion) .hero-pin { height: 240svh; }
+  :global(html.hero-motion) .hero-pin { height: 170svh; }
   .hero { position: relative; height: 100vh; height: 100svh; min-height: 340px; overflow: hidden; color: white; }
   :global(html.hero-motion) .hero { position: sticky; top: 0; }
   .hero :global(.hero-photo) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% center; transform-origin: 66% 58%; }
