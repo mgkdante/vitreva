@@ -29,7 +29,7 @@ for (const locale of ['fr', 'en', 'es']) {
     translated.process.steps.forEach((step: { id: string }, index: number) => {
       assert.equal(step.id, source.process.steps[index].id);
     });
-    assert.deepEqual(Object.keys(translated.pagesUi).sort(), ['breadcrumb', 'communities', 'related']);
+    assert.deepEqual(Object.keys(translated.pagesUi).sort(), ['communities', 'related']);
     translated.situations.cards.forEach((card: { target: string }, index: number) => {
       assert.equal(card.target, source.situations.cards[index].target);
     });

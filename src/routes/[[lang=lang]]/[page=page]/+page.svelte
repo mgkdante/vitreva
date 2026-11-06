@@ -32,7 +32,6 @@
     {#if photos[key]}<Photo image={photos[key]} class="page-hero-photo" priority sizes="100vw" />{/if}
     <div class="page-hero-tint"></div>
     <div class="container page-hero-content">
-      <nav class="crumbs" aria-label={content.pagesUi.breadcrumb}><a href={localHref(locale)}>{site.brand}</a><span aria-hidden="true">/</span><span aria-current="page">{page.label}</span></nav>
       <p class="kicker">{page.eyebrow}</p>
       <h1>{page.title}</h1>
       {#if page.intro}<p class="intro">{page.intro}</p>{/if}
@@ -101,9 +100,7 @@
   .page-hero-tint { position: absolute; inset: 0; background: linear-gradient(90deg, rgb(4 6 8 / 86%), rgb(4 6 8 / 62%) 55%, rgb(4 6 8 / 34%)); }
   .page-hero-content { position: relative; padding-top: clamp(170px, 13vw, 300px); padding-bottom: 76px; }
   .plain .page-hero-content { padding-bottom: 52px; }
-  .crumbs { display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; line-height: 20px; font-weight: 600; color: rgb(255 255 255 / 80%); }
-  .crumbs a { text-underline-offset: 3px; }
-  .kicker { margin-top: 26px; font-size: 12.5px; line-height: 18px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: rgb(255 255 255 / 80%); }
+  .kicker { font-size: 12.5px; line-height: 18px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: rgb(255 255 255 / 80%); }
   h1 { margin-top: 12px; max-width: 900px; font-size: clamp(34px, 4.4vw, 68px); line-height: 1.06; font-weight: 800; letter-spacing: -.026em; }
   .intro { margin-top: 20px; max-width: 720px; font-size: clamp(17px, 1.35vw, 21px); line-height: 1.5; }
   .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }

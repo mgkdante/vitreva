@@ -51,6 +51,11 @@ test('the gauges promise a replacement in less than 1 hour in every language', (
   }
 });
 
+test('pages have no breadcrumbs, visible or in structured data', () => {
+  assert.ok(!read('src/routes/[[lang=lang]]/[page=page]/+page.svelte').includes('crumbs'));
+  assert.ok(!read('src/lib/seo.ts').includes('BreadcrumbList'));
+});
+
 test('ADAS calibration stays a referral in every language', () => {
   assert.match(pages.en.cameras.sections[1].body[0], /does not perform ADAS calibration/);
   assert.match(pages.fr.cameras.sections[1].body[0], /n’effectue pas la calibration ADAS/);
