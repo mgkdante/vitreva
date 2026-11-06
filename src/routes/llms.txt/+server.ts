@@ -22,6 +22,7 @@ export const GET = () => new Response(`# Vitreva
 - Soumission gratuite, y compris en service mobile. Free quote, including for mobile service.
 - Aucuns frais supplémentaires pour le service mobile. No extra charge for mobile service.
 - Réponse dans les 24 heures. Reply within 24 hours.
+- Remplacement en moins de 1 h, sur place, une fois le rendez-vous confirmé. Replacement in less than 1 hour, on site, once the appointment is confirmed.
 - Heures / Hours: lundi au samedi, 9 h à 21 h. Monday to Saturday, 9 am to 9 pm.
 - Garantie sur le remplacement; les détails sont expliqués avec la soumission. A warranty on the replacement; details are explained with the quote.
 - Calibration ADAS : non effectuée par Vitreva, orientation vers un fournisseur approprié. ADAS calibration: not performed by Vitreva, referred to an appropriate provider.

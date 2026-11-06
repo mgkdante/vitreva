@@ -43,6 +43,14 @@ test('public copy does not tie the service radius to a starting point', () => {
   assert.ok(!/Gatineau base|base en Gatineau|point de départ/i.test(copy.replace(/con base en Gatineau y un solo enfoque/g, '')));
 });
 
+test('the gauges promise a replacement in less than 1 hour in every language', () => {
+  for (const name of ['fr.json', 'en.json', 'es.json']) {
+    const panel = JSON.parse(read(`src/lib/content/${name}`)).panel;
+    assert.ok(panel.items.some((item: { value: string }) => item.value === '1 h'));
+    assert.ok(!panel.items.some((item: { value: string }) => item.value === '50 km'));
+  }
+});
+
 test('ADAS calibration stays a referral in every language', () => {
   assert.match(pages.en.cameras.sections[1].body[0], /does not perform ADAS calibration/);
   assert.match(pages.fr.cameras.sections[1].body[0], /n’effectue pas la calibration ADAS/);
