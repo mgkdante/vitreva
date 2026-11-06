@@ -18,7 +18,13 @@
   },
   "meta": {
     "title": "Vitreva | Mobile windshield replacement in Gatineau",
-    "description": "Mobile windshield replacement in Gatineau and the Outaouais region of Quebec, within roughly 50 km of our Gatineau base. Request your quote."
+    "description": "Mobile windshield replacement in Gatineau and the Outaouais region of Quebec, within roughly 50 km. Request your free quote."
+  },
+  "banner": {
+    "quote": "Free quote",
+    "mobile": "No extra charge for mobile service",
+    "reply": "Reply within 24 hours",
+    "hours": "Mon to Sat, 9 am to 9 pm"
   },
   "navigation": {
     "service": "The service",
@@ -28,82 +34,143 @@
     "call": "Call",
     "home": "Vitreva home",
     "language": "Change language",
-    "skip": "Skip to content"
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "text": "Text",
+    "area": "Service area"
   },
   "hero": {
     "lines": [
       "Your windshield.",
       "We come to you."
     ],
-    "subtitle": "Mobile windshield replacement in Gatineau.",
-    "quote": "Request a quote",
-    "email": "Send an email"
+    "subtitle": "Mobile windshield replacement in Gatineau and the Outaouais.",
+    "status": {
+      "before": "Cracked windshield?",
+      "after": "New glass. Clear road."
+    },
+    "freeQuote": "Free quote",
+    "mirrorNote": "Closer than it appears",
+    "radio": {
+      "label": "Messages",
+      "text": "Text us a photo of the damage"
+    },
+    "cue": "Scroll to replace the glass"
   },
-  "commitment": {
-    "title": "Simple, professional service.",
+  "panel": {
+    "label": "Key facts",
     "items": [
       {
-        "title": "A clear quote",
-        "body": "Understand the next step before confirming the work."
+        "value": "$0",
+        "level": 1,
+        "title": "Free quote",
+        "body": "Free, even when we come to you."
       },
       {
-        "title": "Mobile service",
-        "body": "Let’s agree on a location for your appointment in your area."
+        "value": "24 h",
+        "level": 0.8,
+        "title": "Reply time",
+        "body": "An answer within 24 hours of your request."
       },
       {
-        "title": "Direct contact",
-        "body": "Reach Vitreva by phone or email."
+        "value": "50 km",
+        "level": 0.62,
+        "title": "Approximate service radius",
+        "body": "Quebec only, straight-line, confirmed by address."
+      },
+      {
+        "value": "9 to 9",
+        "level": 0.5,
+        "title": "Monday to Saturday",
+        "body": "By phone, text or email, from 9 am to 9 pm."
       }
     ]
   },
   "area": {
     "title": "In Gatineau, where you are.",
-    "body": "Mobile service in Quebec: Gatineau (Hull, Aylmer, Buckingham and Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts and nearby areas. Send your city or postal code so we can confirm travel to your location together."
+    "body": "Mobile service in Quebec. Send your city or postal code and we’ll confirm travel to your location.",
+    "note": "Dashed: near the boundary, confirmed by address.",
+    "boundaryHint": "near the boundary, confirmed by address",
+    "link": "See the full service area"
   },
   "information": {
-    "title": "Windshield replacement, explained simply.",
+    "eyebrow": "The service",
+    "title": "Done right, wherever you’re parked.",
+    "caption": "Illustration. Photos of real jobs coming soon.",
     "items": [
       {
         "title": "A windshield suited to your vehicle",
-        "body": "The year, make, model and VIN help us identify your windshield and its features. Mention cameras and sensors when you contact us."
+        "body": "Year, make, model and VIN help us identify the right glass and its features."
       },
       {
-        "title": "A location agreed together",
-        "body": "Tell us where your vehicle will be parked. We confirm the location, working conditions and availability with you."
+        "title": "A location that works",
+        "body": "Tell us where the vehicle will be. We confirm the spot and working conditions with you."
       },
       {
-        "title": "The right care after installation",
-        "body": "Ask for instructions specific to your installation: when you can drive again and what precautions to take when washing and using your vehicle."
+        "title": "Clear aftercare",
+        "body": "You get instructions for your installation: when to drive, wash and use the vehicle again."
+      },
+      {
+        "title": "A warranty on your replacement",
+        "body": "We explain what’s covered when we send your quote."
       }
-    ],
-    "closing": "Unsure? Describe the damage to discuss the next step."
+    ]
+  },
+  "situations": {
+    "eyebrow": "Your situation",
+    "title": "Every windshield comes with its own questions.",
+    "cards": [
+      {
+        "title": "Filing an insurance claim",
+        "body": "Your insurer confirms your coverage and deductible. We prepare a quote you can add to your claim.",
+        "cta": "Request a quote",
+        "target": "insurance"
+      },
+      {
+        "title": "Business vehicles and fleets",
+        "body": "Tell us how many vehicles you have, what type and where. We’ll confirm together how we can help.",
+        "cta": "Talk about your fleet",
+        "target": "fleets"
+      },
+      {
+        "title": "Cameras and sensors",
+        "body": "Mention them up front. If ADAS calibration is needed, we refer you to an appropriate provider.",
+        "cta": "Read more",
+        "target": "cameras"
+      },
+      {
+        "title": "Not sure what you need?",
+        "body": "Our service is replacement. Text us a photo and a description, and we’ll help you see the next step.",
+        "cta": "Text us a photo",
+        "target": "text"
+      }
+    ]
   },
   "process": {
-    "previous": "Previous step",
-    "next": "Next step",
-    "regionLabel": "Service steps",
-    "title": "How it works",
+    "eyebrow": "How it works",
+    "title": "Four stops, from crack to clear road.",
+    "textCta": "Text us a photo",
+    "quoteCta": "Get a free quote",
     "steps": [
       {
         "id": "request",
-        "label": "01 · Request",
-        "title": "Tell us about your vehicle",
-        "body": "Share your vehicle’s make, model, year and the area where you need service. Add the VIN if you have it and a description of the windshield to help Vitreva prepare your quote.",
-        "image": "van"
+        "title": "Tell us about the damage",
+        "body": "Text a photo or send the form: your vehicle’s year, make and model, where it’s parked, and the VIN if you have it."
       },
       {
-        "id": "confirm",
-        "label": "02 · Confirm",
-        "title": "Let’s clarify the details",
-        "body": "Vitreva gets back to you to clarify the quote, your vehicle’s needs and availability. Mention cameras and driver assistance features. If ADAS calibration is required, we refer you to an appropriate provider. Your appointment still needs confirmation.",
-        "image": "installation"
+        "id": "quote",
+        "title": "Get your free quote",
+        "body": "We reply within 24 hours and confirm the work, price and location with you. Mention any cameras or driver-assist features."
       },
       {
-        "id": "replace",
-        "label": "03 · Replacement",
-        "title": "Your agreed mobile service",
-        "body": "Once the location and appointment are confirmed, Vitreva comes to you for the agreed replacement. Aftercare instructions and the time before you can drive again are explained for the conditions of your particular installation.",
-        "image": "aftercare"
+        "id": "visit",
+        "title": "We come to you",
+        "body": "You approve the price and time first. Then we meet you at the agreed location, with no extra charge for mobile service."
+      },
+      {
+        "id": "road",
+        "title": "Back on the road",
+        "body": "We explain when you can drive again and how to care for the new windshield. Your replacement is covered by our warranty."
       }
     ]
   },
@@ -118,18 +185,24 @@
     "consent": "I agree that Vitreva may use these details to handle my request and respond to me.",
     "required": "Required",
     "subject": "Vitreva quote request",
-    "title": "Let’s talk about your windshield.",
-    "intro": "Send your vehicle and location details to request a quote.",
+    "title": "Let’s get you a clear view.",
+    "intro": "Pick what’s easiest. We reply within 24 hours, and the quote is free.",
     "vinHelp": "If available. On registration or insurance documents, or usually at the lower driver-side windshield.",
-    "submit": "Send my request",
-    "note": "This request does not confirm an appointment.",
+    "submit": "Get my free quote",
+    "note": "Sending this doesn’t book anything. We confirm the price and appointment with you first.",
     "fields": {
       "name": "Name",
       "contact": "Phone or email",
       "vehicle": "Year, make and model",
-      "vin": "VIN",
+      "vin": "VIN (optional)",
       "location": "City or postal code",
       "message": "What you need"
+    },
+    "eyebrow": "Free quote",
+    "ways": {
+      "text": "Text a photo",
+      "textNote": "Easiest way to show the damage",
+      "email": "Email"
     }
   },
   "footer": {
@@ -137,29 +210,13 @@
     "terms": "Terms of use",
     "language": "Language",
     "creditPrefix": "Powered by",
-    "description": "Mobile windshield replacement · Gatineau"
-  },
-  "legal": {
-    "privacy": {
-      "title": "Privacy",
-      "paragraphs": [
-        "You can browse this site without creating an account. The site does not use audience analytics or store your request in your browser.",
-        "When you submit a request, the details you enter are sent to Vitreva through Web3Forms, the form provider used on this site. They are used to understand your needs, prepare a quote and respond to you. Web3Forms also processes the data needed to deliver the form according to its own practices.",
-        "Please do not send sensitive information that is unnecessary for your request. Your VIN is optional.",
-        "For questions about your personal information, or to request its correction or deletion, email contact@vitreva.ca."
-      ]
-    },
-    "terms": {
-      "title": "Terms of use",
-      "paragraphs": [
-        "This site presents Vitreva’s mobile windshield replacement service in Gatineau and lets you request a quote.",
-        "Submitting a request does not confirm a price or an appointment. The work, price, location and availability must be confirmed directly with Vitreva.",
-        "ADAS calibration needs are referred to an appropriate provider. Aftercare instructions are provided for your particular installation.",
-        "Illustrative photographs show the service; they are not evidence of completed jobs.",
-        "For any questions, contact Vitreva at contact@vitreva.ca."
-      ]
-    },
-    "close": "Close"
+    "description": "Mobile windshield replacement in Gatineau and the Outaouais, Quebec.",
+    "serviceTitle": "Service",
+    "contactTitle": "Contact",
+    "hoursTitle": "Hours",
+    "days": "Monday to Saturday",
+    "hours": "9 am to 9 pm",
+    "companyTitle": "Vitreva"
   },
   "images": {
     "van": "Illustration of the Vitreva mobile service vehicle in Gatineau.",
@@ -167,7 +224,10 @@
     "aftercare": "Illustration of a windshield after installation."
   },
   "faq": {
-    "title": "Your questions",
+    "eyebrow": "Questions",
+    "title": "Good to know before you call.",
+    "intro": "Don’t see your question? Text us or call, Monday to Saturday from 9 am to 9 pm.",
+    "cta": "Text us",
     "items": [
       {
         "question": "What do I need for a quote, and where is my VIN?",
@@ -175,15 +235,19 @@
       },
       {
         "question": "Which areas do you serve?",
-        "answer": "We serve Gatineau (Hull, Aylmer, Buckingham and Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts, La Pêche, Pontiac, Notre-Dame-de-la-Salette, Thurso, Mayo, Lochaber, Lochaber-Partie-Ouest, Denholm, Low, Saint-Sixte, Bowman, Mulgrave-et-Derry and Plaisance, depending on your address within roughly 50 km of our Gatineau base, in Quebec only. This also includes the villages of Perkins, Saint-Pierre-de-Wakefield, Poltimore, Wakefield, Sainte-Cécile-de-Masham, Lascelles, Duclos, Lac-des-Loups, Luskville and Quyon. For addresses near the boundary, including Val-des-Bois, send your city or postal code so we can confirm travel and arrange your appointment with you."
+        "answer": "We serve Gatineau (Hull, Aylmer, Buckingham and Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts, La Pêche, Pontiac, Notre-Dame-de-la-Salette, Thurso, Mayo, Lochaber, Lochaber-Partie-Ouest, Denholm, Low, Saint-Sixte, Bowman, Mulgrave-et-Derry and Plaisance, depending on your address within roughly 50 km, in Quebec only. This also includes the villages of Perkins, Saint-Pierre-de-Wakefield, Poltimore, Wakefield, Sainte-Cécile-de-Masham, Lascelles, Duclos, Lac-des-Loups, Luskville and Quyon. For addresses near the boundary, including Val-des-Bois, send your city or postal code so we can confirm travel and arrange your appointment with you."
       },
       {
         "question": "How much does replacement cost?",
-        "answer": "We prepare a quote for your vehicle and the windshield it needs. Send your vehicle details, VIN if you have it and your location, and we’ll clarify the work and price with you before you agree to go ahead."
+        "answer": "The quote is free. We prepare it for your vehicle and the windshield it needs, and confirm the work and price with you before you agree to go ahead. There’s no extra charge for mobile service."
       },
       {
-        "question": "Does my request confirm an appointment?",
-        "answer": "Your request simply starts the conversation. We then work through the details, location and availability with you. You can confirm your appointment once we’ve agreed on those details together."
+        "question": "Is my replacement covered by a warranty?",
+        "answer": "Yes. We explain what’s covered when we send your quote."
+      },
+      {
+        "question": "How fast will I hear back, and does my request book an appointment?",
+        "answer": "We reply within 24 hours of your request. It simply starts the conversation: you confirm your appointment once we’ve agreed on the work, the location and the time."
       },
       {
         "question": "My vehicle has a camera. What about calibration?",
@@ -202,5 +266,10 @@
         "answer": "Your insurer can confirm the coverage and deductible under your policy. We can prepare a quote for your claim so you can check with them what amount, if any, you would need to pay."
       }
     ]
+  },
+  "pagesUi": {
+    "breadcrumb": "Breadcrumb",
+    "related": "See also",
+    "communities": "Sectors and municipalities"
   }
 }

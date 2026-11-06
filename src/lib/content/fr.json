@@ -20,6 +20,12 @@
     "title": "Vitreva | Remplacement de pare-brise mobile à Gatineau",
     "description": "Remplacement de pare-brise mobile à Gatineau et dans l’Outaouais, au Québec, dans un rayon d’environ 50 km. Demandez votre soumission."
   },
+  "banner": {
+    "quote": "Soumission gratuite",
+    "mobile": "Aucuns frais supplémentaires pour le service mobile",
+    "reply": "Réponse sous 24 h",
+    "hours": "Lun. au sam., 9 h à 21 h"
+  },
   "navigation": {
     "service": "Le service",
     "process": "Comment ça marche",
@@ -28,82 +34,143 @@
     "call": "Appeler",
     "home": "Accueil Vitreva",
     "language": "Changer de langue",
-    "skip": "Aller au contenu"
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "text": "Texto",
+    "area": "Zone desservie"
   },
   "hero": {
     "lines": [
       "Votre pare-brise.",
       "On vient à vous."
     ],
-    "subtitle": "Remplacement de pare-brise mobile à Gatineau.",
-    "quote": "Demander une soumission",
-    "email": "Envoyer un courriel"
+    "subtitle": "Remplacement de pare-brise mobile à Gatineau et dans l’Outaouais.",
+    "status": {
+      "before": "Pare-brise fissuré?",
+      "after": "Verre neuf. Route dégagée."
+    },
+    "freeQuote": "Soumission gratuite",
+    "mirrorNote": "Plus près qu’il n’y paraît",
+    "radio": {
+      "label": "Messages",
+      "text": "Textez-nous une photo du dommage"
+    },
+    "cue": "Défilez pour remplacer la vitre"
   },
-  "commitment": {
-    "title": "Un service simple. Un service professionnel.",
+  "panel": {
+    "label": "L’essentiel",
     "items": [
       {
-        "title": "Une soumission claire",
-        "body": "Comprenez la prochaine étape avant de confirmer les travaux."
+        "value": "0 $",
+        "level": 1,
+        "title": "Soumission gratuite",
+        "body": "Gratuite, même quand on se déplace."
       },
       {
-        "title": "Le service mobile",
-        "body": "Convenons du lieu de votre rendez-vous dans votre secteur."
+        "value": "24 h",
+        "level": 0.8,
+        "title": "Délai de réponse",
+        "body": "Une réponse dans les 24 heures suivant votre demande."
       },
       {
-        "title": "Un contact direct",
-        "body": "Joignez Vitreva par téléphone ou par courriel."
+        "value": "50 km",
+        "level": 0.62,
+        "title": "Rayon de service approximatif",
+        "body": "Québec seulement, à vol d’oiseau, confirmé selon l’adresse."
+      },
+      {
+        "value": "9 h à 21 h",
+        "level": 0.5,
+        "title": "Du lundi au samedi",
+        "body": "Par téléphone, texto ou courriel."
       }
     ]
   },
   "area": {
     "title": "À Gatineau, là où vous êtes.",
-    "body": "Service mobile au Québec, à Gatineau (Hull, Aylmer, Buckingham et Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts et dans les environs. Envoyez votre ville ou votre code postal pour confirmer le déplacement ensemble."
+    "body": "Service mobile au Québec. Envoyez votre ville ou votre code postal pour confirmer le déplacement jusqu’à vous.",
+    "note": "Pointillés : près de la limite, à confirmer selon l’adresse.",
+    "boundaryHint": "près de la limite, à confirmer selon l’adresse",
+    "link": "Voir toute la zone desservie"
   },
   "information": {
-    "title": "Le remplacement, expliqué simplement.",
+    "eyebrow": "Le service",
+    "title": "Bien fait, où que vous soyez stationné.",
+    "caption": "Illustration. Photos de vrais travaux à venir.",
     "items": [
       {
         "title": "Un pare-brise adapté à votre véhicule",
-        "body": "L’année, la marque, le modèle et le NIV nous aident à préciser le pare-brise et ses équipements. Mentionnez les caméras et capteurs lors de votre demande."
+        "body": "L’année, la marque, le modèle et le NIV nous aident à préciser le bon pare-brise et ses équipements."
       },
       {
-        "title": "Un lieu convenu ensemble",
-        "body": "Indiquez l’endroit où le véhicule sera stationné. Nous confirmons avec vous le lieu, les conditions d’intervention et les disponibilités."
+        "title": "Un lieu qui convient",
+        "body": "Indiquez où sera le véhicule. Nous confirmons avec vous l’endroit et les conditions d’intervention."
       },
       {
-        "title": "Les bons gestes après la pose",
-        "body": "Demandez les consignes propres à votre installation : quand reprendre la route et les précautions à suivre pour le lavage et l’utilisation du véhicule."
+        "title": "Des consignes claires",
+        "body": "Vous recevez les consignes propres à votre installation : quand reprendre la route et comment laver et utiliser le véhicule."
+      },
+      {
+        "title": "Une garantie sur votre remplacement",
+        "body": "Nous expliquons ce qui est couvert en vous envoyant votre soumission."
       }
-    ],
-    "closing": "Vous hésitez? Décrivez le dommage pour discuter de la prochaine étape."
+    ]
+  },
+  "situations": {
+    "eyebrow": "Votre situation",
+    "title": "Chaque pare-brise vient avec ses propres questions.",
+    "cards": [
+      {
+        "title": "Une réclamation d’assurance",
+        "body": "Votre assureur confirme la couverture et la franchise. Nous préparons une soumission à joindre à votre dossier.",
+        "cta": "Demander une soumission",
+        "target": "insurance"
+      },
+      {
+        "title": "Véhicules d’entreprise et flottes",
+        "body": "Indiquez le nombre et le type de véhicules ainsi que leur emplacement. Nous confirmerons ensemble la prise en charge.",
+        "cta": "Parler de votre flotte",
+        "target": "fleets"
+      },
+      {
+        "title": "Caméras et capteurs",
+        "body": "Mentionnez-les dès le départ. Si une calibration ADAS est nécessaire, nous vous orientons vers un fournisseur approprié.",
+        "cta": "En savoir plus",
+        "target": "cameras"
+      },
+      {
+        "title": "Vous ne savez pas ce qu’il vous faut?",
+        "body": "Notre service est le remplacement. Textez-nous une photo et une description : nous vous aiderons à voir la prochaine étape.",
+        "cta": "Texter une photo",
+        "target": "text"
+      }
+    ]
   },
   "process": {
-    "previous": "Étape précédente",
-    "next": "Étape suivante",
-    "regionLabel": "Les étapes du service",
-    "title": "Comment ça se passe",
+    "eyebrow": "Comment ça marche",
+    "title": "Quatre étapes, de la fissure à la route dégagée.",
+    "textCta": "Texter une photo",
+    "quoteCta": "Soumission gratuite",
     "steps": [
       {
         "id": "request",
-        "label": "01 · Demande",
-        "title": "Présentez-nous votre véhicule",
-        "body": "Indiquez la marque, le modèle, l’année et le secteur où vous souhaitez le service. Ajoutez le NIV si vous l’avez et une description du pare-brise pour aider Vitreva à préparer la soumission.",
-        "image": "van"
+        "title": "Décrivez le dommage",
+        "body": "Textez une photo ou remplissez le formulaire : année, marque et modèle du véhicule, endroit où il se trouve et NIV si vous l’avez."
       },
       {
-        "id": "confirm",
-        "label": "02 · Confirmation",
-        "title": "Clarifions les détails",
-        "body": "Vitreva vous recontacte pour préciser la soumission, les besoins du véhicule et les disponibilités. Signalez les caméras et aides à la conduite. Si une calibration ADAS est nécessaire, nous vous orientons vers un fournisseur approprié. Le rendez-vous reste à confirmer.",
-        "image": "installation"
+        "id": "quote",
+        "title": "Recevez votre soumission gratuite",
+        "body": "Nous répondons dans les 24 heures et confirmons avec vous le travail, le prix et le lieu. Mentionnez les caméras et aides à la conduite."
       },
       {
-        "id": "replace",
-        "label": "03 · Remplacement",
-        "title": "Le service mobile convenu",
-        "body": "Une fois le lieu et le rendez-vous confirmés, Vitreva se déplace pour le remplacement convenu. Les consignes après l’installation et le délai avant de reprendre la route sont précisés selon les conditions propres à votre intervention.",
-        "image": "aftercare"
+        "id": "visit",
+        "title": "On vient à vous",
+        "body": "Vous approuvez d’abord le prix et l’heure. Nous vous rejoignons ensuite au lieu convenu, sans frais supplémentaires pour le service mobile."
+      },
+      {
+        "id": "road",
+        "title": "De retour sur la route",
+        "body": "Nous expliquons quand reprendre la route et comment prendre soin du nouveau pare-brise. Votre remplacement est couvert par notre garantie."
       }
     ]
   },
@@ -118,18 +185,24 @@
     "consent": "J’accepte que Vitreva utilise ces renseignements pour traiter ma demande et me répondre.",
     "required": "Obligatoire",
     "subject": "Demande de soumission Vitreva",
-    "title": "Parlons de votre pare-brise.",
-    "intro": "Envoyez les détails de votre véhicule et de votre emplacement pour demander une soumission.",
+    "title": "Retrouvons votre vue dégagée.",
+    "intro": "Choisissez ce qui vous convient le mieux. Nous répondons dans les 24 heures et la soumission est gratuite.",
     "vinHelp": "Si disponible. Sur l’immatriculation, l’assurance ou généralement au bas du pare-brise côté conducteur.",
-    "submit": "Envoyer ma demande",
-    "note": "Cette demande ne confirme pas un rendez-vous.",
+    "submit": "Obtenir ma soumission gratuite",
+    "note": "Cet envoi ne réserve rien : nous confirmons d’abord le prix et le rendez-vous avec vous.",
     "fields": {
       "name": "Nom",
       "contact": "Téléphone ou courriel",
       "vehicle": "Année, marque et modèle",
-      "vin": "NIV (VIN)",
+      "vin": "NIV (VIN, facultatif)",
       "location": "Ville ou code postal",
       "message": "Votre besoin"
+    },
+    "eyebrow": "Soumission gratuite",
+    "ways": {
+      "text": "Texter une photo",
+      "textNote": "Le plus simple pour montrer le dommage",
+      "email": "Courriel"
     }
   },
   "footer": {
@@ -137,29 +210,13 @@
     "terms": "Conditions d’utilisation",
     "language": "Langue",
     "creditPrefix": "Powered by",
-    "description": "Remplacement de pare-brise mobile · Gatineau"
-  },
-  "legal": {
-    "privacy": {
-      "title": "Confidentialité",
-      "paragraphs": [
-        "Vous pouvez consulter ce site sans créer de compte. Le site n’utilise pas d’outil d’analyse d’audience et ne conserve pas votre demande dans votre navigateur.",
-        "Lorsque vous envoyez une demande, les renseignements saisis sont transmis à Vitreva par Web3Forms, le prestataire de formulaire utilisé sur ce site. Ils servent à comprendre votre besoin, préparer la soumission et vous répondre. Web3Forms traite aussi les données nécessaires à l’acheminement du formulaire selon ses propres pratiques.",
-        "Ne transmettez pas de renseignements sensibles qui ne sont pas nécessaires à votre demande. Le NIV est facultatif.",
-        "Pour toute question sur vos renseignements personnels ou pour demander leur correction ou leur suppression, écrivez à contact@vitreva.ca."
-      ]
-    },
-    "terms": {
-      "title": "Conditions d’utilisation",
-      "paragraphs": [
-        "Ce site présente le service de remplacement mobile de pare-brise de Vitreva à Gatineau et permet de demander une soumission.",
-        "L’envoi d’une demande ne confirme ni un prix ni un rendez-vous. Le travail, le prix, le lieu et les disponibilités sont à confirmer directement avec Vitreva.",
-        "Les besoins de calibration ADAS sont orientés vers un fournisseur approprié. Les consignes après la pose sont précisées selon votre installation.",
-        "Les photographies illustratives présentent le service; elles ne constituent pas une preuve de travaux réalisés.",
-        "Pour toute question, contactez Vitreva à contact@vitreva.ca."
-      ]
-    },
-    "close": "Fermer"
+    "description": "Remplacement de pare-brise mobile à Gatineau et dans l’Outaouais, au Québec.",
+    "serviceTitle": "Service",
+    "contactTitle": "Contact",
+    "hoursTitle": "Heures",
+    "days": "Du lundi au samedi",
+    "hours": "De 9 h à 21 h",
+    "companyTitle": "Vitreva"
   },
   "images": {
     "van": "Illustration du véhicule de service mobile Vitreva à Gatineau.",
@@ -167,7 +224,10 @@
     "aftercare": "Illustration d’un pare-brise après son installation."
   },
   "faq": {
-    "title": "Vos questions",
+    "eyebrow": "Questions",
+    "title": "Bon à savoir avant d’appeler.",
+    "intro": "Vous ne trouvez pas votre question? Textez-nous ou appelez, du lundi au samedi, de 9 h à 21 h.",
+    "cta": "Nous texter",
     "items": [
       {
         "question": "Que faut-il pour une soumission et où trouver le NIV?",
@@ -179,11 +239,15 @@
       },
       {
         "question": "Combien coûte un remplacement?",
-        "answer": "Nous préparons une soumission adaptée à votre véhicule et au pare-brise nécessaire. Envoyez les renseignements du véhicule, le NIV si vous l’avez et votre emplacement : nous clarifierons avec vous le travail et le prix avant que vous donniez votre accord."
+        "answer": "La soumission est gratuite. Nous la préparons pour votre véhicule et le pare-brise nécessaire, et clarifions avec vous le travail et le prix avant que vous donniez votre accord. Il n’y a aucuns frais supplémentaires pour le service mobile."
       },
       {
-        "question": "Ma demande confirme-t-elle un rendez-vous?",
-        "answer": "Votre demande lance simplement la discussion. Nous précisons ensuite avec vous le travail, le lieu et les disponibilités. Vous pourrez confirmer votre rendez-vous une fois ces détails convenus ensemble."
+        "question": "Mon remplacement est-il garanti?",
+        "answer": "Oui. Nous expliquons ce qui est couvert en vous envoyant votre soumission."
+      },
+      {
+        "question": "Quand aurai-je une réponse, et ma demande confirme-t-elle un rendez-vous?",
+        "answer": "Nous répondons dans les 24 heures suivant votre demande. Celle-ci lance simplement la discussion : vous confirmez votre rendez-vous une fois le travail, le lieu et l’heure convenus ensemble."
       },
       {
         "question": "Mon véhicule a une caméra : qu’en est-il de la calibration?",
@@ -202,5 +266,10 @@
         "answer": "Votre assureur pourra vous confirmer la couverture et la franchise prévues à votre contrat. De notre côté, nous pouvons préparer une soumission à joindre à votre dossier, pour vous aider à vérifier avec lui le montant qui resterait à votre charge."
       }
     ]
+  },
+  "pagesUi": {
+    "breadcrumb": "Fil d’Ariane",
+    "related": "À voir aussi",
+    "communities": "Secteurs et municipalités"
   }
 }

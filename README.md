@@ -62,7 +62,9 @@ The `Deploy GitHub Pages` workflow is manually started from the Actions tab. Ena
 
 Without overrides, the workflow uses GitHub Pages metadata for origin and base path. Locally, copy `.env.example` to `.env` and set `PUBLIC_SITE_URL`, `BASE_PATH` and `PUBLIC_WEB3FORMS_ACCESS_KEY` as needed. Build-time settings require rebuilding the site.
 
-The site emits complete localized HTML, canonical and reciprocal language links, social metadata, LocalBusiness data with known facts, `sitemap.xml`, `robots.txt` and an optional `llms.txt`. The latter does not guarantee recommendations or rankings.
+The site emits complete localized HTML for the home page and eight translated pages, canonical and reciprocal language links, social metadata with a share card per page and language, structured business data with known facts, `sitemap.xml`, `robots.txt` and an optional `llms.txt`.
+
+Generated assets are committed: `npm run images` regenerates photos and icons, `npm run share-images` regenerates the share cards in `static/images/og/` after a title or banner change (requires Microsoft Edge), and `node scripts/generate-crack.mjs` regenerates the crack drawing. The latter does not guarantee recommendations or rankings.
 
 ## Review and launch
 

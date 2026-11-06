@@ -1,0 +1,246 @@
+{
+  "replacement": {
+    "label": "Windshield replacement",
+    "summary": "On-site replacement with a free quote and no extra charge for mobile service.",
+    "meta": {
+      "title": "Mobile windshield replacement in Gatineau | Vitreva",
+      "description": "Windshield replacement on site in Gatineau and nearby Quebec communities. Free quote, no extra charge for mobile service, reply within 24 hours."
+    },
+    "eyebrow": "The service",
+    "title": "Windshield replacement, right where your vehicle is parked.",
+    "intro": "Vitreva replaces windshields on site in Gatineau and nearby Quebec communities. The quote is free, there’s no extra charge for mobile service, and you approve the price before any work starts.",
+    "sections": [
+      {
+        "title": "What’s included",
+        "body": ["One service, done where your vehicle is: we remove the damaged windshield and install the new one at the location we agreed on."],
+        "list": ["A free quote for your vehicle", "No extra charge for mobile service", "Instructions specific to your installation", "A warranty on your replacement, explained with your quote"]
+      },
+      {
+        "title": "What we need from you",
+        "body": ["A few details are enough to get started. If you don’t have everything, send what you have and we’ll work through the rest together."],
+        "list": ["Your vehicle’s year, make and model", "Where the vehicle will be parked", "A photo of the damage, by text if you can", "Your VIN, if you have it: on your registration or insurance documents, or usually at the lower driver-side windshield", "Any cameras or driver-assist features"]
+      },
+      {
+        "title": "Where it happens",
+        "body": ["Tell us where the vehicle will be. We confirm the location and working conditions with you before the appointment, so there are no surprises on the day."],
+        "list": []
+      },
+      {
+        "title": "After the installation",
+        "body": ["We explain when you can drive again and what precautions to take when washing and using your vehicle. These instructions depend on your particular installation, so ask us if anything is unclear."],
+        "list": []
+      },
+      {
+        "title": "Repair or replacement?",
+        "body": ["Our service is replacement. If you’re not sure your windshield needs replacing, text us a photo or describe the damage, and we’ll help you understand the next step before agreeing on any work."],
+        "list": []
+      }
+    ]
+  },
+  "insurance": {
+    "label": "Insurance",
+    "summary": "A free quote you can add to your claim, while your insurer confirms your coverage.",
+    "meta": {
+      "title": "Windshield replacement and insurance in Gatineau | Vitreva",
+      "description": "Your insurer confirms your coverage and deductible. Vitreva prepares a free quote you can add to your claim, for mobile windshield replacement in Gatineau."
+    },
+    "eyebrow": "Insurance",
+    "title": "Replacing your windshield with insurance.",
+    "intro": "Your insurer decides what your policy covers. We give you a clear, free quote so you can check with them what you would need to pay.",
+    "sections": [
+      {
+        "title": "What your insurer confirms",
+        "body": ["Coverage and deductibles differ from one policy to another, so your insurer is the right place for these answers. A few questions worth asking:"],
+        "list": ["Is windshield replacement covered by my policy?", "What is my deductible for this kind of damage?", "Do you need anything from me before the work is done?"]
+      },
+      {
+        "title": "What Vitreva provides",
+        "body": ["A quote for your vehicle and the windshield it needs, which you can add to your claim. The quote is free, and you decide whether to go ahead once you know where you stand."],
+        "list": []
+      },
+      {
+        "title": "How it usually goes",
+        "body": ["Each insurer has its own process, but these are the steps on our side."],
+        "list": ["Send us your vehicle details and a photo of the damage", "Get a reply within 24 hours, then your free quote", "Check your coverage and deductible with your insurer", "Confirm the location and appointment with us"]
+      }
+    ]
+  },
+  "fleets": {
+    "label": "Business fleets",
+    "summary": "Replacement for business vehicles, at the location that suits your operations.",
+    "meta": {
+      "title": "Windshield replacement for business fleets in Gatineau | Vitreva",
+      "description": "Mobile windshield replacement for business vehicles and fleets in Gatineau and nearby Quebec communities. Tell us about your vehicles for a free quote."
+    },
+    "eyebrow": "Business fleets",
+    "title": "Windshield replacement for business vehicles.",
+    "intro": "Vitreva serves individuals and fleets. Because we come to you, your vehicle doesn’t have to make a trip to a shop for us to look after it.",
+    "sections": [
+      {
+        "title": "What to send us",
+        "body": ["These details let us talk about your needs with something concrete in front of us."],
+        "list": ["How many vehicles, and what type", "Where they are located", "A photo of the damage, if you have one", "Any cameras or driver-assist features"]
+      },
+      {
+        "title": "How we work with businesses",
+        "body": ["We discuss your needs and confirm together whether we can take on the work. The price, location and availability are agreed with you before anything is scheduled, and the quote is free."],
+        "list": []
+      },
+      {
+        "title": "Where we can go",
+        "body": ["Our mobile service covers Gatineau and nearby communities, in Quebec only. Each address is confirmed individually, which matters if your vehicles are spread across several sites."],
+        "list": []
+      }
+    ]
+  },
+  "cameras": {
+    "label": "Cameras and ADAS",
+    "summary": "What to tell us about cameras and sensors, and how calibration is handled.",
+    "meta": {
+      "title": "Windshields with cameras and ADAS in Gatineau | Vitreva",
+      "description": "Does your windshield have a camera or sensors? Tell us up front. If ADAS calibration is needed, Vitreva refers you to an appropriate provider."
+    },
+    "eyebrow": "Cameras and ADAS",
+    "title": "Windshields with cameras and driver-assist sensors.",
+    "intro": "Many recent vehicles have a camera or sensors mounted at the windshield. Tell us about them up front, so this step is clear before your replacement is confirmed.",
+    "sections": [
+      {
+        "title": "Why it matters",
+        "body": ["Driver-assist features can rely on a camera mounted at the windshield. After a replacement, some vehicles need that system calibrated, which is known as ADAS calibration."],
+        "list": []
+      },
+      {
+        "title": "What Vitreva does",
+        "body": ["Vitreva replaces windshields and does not perform ADAS calibration. If your vehicle needs it, we refer you to an appropriate provider and help clarify that step before confirming the replacement."],
+        "list": []
+      },
+      {
+        "title": "What to tell us",
+        "body": ["You don’t need to know the technical details. Just share what you can see or what you already know about your vehicle."],
+        "list": ["Your vehicle’s year, make and model", "Whether there’s a camera or sensor near the rearview mirror", "Any driver-assist features you know of", "A photo of the area behind the rearview mirror, if you’re not sure"]
+      }
+    ]
+  },
+  "area": {
+    "label": "Service area",
+    "summary": "Gatineau and nearby Quebec communities, confirmed for your address.",
+    "meta": {
+      "title": "Service area: Gatineau and the Outaouais | Vitreva",
+      "description": "Mobile windshield replacement in Gatineau, Hull, Aylmer, Chelsea, Cantley, Val-des-Monts, La Pêche and nearby Quebec communities, within roughly 50 km."
+    },
+    "eyebrow": "Service area",
+    "title": "Mobile service across Gatineau and nearby communities.",
+    "intro": "We serve the Quebec side only, within roughly 50 km in a straight line. Send your city or postal code, and we’ll confirm travel to your location.",
+    "sections": [
+      {
+        "title": "How we confirm your address",
+        "body": ["The radius is a straight-line estimate, not a road distance, and a town being listed doesn’t guarantee every address in its territory. That’s why each location and appointment is confirmed with you individually."],
+        "list": []
+      },
+      {
+        "title": "Near the boundary",
+        "body": ["Val-des-Bois sits near the limit of our area, so it depends on your exact address. Our service stays in Quebec, so addresses in Ottawa and elsewhere in Ontario aren’t covered."],
+        "list": []
+      }
+    ]
+  },
+  "about": {
+    "label": "About Vitreva",
+    "summary": "A Gatineau business with one focus: replacing windshields where the vehicle is.",
+    "meta": {
+      "title": "About Vitreva | Mobile windshield replacement in Gatineau",
+      "description": "Vitreva is a mobile windshield replacement service in Gatineau, Quebec. A free quote, a reply within 24 hours, and the price agreed before any work starts."
+    },
+    "eyebrow": "About",
+    "title": "One service, built around coming to you.",
+    "intro": "Vitreva is a business based in Gatineau with one focus: replacing windshields where the vehicle is, so a cracked windshield doesn’t have to take over your day.",
+    "sections": [
+      {
+        "title": "How we work",
+        "body": ["A few simple commitments guide every request."],
+        "list": ["A free quote, even when we come to you", "A reply within 24 hours of your request", "The work, price and location agreed before anything starts", "No extra charge for mobile service", "A warranty on your replacement"]
+      },
+      {
+        "title": "Who we serve",
+        "body": ["Individuals and businesses in Gatineau and nearby Quebec communities, Monday to Saturday from 9 am to 9 pm."],
+        "list": []
+      },
+      {
+        "title": "A note on our photos",
+        "body": ["The images on this site are illustrations of the service. Photos of real jobs are coming soon."],
+        "list": []
+      }
+    ]
+  },
+  "privacy": {
+    "label": "Privacy",
+    "summary": "How the details you send are used.",
+    "meta": {
+      "title": "Privacy | Vitreva",
+      "description": "How Vitreva uses the details you send when you request a windshield replacement quote."
+    },
+    "eyebrow": "Legal",
+    "title": "Privacy",
+    "intro": "",
+    "sections": [
+      {
+        "title": "Browsing this site",
+        "body": ["You can browse this site without creating an account. The site does not use audience analytics or store your request in your browser."],
+        "list": []
+      },
+      {
+        "title": "When you submit a request",
+        "body": ["When you submit a request, the details you enter are sent to Vitreva through Web3Forms, the form provider used on this site. They are used to understand your needs, prepare a quote and respond to you. Web3Forms also processes the data needed to deliver the form according to its own practices."],
+        "list": []
+      },
+      {
+        "title": "What to send",
+        "body": ["Please do not send sensitive information that is unnecessary for your request. Your VIN is optional."],
+        "list": []
+      },
+      {
+        "title": "Your personal information",
+        "body": ["For questions about your personal information, or to request its correction or deletion, email contact@vitreva.ca."],
+        "list": []
+      }
+    ]
+  },
+  "terms": {
+    "label": "Terms of use",
+    "summary": "The conditions for using this site.",
+    "meta": {
+      "title": "Terms of use | Vitreva",
+      "description": "The conditions for using the Vitreva website and requesting a windshield replacement quote."
+    },
+    "eyebrow": "Legal",
+    "title": "Terms of use",
+    "intro": "",
+    "sections": [
+      {
+        "title": "About this site",
+        "body": ["This site presents Vitreva’s mobile windshield replacement service in Gatineau and lets you request a quote."],
+        "list": []
+      },
+      {
+        "title": "Quotes and appointments",
+        "body": ["Submitting a request does not confirm a price or an appointment. The work, price, location and availability must be confirmed directly with Vitreva."],
+        "list": []
+      },
+      {
+        "title": "Calibration and aftercare",
+        "body": ["ADAS calibration needs are referred to an appropriate provider. Aftercare instructions are provided for your particular installation."],
+        "list": []
+      },
+      {
+        "title": "Photographs",
+        "body": ["Illustrative photographs show the service; they are not evidence of completed jobs."],
+        "list": []
+      },
+      {
+        "title": "Contact",
+        "body": ["For any questions, contact Vitreva at contact@vitreva.ca."],
+        "list": []
+      }
+    ]
+  }
+}

@@ -26,9 +26,12 @@ for (const locale of ['fr', 'en', 'es']) {
     const source = readContent('fr');
     const translated = readContent(locale);
     validateContent(translated, source, locale);
-    translated.process.steps.forEach((step: { id: string; image: string }, index: number) => {
+    translated.process.steps.forEach((step: { id: string }, index: number) => {
       assert.equal(step.id, source.process.steps[index].id);
-      assert.equal(step.image, source.process.steps[index].image);
+    });
+    assert.deepEqual(Object.keys(translated.pagesUi).sort(), ['breadcrumb', 'communities', 'related']);
+    translated.situations.cards.forEach((card: { target: string }, index: number) => {
+      assert.equal(card.target, source.situations.cards[index].target);
     });
   });
 }
