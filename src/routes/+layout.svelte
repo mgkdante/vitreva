@@ -1,5 +1,6 @@
 <script lang="ts">
   import '../app.css';
+  import { afterNavigate, beforeNavigate } from '$app/navigation';
   import { page } from '$app/state';
   import { asset } from '$app/paths';
   import { site } from '#lib/config/site.ts';
@@ -8,6 +9,14 @@
   import manrope from '@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2?url';
 
   let { children }: { children: Snippet } = $props();
+
+  // Smooth scrolling is for anchors within a page. Opening another page lands at once.
+  beforeNavigate(({ from, to }) => {
+    if (from && to && from.url.pathname !== to.url.pathname) document.documentElement.style.scrollBehavior = 'auto';
+  });
+  afterNavigate(() => {
+    document.documentElement.style.removeProperty('scroll-behavior');
+  });
 
   $effect(() => {
     document.documentElement.lang = getLocaleFromPath(page.url.pathname.slice(site.basePath.length));

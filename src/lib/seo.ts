@@ -1,40 +1,89 @@
 import { absoluteUrl, site } from '#lib/config/site.ts';
-import { locales, type Locale } from '#lib/content/index.ts';
+import { locales, getContent, type Locale } from '#lib/content/index.ts';
+import { getPage, legalPageKeys, pagePath, type PageKey } from '#lib/content/pages.ts';
 
-export const languagePages = locales.map((locale) => ({
+const langTag = (locale: Locale) => `${locale}-CA`;
+const ogLocaleOf = (locale: Locale) => locale === 'es' ? 'es_LA' : `${locale}_CA`;
+
+export interface Seo {
+  title: string;
+  description: string;
+  canonical: string;
+  alternates: { locale: string; href: string }[];
+  ogLocale: string;
+  ogLocaleAlternates: string[];
+  ogImage: string;
+  jsonLd: string;
+}
+
+export const languagePages = (key?: PageKey) => locales.map((locale) => ({
   locale,
-  href: absoluteUrl(locale === 'fr' ? '' : `${locale}/`)
+  href: absoluteUrl(pagePath(locale, key))
 }));
 
-export function getSeo(locale: Locale, content: { meta: { title: string; description: string } }) {
-  const canonical = absoluteUrl(locale === 'fr' ? '' : `${locale}/`);
-  const ogImage = absoluteUrl('images/social.jpg');
-  const structuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+const isLegal = (key?: PageKey) => (legalPageKeys as readonly string[]).includes(key ?? '');
+
+/** Legal pages share the home page's card; every other page has one per language. */
+export const shareImagePath = (locale: Locale, key?: PageKey) => `images/og/${locale}-${key && !isLegal(key) ? key : 'home'}.jpg`;
+
+function businessNode(locale: Locale, description: string) {
+  return {
+    '@type': 'AutoRepair',
+    '@id': `${absoluteUrl('')}#business`,
     name: site.brand,
-    url: canonical,
-    image: ogImage,
-    telephone: '+18192098023',
+    url: absoluteUrl(pagePath(locale)),
+    image: absoluteUrl(shareImagePath(locale)),
+    telephone: site.phoneE164,
     email: site.email,
-    description: content.meta.description,
+    description,
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      opens: site.hours.opens,
+      closes: site.hours.closes
+    },
     areaServed: site.serviceArea.locations.map((name) => ({
       '@type': 'Place',
       name,
       containedInPlace: { '@type': 'AdministrativeArea', name: site.serviceArea.province }
     }))
   };
+}
+
+export function getSeo(locale: Locale, key?: PageKey): Seo {
+  const content = getContent(locale);
+  const meta = key ? getPage(locale, key).meta : content.meta;
+  const canonical = absoluteUrl(pagePath(locale, key));
+  const ogImage = absoluteUrl(shareImagePath(locale, key));
+  const pageNodes = key ? [{
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: site.brand, item: absoluteUrl(pagePath(locale)) },
+      { '@type': 'ListItem', position: 2, name: getPage(locale, key).label, item: canonical }
+    ]
+  }] : [];
+  const serviceNodes = !key || key === 'replacement' ? [{
+    '@type': 'Service',
+    name: getPage(locale, 'replacement').label,
+    description: getPage(locale, 'replacement').summary,
+    provider: { '@id': `${absoluteUrl('')}#business` },
+    url: absoluteUrl(pagePath(locale, 'replacement'))
+  }] : [];
 
   return {
-    title: content.meta.title,
-    description: content.meta.description,
+    title: meta.title,
+    description: meta.description,
     canonical,
     alternates: [
-      ...languagePages.map(({ locale, href }) => ({ locale: `${locale}-CA`, href })),
-      { locale: 'x-default', href: absoluteUrl('') }
+      ...languagePages(key).map((page) => ({ locale: langTag(page.locale), href: page.href })),
+      { locale: 'x-default', href: absoluteUrl(pagePath('fr', key)) }
     ],
-    ogLocale: `${locale}_CA`,
+    ogLocale: ogLocaleOf(locale),
+    ogLocaleAlternates: locales.filter((other) => other !== locale).map(ogLocaleOf),
     ogImage,
-    jsonLd: JSON.stringify(structuredData).replace(/</g, '\\u003c')
+    jsonLd: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@graph': [businessNode(locale, content.meta.description), ...serviceNodes, ...pageNodes]
+    }).replace(/</g, '\\u003c')
   };
 }

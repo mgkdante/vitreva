@@ -1,16 +1,17 @@
 <script lang="ts">
-  import { resolve } from '$app/paths';
   import type { Locale } from '#lib/content/index.ts';
+  import type { PageKey } from '#lib/content/pages.ts';
+  import { localHref } from '#lib/links.ts';
 
-  let { locale, label }: { locale: Locale; label: string } = $props();
+  let { locale, label, pageKey }: { locale: Locale; label: string; pageKey?: PageKey } = $props();
 </script>
 
 <div class="language-switch" role="group" aria-label={label}>
-  <a href={`${resolve('/[[lang=lang]]', {}).replace(/\/$/, '')}/`} lang="fr" hreflang="fr-CA" aria-current={locale === 'fr' ? 'page' : undefined}>FR</a>
+  <a href={localHref('fr', pageKey)} lang="fr" hreflang="fr-CA" aria-current={locale === 'fr' ? 'page' : undefined}>FR</a>
   <span aria-hidden="true">|</span>
-  <a href={`${resolve('/[[lang=lang]]', { lang: 'en' })}/`} lang="en" hreflang="en-CA" aria-current={locale === 'en' ? 'page' : undefined}>EN</a>
+  <a href={localHref('en', pageKey)} lang="en" hreflang="en-CA" aria-current={locale === 'en' ? 'page' : undefined}>EN</a>
   <span aria-hidden="true">|</span>
-  <a href={`${resolve('/[[lang=lang]]', { lang: 'es' })}/`} lang="es" hreflang="es-CA" aria-current={locale === 'es' ? 'page' : undefined}>ES</a>
+  <a href={localHref('es', pageKey)} lang="es" hreflang="es-CA" aria-current={locale === 'es' ? 'page' : undefined}>ES</a>
 </div>
 
 <style>
