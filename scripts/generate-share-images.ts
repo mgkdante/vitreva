@@ -1,7 +1,7 @@
 // Renders the 1200x630 link-preview cards with the site's font, photo and dashboard. `bun run build`
 // runs this first, so the cards always match the saved titles, banner and phone number. Needs Microsoft
 // Edge or Google Chrome, which GitHub's build machines already have.
-import { mkdirSync, readFileSync, rmSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, rmSync } from 'node:fs';
 import path from 'node:path';
 import { chromium, type Browser } from 'playwright-core';
 import { factTokens, fillFacts, type BusinessFacts } from '../src/lib/content/facts.ts';
@@ -53,6 +53,13 @@ ${cracked ? art.crack : ''}
 <div class="copy"><p class="brand">VITREVA</p><h1>${escapeHtml(title)}</h1><div class="chips">${chips.map((chip) => `<span>${escapeHtml(chip)}</span>`).join('')}</div></div>
 </body></html>`;
 
+/** The van photo chosen in the editor, or the site's own. */
+function vanPhoto() {
+  const manifest = inRoot('src/lib/generated/photos.json');
+  const chosen: string | undefined = existsSync(manifest) ? JSON.parse(readFileSync(manifest, 'utf8')).van?.files.at(-1) : undefined;
+  return `static/${chosen ?? 'images/van-1672.webp'}`;
+}
+
 /** Sizes to try for a title, largest first. What the owner writes is never refused: a long title gets smaller type. */
 const titleSizes = (title: string) => [title.length > 52 ? 50 : 60, 44, 38, 32, 26];
 
@@ -70,7 +77,7 @@ async function openBrowser(): Promise<Browser> {
 async function main() {
   const art = {
     font: dataUrl('node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2', 'font/woff2'),
-    van: dataUrl('static/images/van-1672.webp', 'image/webp'),
+    van: dataUrl(vanPhoto(), 'image/webp'),
     dash: readFileSync(inRoot('src/lib/art/dash.svg'), 'utf8'),
     crack: readFileSync(inRoot('src/lib/art/crack.svg'), 'utf8')
   };

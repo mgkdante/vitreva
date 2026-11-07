@@ -1,6 +1,6 @@
 /** The site's editor setup, from the Content Contract. Used at build time only. */
 import { cmsConfig as buildCmsConfig, type ContentFile, type ContentFileGroup } from '@yesid/content-contract';
-import { businessContract, errorContract, footerContract, homeContract, menuContract, pageContract, quoteContract } from './contract.ts';
+import { businessContract, errorContract, footerContract, homeContract, menuContract, pageContract, photosContract, quoteContract } from './contract.ts';
 import { locales } from './locales.ts';
 
 export const CMS_CONFIG_PATH = 'cms/config.yml';
@@ -34,6 +34,7 @@ export const contentGroups: readonly ContentFileGroup[] = [
     icon: 'public',
     files: [
       contentFile('business', 'Entreprise', businessContract),
+      contentFile('photos', 'Photos', photosContract),
       contentFile('menu', 'Menu et bandeau', menuContract),
       contentFile('quote', 'Formulaire de soumission', quoteContract),
       contentFile('footer', 'Pied de page', footerContract),

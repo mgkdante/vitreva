@@ -2,7 +2,8 @@
 import { factTokens, fillFacts, type BusinessFacts } from './facts.ts';
 import type { Locale } from './locales.ts';
 
-const files = import.meta.glob<unknown>('./*.json', { eager: true, import: 'default' });
+// The photo choices are only read while building: the pages get the resized copies, never the uploads' names.
+const files = import.meta.glob<unknown>(['./*.json', '!./photos.*.json'], { eager: true, import: 'default' });
 
 const readFile = <T>(name: string, locale: Locale): T => {
   const file = files[`./${name}.${locale}.json`];

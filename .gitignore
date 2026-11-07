@@ -5,6 +5,8 @@ node_modules/
 build/
 .wrangler/
 /static/images/og/
+/static/images/photos/
+/src/lib/generated/
 *.log
 /qa-artifacts/
 /test-results/

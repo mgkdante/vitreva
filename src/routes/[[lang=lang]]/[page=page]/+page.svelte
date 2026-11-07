@@ -4,6 +4,7 @@
   import { getSeo } from '#lib/seo.ts';
   import { getPages, legalPageKeys, pageKeys, type PageKey } from '#lib/content/pages.ts';
   import { localHref } from '#lib/links.ts';
+  import type { PhotoSlot } from '#lib/photos.ts';
   import PageHead from '#lib/components/PageHead.svelte';
   import SiteHeader from '#lib/components/SiteHeader.svelte';
   import SiteFooter from '#lib/components/SiteFooter.svelte';
@@ -20,7 +21,7 @@
   let related = $derived(pageKeys.filter((other) => other !== key && !(legalPageKeys as readonly PageKey[]).includes(other)).slice(0, 5));
   let pages = $derived(getPages(locale));
 
-  const photos: Partial<Record<PageKey, string>> = { replacement: 'installation', insurance: 'aftercare', fleets: 'van', cameras: 'aftercare', area: 'aftercare', about: 'van' };
+  const photos: Partial<Record<PageKey, PhotoSlot>> = { replacement: 'installation', insurance: 'aftercare', fleets: 'van', cameras: 'aftercare', area: 'aftercare', about: 'van' };
 </script>
 
 <PageHead {seo} />
