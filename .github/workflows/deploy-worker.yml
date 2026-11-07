@@ -1,0 +1,99 @@
+name: Deploy Workers test site
+
+# Publishes every push to main on the workers.dev test address. vitreva.ca stays on GitHub Pages
+# until the cutover, so this workflow never changes what the live domain serves.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: worker-test
+  cancel-in-progress: false
+
+jobs:
+  # No Cloudflare secret reaches this job, which runs dependency scripts and the build.
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.4
+      - run: bun install --frozen-lockfile
+      - run: bun run check
+      - run: bun run test
+      # The Web3Forms key is left out on purpose: the form stays off on the test address, so no
+      # stray request reaches the owner's inbox.
+      - run: bun run build
+        env:
+          PUBLIC_SITE_URL: ${{ vars.SITE_URL }}
+          BASE_PATH: ''
+      # Written here rather than kept in static/, so the cutover cannot inherit it by accident.
+      - name: Keep the test address out of search results
+        run: |
+          printf '/*\n  X-Robots-Tag: noindex\n' > build/_headers
+      - uses: actions/upload-artifact@v7
+        with:
+          name: site
+          path: build
+          if-no-files-found: error
+          retention-days: 3
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.4
+      - run: bun install --frozen-lockfile --ignore-scripts
+      - uses: actions/download-artifact@v8
+        with:
+          name: site
+          path: build
+      # Wrangler only runs once the checks and the build have passed, and a new version goes live
+      # all at once, so any failure leaves the previous version in place.
+      - run: ./node_modules/.bin/wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_SEND_METRICS: 'false'
+
+  # CMS saves are made by a bot, so GitHub's own failure email may not reach anyone. An assigned
+  # issue does. It carries only links, because the issue is public while the repository is.
+  alert:
+    needs: [build, deploy]
+    if: failure() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Open or update the failure issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          BODY: 'Commit ${{ github.sha }} did not publish, so the previous version stays online. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+        run: |
+          title='Publishing failed'
+          # Only this workflow's own issue counts: anyone can open an issue with this title.
+          number=$(gh issue list --state open --author 'app/github-actions' --json number,title \
+            --jq "[.[] | select(.title == \"$title\")][0].number // empty")
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --add-assignee "$OWNER"
+            gh issue comment "$number" --body "$BODY"
+          else
+            gh issue create --title "$title" --assignee "$OWNER" --body "$BODY"
+          fi
