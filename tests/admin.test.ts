@@ -4,7 +4,7 @@ import { test } from 'bun:test';
 import { cmsConfig } from '../src/lib/content/cms.ts';
 
 const page = readFileSync(new URL('../static/admin/index.html', import.meta.url), 'utf8');
-const editor = `${cmsConfig().backend.base_url}/admin/`;
+const editor = `${cmsConfig().backend.api_root}/`;
 
 test('/admin leads to the editor on the login service, even without JavaScript', () => {
   assert.ok(page.includes(`content="0; url=${editor}"`), 'no refresh to the editor');

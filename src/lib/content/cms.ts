@@ -9,6 +9,7 @@ export const cmsConfig = ({ branch }: { branch?: string } = {}) =>
   buildCmsConfig({
     repo: 'mgkdante/vitreva',
     loginOrigin: 'https://login.yesid.dev',
+    siteSlug: 'vitreva',
     branch,
     locales,
     defaultLocale: 'fr',
