@@ -27,7 +27,8 @@ The static site is written to `build/`. There is no server to run in production.
 - `src/lib/content/<name>.<locale>.json`: one file per place on the site and per language, such as `home.fr.json` or `quote.en.json`. `contentGroups` in `cms.ts` lists them all and lays out the editor: Pages, Partout sur le site, Textes légaux.
 - `src/lib/content/contract.ts`: what can be edited, with its labels and checks. It gives the code its types, the tests their checks and the CMS its fields. After changing it, run `bun run cms:config`, and `bun run content:format` if the order changed.
 - `src/lib/content/index.ts`: typed locale selection.
-- `src/lib/config/site.ts`: public business contact details and shared settings.
+- `src/lib/content/business.<locale>.json`: phone, email, hours and service area, written once and shared by every language except the wording of the hours. Other content refers to them with placeholders such as `{hours}` or `{email}`, and an unknown placeholder stops the build.
+- `src/lib/config/site.ts`: reads those facts and holds shared settings.
 - `src/lib/components/`: named page sections, language switching, photography and legal dialog.
 - `src/app.css`: shared typography, spacing, actions and glass material. Section styles live with their Svelte files.
 
@@ -82,6 +83,6 @@ Generated assets are committed: `bun run images` regenerates photos and icons, `
 
 ## Review and launch
 
-The initial deployment is a review preview. Human visual/content acceptance, real inbox receipt, final privacy/terms review, real-photo replacement and custom-domain DNS/HTTPS checks are separate launch work. No ratings, service statistics, warranty terms or direct-insurer-billing arrangement are invented.
+The initial deployment is a review preview. Human visual/content acceptance, real inbox receipt, real-photo replacement and custom-domain DNS/HTTPS checks are separate launch work. No ratings, service statistics, warranty terms or direct-insurer-billing arrangement are invented.
 
 Local business documents, design research, verification captures and environment files are excluded from this repository.

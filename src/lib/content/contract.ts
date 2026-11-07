@@ -182,6 +182,66 @@ const fixedPage = (label: string) =>
 
 export const pageContract = fixedPage('Page');
 
+/** One value for every language, edited in the default one. */
+const shared = <T extends z.ZodType>(schema: T): T => schema.meta({ ...schema.meta(), shared: true }) as T;
+const dayOpen = (label: string) => shared(z.boolean().meta({ label, widget: 'string', options: { widget: 'boolean', default: false } }));
+/** A field the editor checks before saving, so a typing slip never reaches the build. */
+const checked = (label: string, hint: string, pattern: RegExp, message: string) =>
+  shared(z.string().regex(pattern, message).meta({ label, widget: 'string', hint, options: { pattern: [pattern.source, message] } }));
+const clockTime = (label: string) =>
+  checked(label, 'Sur 24 heures. Changez aussi « Les heures en toutes lettres », affichées sur le site.', /^([01]\d|2[0-3]):[0-5]\d$/, 'Écrivez l’heure comme 09:00 ou 21:00.');
+const openDaysGroup = group('Jours ouverts', {
+  monday: dayOpen('Lundi'),
+  tuesday: dayOpen('Mardi'),
+  wednesday: dayOpen('Mercredi'),
+  thursday: dayOpen('Jeudi'),
+  friday: dayOpen('Vendredi'),
+  saturday: dayOpen('Samedi'),
+  sunday: dayOpen('Dimanche')
+});
+
+export const businessContract = z.strictObject({
+  phone: checked('Téléphone', 'Affiché tel quel. Les liens d’appel et de texto suivent.', /^\D*(\d\D*){10}$/, 'Le numéro doit avoir dix chiffres.'),
+  email: checked('Courriel', 'Affiché sur le site et dans les textes légaux.', /^[^@\s]+@[^@\s]+\.[^@\s]+$/, 'Écrivez une adresse comme nom@domaine.ca.'),
+  hours: shared(
+    group('Heures d’ouverture', {
+      // `refine` returns a new schema, so the description for the editor is carried over.
+      days: shared(openDaysGroup.refine((days) => Object.values(days).some(Boolean), 'Choose at least one open day').meta(openDaysGroup.meta() ?? {})),
+      opens: clockTime('Ouverture'),
+      closes: clockTime('Fermeture')
+    })
+  ),
+  wording: group('Les heures en toutes lettres', {
+    days: line('Jours', 'Remplace {days} et {Days} dans les textes du site.'),
+    daysShort: line('Jours, version courte', 'Remplace {daysShort} dans les textes du site.'),
+    hours: line('Heures', 'Remplace {hours} dans les textes du site.'),
+    hoursShort: line('Heures, version courte', 'Remplace {hoursShort} dans les textes du site.')
+  }),
+  serviceArea: shared(
+    group('Zone desservie', {
+      province: shared(line('Province')),
+      radiusKm: shared(
+        z.number().int().positive().meta({
+          label: 'Rayon approximatif en km',
+          widget: 'string',
+          hint: 'Remplace {radiusKm} dans les textes du site.',
+          options: { widget: 'number', value_type: 'int' }
+        })
+      ),
+      towns: shared(
+        list(
+          'Secteurs et municipalités',
+          z.strictObject({
+            name: shared(line('Nom', 'Les phrases qui nomment des secteurs, comme dans la FAQ, se modifient dans leurs textes.')),
+            region: shared(line('Région', 'Regroupe les secteurs sur la page de la zone desservie. Écrivez-la toujours de la même façon.'))
+          })
+        )
+      ),
+      boundary: shared(list('Secteurs en limite, à confirmer selon l’adresse', shared(line('Nom')), { optional: true }))
+    })
+  )
+});
+
 export type SiteText = z.infer<typeof homeContract> &
   z.infer<typeof menuContract> & {
     quote: z.infer<typeof quoteContract>;

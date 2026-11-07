@@ -15,7 +15,7 @@
     "quote": "Cotización gratis",
     "mobile": "Sin cargo adicional por el servicio móvil",
     "reply": "Respuesta en 24 horas",
-    "hours": "Lun. a sáb., 9 a. m. a 9 p. m."
+    "hours": "{daysShort}, {hours}"
   },
   "pagesUi": {
     "related": "Ver también",

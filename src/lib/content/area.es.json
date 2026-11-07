@@ -3,11 +3,11 @@
   "summary": "Gatineau y sus alrededores, en Québec, con confirmación según tu dirección.",
   "meta": {
     "title": "Zona de servicio: Gatineau y Outaouais | Vitreva",
-    "description": "Reemplazo móvil de parabrisas en Gatineau, Hull, Aylmer, Chelsea, Cantley, Val-des-Monts, La Pêche y otras localidades de Québec, en un radio de unos 50 km."
+    "description": "Reemplazo móvil de parabrisas en Gatineau, Hull, Aylmer, Chelsea, Cantley, Val-des-Monts, La Pêche y otras localidades de Québec, en un radio de unos {radiusKm} km."
   },
   "eyebrow": "Zona de servicio",
   "title": "Servicio móvil en Gatineau y sus alrededores.",
-  "intro": "Atendemos únicamente el lado de Québec, dentro de un radio aproximado de 50 km en línea recta. Envíanos tu ciudad o código postal y confirmaremos el traslado hasta tu ubicación.",
+  "intro": "Atendemos únicamente el lado de Québec, dentro de un radio aproximado de {radiusKm} km en línea recta. Envíanos tu ciudad o código postal y confirmaremos el traslado hasta tu ubicación.",
   "sections": [
     {
       "title": "Cómo confirmamos tu dirección",

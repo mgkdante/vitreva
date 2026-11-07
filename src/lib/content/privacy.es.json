@@ -33,7 +33,7 @@
     {
       "title": "Tus datos personales",
       "body": [
-        "Si tienes preguntas sobre tus datos personales o quieres solicitar su corrección o eliminación, escribe a contact@vitreva.ca."
+        "Si tienes preguntas sobre tus datos personales o quieres solicitar su corrección o eliminación, escribe a {email}."
       ],
       "list": []
     }

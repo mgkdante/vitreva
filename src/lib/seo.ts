@@ -38,7 +38,7 @@ function businessNode(locale: Locale, description: string) {
     description,
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      dayOfWeek: site.hours.days,
       opens: site.hours.opens,
       closes: site.hours.closes
     },

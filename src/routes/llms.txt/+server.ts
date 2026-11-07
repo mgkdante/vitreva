@@ -1,9 +1,11 @@
 import { absoluteUrl, site } from '#lib/config/site.ts';
 import { getPage, pageKeys, legalPageKeys, pagePath } from '#lib/content/pages.ts';
+import { readBusiness } from '#lib/content/files.ts';
 import { locales, type Locale } from '#lib/content/index.ts';
 
 export const prerender = true;
 
+const hoursLine = (locale: Locale) => { const { days, hours } = readBusiness(locale).wording; return `${days}, ${hours}`; };
 const languageNames: Record<Locale, string> = { fr: 'Français', en: 'English', es: 'Español' };
 const publicKeys = pageKeys.filter((key) => !(legalPageKeys as readonly string[]).includes(key));
 
@@ -23,7 +25,7 @@ export const GET = () => new Response(`# Vitreva
 - Aucuns frais supplémentaires pour le service mobile. No extra charge for mobile service.
 - Réponse dans les 24 heures. Reply within 24 hours.
 - Remplacement en moins de 1 h, sur place, une fois le rendez-vous confirmé. Replacement in less than 1 hour, on site, once the appointment is confirmed.
-- Heures / Hours: lundi au samedi, 9 h à 21 h. Monday to Saturday, 9 am to 9 pm.
+- Heures / Hours: ${hoursLine('fr')}. ${hoursLine('en')}.
 - Garantie sur le remplacement; les détails sont expliqués avec la soumission. A warranty on the replacement; details are explained with the quote.
 - Calibration ADAS : non effectuée par Vitreva, orientation vers un fournisseur approprié. ADAS calibration: not performed by Vitreva, referred to an appropriate provider.
 - Assurance : la couverture est confirmée par l’assureur. Insurance: coverage is confirmed by the insurer.

@@ -25,7 +25,7 @@
     {
       "title": "Notre clientèle",
       "body": [
-        "Les particuliers et les entreprises de Gatineau et des environs, au Québec, du lundi au samedi, de 9 h à 21 h."
+        "Les particuliers et les entreprises de Gatineau et des environs, au Québec, {days}, de {hours}."
       ],
       "list": []
     },

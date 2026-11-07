@@ -40,7 +40,7 @@
     {
       "title": "Contacto",
       "body": [
-        "Si tienes preguntas, comunícate con Vitreva en contact@vitreva.ca."
+        "Si tienes preguntas, comunícate con Vitreva en {email}."
       ],
       "list": []
     }

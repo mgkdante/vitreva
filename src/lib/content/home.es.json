@@ -35,9 +35,9 @@
         "body": "En el lugar, una vez confirmada la cita."
       },
       {
-        "value": "9 a 9",
-        "title": "De lunes a sábado",
-        "body": "Por teléfono, mensaje o correo, de 9 a. m. a 9 p. m."
+        "value": "{hoursShort}",
+        "title": "{Days}",
+        "body": "Por teléfono, mensaje o correo, de {hours}"
       }
     ]
   },
@@ -124,7 +124,7 @@
   "faq": {
     "eyebrow": "Preguntas",
     "title": "Bueno saberlo antes de llamar.",
-    "intro": "¿No ves tu pregunta? Escríbenos o llámanos, de lunes a sábado, de 9 a. m. a 9 p. m.",
+    "intro": "¿No ves tu pregunta? Escríbenos o llámanos, {days}, de {hours}",
     "cta": "Escríbenos",
     "items": [
       {
@@ -133,7 +133,7 @@
       },
       {
         "question": "¿Qué zonas atienden?",
-        "answer": "Atendemos Gatineau (Hull, Aylmer, Buckingham y Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts, La Pêche, Pontiac, Notre-Dame-de-la-Salette, Thurso, Mayo, Lochaber, Lochaber-Partie-Ouest, Denholm, Low, Saint-Sixte, Bowman, Mulgrave-et-Derry y Plaisance, según tu dirección dentro de un radio aproximado de 50 km, únicamente en Québec. También se incluyen las localidades de Perkins, Saint-Pierre-de-Wakefield, Poltimore, Wakefield, Sainte-Cécile-de-Masham, Lascelles, Duclos, Lac-des-Loups, Luskville y Quyon. Para las direcciones cercanas al límite, incluidas las de Val-des-Bois, envíanos tu ciudad o código postal para confirmar contigo el traslado y la cita."
+        "answer": "Atendemos Gatineau (Hull, Aylmer, Buckingham y Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts, La Pêche, Pontiac, Notre-Dame-de-la-Salette, Thurso, Mayo, Lochaber, Lochaber-Partie-Ouest, Denholm, Low, Saint-Sixte, Bowman, Mulgrave-et-Derry y Plaisance, según tu dirección dentro de un radio aproximado de {radiusKm} km, únicamente en Québec. También se incluyen las localidades de Perkins, Saint-Pierre-de-Wakefield, Poltimore, Wakefield, Sainte-Cécile-de-Masham, Lascelles, Duclos, Lac-des-Loups, Luskville y Quyon. Para las direcciones cercanas al límite, incluidas las de Val-des-Bois, envíanos tu ciudad o código postal para confirmar contigo el traslado y la cita."
       },
       {
         "question": "¿Cuánto cuesta el reemplazo?",
@@ -172,6 +172,6 @@
   },
   "meta": {
     "title": "Vitreva | Reemplazo móvil de parabrisas en Gatineau",
-    "description": "Reemplazo móvil de parabrisas en Gatineau y la región de Outaouais, en Québec, dentro de un radio de unos 50 km. Solicita tu cotización gratis."
+    "description": "Reemplazo móvil de parabrisas en Gatineau y la región de Outaouais, en Québec, dentro de un radio de unos {radiusKm} km. Solicita tu cotización gratis."
   }
 }

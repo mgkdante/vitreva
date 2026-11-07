@@ -1,0 +1,160 @@
+{
+  "phone": "819 209-8023",
+  "email": "contact@vitreva.ca",
+  "hours": {
+    "days": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": true,
+      "sunday": false
+    },
+    "opens": "09:00",
+    "closes": "21:00"
+  },
+  "wording": {
+    "days": "du lundi au samedi",
+    "daysShort": "Lun. au sam.",
+    "hours": "9 h à 21 h",
+    "hoursShort": "9 h à 21 h"
+  },
+  "serviceArea": {
+    "province": "Québec",
+    "radiusKm": 50,
+    "towns": [
+      {
+        "name": "Gatineau",
+        "region": "Gatineau"
+      },
+      {
+        "name": "Hull",
+        "region": "Gatineau"
+      },
+      {
+        "name": "Aylmer",
+        "region": "Gatineau"
+      },
+      {
+        "name": "Buckingham",
+        "region": "Gatineau"
+      },
+      {
+        "name": "Masson-Angers",
+        "region": "Gatineau"
+      },
+      {
+        "name": "Cantley",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Chelsea",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "L’Ange-Gardien",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Val-des-Monts",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Perkins",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Saint-Pierre-de-Wakefield",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Poltimore",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "La Pêche",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Wakefield",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Sainte-Cécile-de-Masham",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Lascelles",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Duclos",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Lac-des-Loups",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Pontiac",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Luskville",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Quyon",
+        "region": "Les Collines-de-l’Outaouais"
+      },
+      {
+        "name": "Notre-Dame-de-la-Salette",
+        "region": "Papineau"
+      },
+      {
+        "name": "Thurso",
+        "region": "Papineau"
+      },
+      {
+        "name": "Mayo",
+        "region": "Papineau"
+      },
+      {
+        "name": "Lochaber",
+        "region": "Papineau"
+      },
+      {
+        "name": "Lochaber-Partie-Ouest",
+        "region": "Papineau"
+      },
+      {
+        "name": "Denholm",
+        "region": "La Vallée-de-la-Gatineau"
+      },
+      {
+        "name": "Low",
+        "region": "La Vallée-de-la-Gatineau"
+      },
+      {
+        "name": "Saint-Sixte",
+        "region": "Papineau"
+      },
+      {
+        "name": "Bowman",
+        "region": "Papineau"
+      },
+      {
+        "name": "Mulgrave-et-Derry",
+        "region": "Papineau"
+      },
+      {
+        "name": "Plaisance",
+        "region": "Papineau"
+      }
+    ],
+    "boundary": [
+      "Val-des-Bois"
+    ]
+  }
+}
