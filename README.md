@@ -51,6 +51,17 @@ The form validates required fields, leaves the VIN optional and sends quote deta
 
 Before launch, verify an actual message reaches the inbox, configure provider spam/domain protections, and review privacy text against the provider and business practices. The preview does not claim operational email delivery while that setup is pending.
 
+## Cloudflare Workers test site
+
+`vitreva.ca` is still served by GitHub Pages. The `Deploy Workers test site` workflow publishes every push to `main` to the Worker's `workers.dev` address, so hosting can be proven before the cutover. The address is marked `noindex` and the quote form is off there. If a check, the build or the deploy fails, the previous version stays online and the workflow opens or updates an issue assigned to the repository owner.
+
+| Repository secret | Value |
+| --- | --- |
+| `CLOUDFLARE_API_TOKEN` | Account API token scoped to the `vitreva` Worker only, with the Editor role. |
+| `CLOUDFLARE_ACCOUNT_ID` | The Cloudflare account that holds the Worker. |
+
+To try the Worker locally, run `bun run build`, then `./node_modules/.bin/wrangler dev`.
+
 ## GitHub Pages
 
 The `Deploy GitHub Pages` workflow runs by itself when a CMS save changes `src/lib/content/*.json` or `static/images/uploads/` on `main`. Any other change is published by starting it from the Actions tab. Enable **Settings → Pages → Source: GitHub Actions** first. It checks and builds the site, uploads `build/`, and deploys through the official Pages actions. If a check fails, nothing is deployed and the previous site stays online.
