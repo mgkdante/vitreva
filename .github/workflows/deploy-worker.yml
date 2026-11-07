@@ -88,9 +88,10 @@ jobs:
           BODY: 'Commit ${{ github.sha }} did not publish, so the previous version stays online. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
         run: |
           title='Publishing failed'
-          # Only this workflow's own issue counts: anyone can open an issue with this title.
-          number=$(gh issue list --state open --author 'app/github-actions' --json number,title \
-            --jq "[.[] | select(.title == \"$title\")][0].number // empty")
+          # Only this workflow's own issue counts: anyone can open an issue with this title. Filter here,
+          # because `gh issue list --author app/github-actions` finds nothing for an app.
+          number=$(gh issue list --state open --limit 100 --json number,title,author \
+            --jq "[.[] | select(.title == \"$title\" and .author.login == \"app/github-actions\")][0].number // empty")
           if [ -n "$number" ]; then
             gh issue edit "$number" --add-assignee "$OWNER"
             gh issue comment "$number" --body "$BODY"
