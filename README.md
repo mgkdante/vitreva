@@ -4,20 +4,20 @@ One-page French, English and Spanish website for mobile windshield replacement i
 
 ## Develop
 
-Use Node 24 LTS and npm.
+Use Bun for installs, scripts and tests. Vite and SvelteKit still run on Node 24 LTS.
 
 ```sh
-npm ci
-npm run dev
+bun install --frozen-lockfile
+bun run dev
 ```
 
 Open `/` for French, `/en/` for English or `/es/` for Spanish. All three pages render complete HTML and retain their language links without JavaScript.
 
 ```sh
-npm run check
-npm test
-npm run build
-npm run preview
+bun run check
+bun run test
+bun run build
+bun run preview
 ```
 
 The static site is written to `build/`. There is no server to run in production.
@@ -36,7 +36,7 @@ The glass uses browser backdrop filtering, edge highlights and a restrained refl
 
 Current photographs are generated illustrations, used temporarily until real business photographs are available. They do not document completed customer jobs. The vehicle reference is a black 2010 Ford Transit Connect.
 
-Source images are in `assets/source/`. After replacing them, run `node scripts/prepare-images.mjs` to regenerate the responsive WebP files and social image in `static/images/`. Preserve the intended subjects and crops when replacing them. Manrope is self-hosted through Fontsource. Carousel arrows are exported from the approved Figma design.
+Source images are in `assets/source/`. After replacing them, run `bun run images` to regenerate the responsive WebP files and social image in `static/images/`. Preserve the intended subjects and crops when replacing them. Manrope is self-hosted through Fontsource. Carousel arrows are exported from the approved Figma design.
 
 `static/favicon.svg` is the windshield mark; the image script also generates its PNG and Apple touch variants. The custom Transit Connect illustration is `static/images/transit-connect-404.svg`.
 
@@ -64,7 +64,7 @@ Without overrides, the workflow uses GitHub Pages metadata for origin and base p
 
 The site emits complete localized HTML for the home page and eight translated pages, canonical and reciprocal language links, social metadata with a share card per page and language, structured business data with known facts, `sitemap.xml`, `robots.txt` and an optional `llms.txt`.
 
-Generated assets are committed: `npm run images` regenerates photos and icons, `npm run share-images` regenerates the share cards in `static/images/og/` after a title or banner change (requires Microsoft Edge), and `node scripts/generate-crack.mjs` regenerates the crack drawing. The latter does not guarantee recommendations or rankings.
+Generated assets are committed: `bun run images` regenerates photos and icons, `bun run share-images` regenerates the share cards in `static/images/og/` after a title or banner change (requires Microsoft Edge), and `bun scripts/generate-crack.mjs` regenerates the crack drawing. The latter does not guarantee recommendations or rankings.
 
 ## Review and launch
 

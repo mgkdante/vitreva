@@ -1,5 +1,5 @@
 // Renders the 1200x630 link-preview cards in static/images/og/ with the site's font, photo and dashboard.
-// Re-run with `npm run share-images` after changing a page title or the banner copy. Requires Microsoft Edge.
+// Re-run with `bun run share-images` after changing a page title or the banner copy. Requires Microsoft Edge.
 import { mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';

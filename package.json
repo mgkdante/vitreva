@@ -2,6 +2,7 @@
   "name": "vitreva",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "bun@1.4.4",
   "type": "module",
   "imports": {
     "#lib/*": "./src/lib/*"
@@ -14,10 +15,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "test": "node --experimental-strip-types --test tests/*.test.ts",
-    "images": "node scripts/prepare-images.mjs",
+    "test": "bun test tests",
+    "images": "bun scripts/prepare-images.mjs",
     "prepare": "svelte-kit sync",
-    "share-images": "node scripts/generate-share-images.mjs"
+    "share-images": "bun scripts/generate-share-images.mjs"
   },
   "dependencies": {
     "@fontsource-variable/manrope": "^5.3.0",

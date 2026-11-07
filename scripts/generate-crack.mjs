@@ -1,5 +1,5 @@
 // Generates src/lib/art/crack.svg: a seeded windshield crack with an irregular chip, uneven fractures and distance falloff.
-// Run with `node scripts/generate-crack.mjs` after changing the plan below. The seed keeps the output stable.
+// Run with `bun scripts/generate-crack.mjs` after changing the plan below. The seed keeps the output stable.
 import { writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
