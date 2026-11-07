@@ -1,0 +1,48 @@
+{
+  "label": "Conditions d’utilisation",
+  "summary": "Les conditions d’utilisation de ce site.",
+  "meta": {
+    "title": "Conditions d’utilisation | Vitreva",
+    "description": "Les conditions d’utilisation du site de Vitreva et de la demande de soumission pour un remplacement de pare-brise."
+  },
+  "eyebrow": "Mentions légales",
+  "title": "Conditions d’utilisation",
+  "intro": "",
+  "sections": [
+    {
+      "title": "À propos de ce site",
+      "body": [
+        "Ce site présente le service de remplacement mobile de pare-brise de Vitreva à Gatineau et permet de demander une soumission."
+      ],
+      "list": []
+    },
+    {
+      "title": "Soumissions et rendez-vous",
+      "body": [
+        "L’envoi d’une demande ne confirme ni un prix ni un rendez-vous. Le travail, le prix, le lieu et les disponibilités sont à confirmer directement avec Vitreva."
+      ],
+      "list": []
+    },
+    {
+      "title": "Calibration et consignes",
+      "body": [
+        "Les besoins de calibration ADAS sont orientés vers un fournisseur approprié. Les consignes après la pose sont précisées selon votre installation."
+      ],
+      "list": []
+    },
+    {
+      "title": "Photographies",
+      "body": [
+        "Les photographies illustratives présentent le service; elles ne constituent pas une preuve de travaux réalisés."
+      ],
+      "list": []
+    },
+    {
+      "title": "Contact",
+      "body": [
+        "Pour toute question, contactez Vitreva à contact@vitreva.ca."
+      ],
+      "list": []
+    }
+  ]
+}

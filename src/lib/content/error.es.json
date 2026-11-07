@@ -1,0 +1,17 @@
+{
+  "statusLabel": "Error",
+  "illustrationAlt": "Ilustración de la Ford Transit Connect 2010 negra de Vitreva, una furgoneta de carga compacta.",
+  "home": "Volver al inicio",
+  "email": "Escríbenos",
+  "footer": "Vitreva · Reemplazo móvil de parabrisas en Gatineau",
+  "notFound": {
+    "eyebrow": "Parece que tomamos la salida equivocada.",
+    "title": "No encontramos esta página.",
+    "body": "Es posible que el enlace haya cambiado o que la página ya no exista. Volvamos al inicio."
+  },
+  "unavailable": {
+    "eyebrow": "Una pequeña parada en el camino.",
+    "title": "Esta página no está disponible.",
+    "body": "Un problema impide que se cargue esta página. Inténtalo más tarde o vuelve al inicio."
+  }
+}

@@ -39,7 +39,7 @@
           <li><a href={site.phoneHref}>{site.phoneDisplay}</a></li>
           <li><a href={site.smsHref}>{content.quote.ways.text}</a></li>
           <li><a href={site.emailHref}>{site.email}</a></li>
-          <li><a href={quoteHref}>{content.hero.freeQuote}</a></li>
+          <li><a href={quoteHref}>{content.navigation.freeQuote}</a></li>
         </ul>
       </div>
       <div>

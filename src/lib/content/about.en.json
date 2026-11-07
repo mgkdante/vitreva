@@ -1,0 +1,40 @@
+{
+  "label": "About Vitreva",
+  "summary": "A Gatineau business with one focus: replacing windshields where the vehicle is.",
+  "meta": {
+    "title": "About Vitreva | Mobile windshield replacement in Gatineau",
+    "description": "Vitreva is a mobile windshield replacement service in Gatineau, Quebec. A free quote, a reply within 24 hours, and the price agreed before any work starts."
+  },
+  "eyebrow": "About",
+  "title": "One service, built around coming to you.",
+  "intro": "Vitreva is a business based in Gatineau with one focus: replacing windshields where the vehicle is, so a cracked windshield doesn’t have to take over your day.",
+  "sections": [
+    {
+      "title": "How we work",
+      "body": [
+        "A few simple commitments guide every request."
+      ],
+      "list": [
+        "A free quote, even when we come to you",
+        "A reply within 24 hours of your request",
+        "The work, price and location agreed before anything starts",
+        "No extra charge for mobile service",
+        "A warranty on your replacement"
+      ]
+    },
+    {
+      "title": "Who we serve",
+      "body": [
+        "Individuals and businesses in Gatineau and nearby Quebec communities, Monday to Saturday from 9 am to 9 pm."
+      ],
+      "list": []
+    },
+    {
+      "title": "A note on our photos",
+      "body": [
+        "The images on this site are illustrations of the service. Photos of real jobs are coming soon."
+      ],
+      "list": []
+    }
+  ]
+}

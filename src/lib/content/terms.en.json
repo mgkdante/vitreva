@@ -1,0 +1,48 @@
+{
+  "label": "Terms of use",
+  "summary": "The conditions for using this site.",
+  "meta": {
+    "title": "Terms of use | Vitreva",
+    "description": "The conditions for using the Vitreva website and requesting a windshield replacement quote."
+  },
+  "eyebrow": "Legal",
+  "title": "Terms of use",
+  "intro": "",
+  "sections": [
+    {
+      "title": "About this site",
+      "body": [
+        "This site presents Vitreva’s mobile windshield replacement service in Gatineau and lets you request a quote."
+      ],
+      "list": []
+    },
+    {
+      "title": "Quotes and appointments",
+      "body": [
+        "Submitting a request does not confirm a price or an appointment. The work, price, location and availability must be confirmed directly with Vitreva."
+      ],
+      "list": []
+    },
+    {
+      "title": "Calibration and aftercare",
+      "body": [
+        "ADAS calibration needs are referred to an appropriate provider. Aftercare instructions are provided for your particular installation."
+      ],
+      "list": []
+    },
+    {
+      "title": "Photographs",
+      "body": [
+        "Illustrative photographs show the service; they are not evidence of completed jobs."
+      ],
+      "list": []
+    },
+    {
+      "title": "Contact",
+      "body": [
+        "For any questions, contact Vitreva at contact@vitreva.ca."
+      ],
+      "list": []
+    }
+  ]
+}

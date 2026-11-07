@@ -1,0 +1,27 @@
+{
+  "label": "Service area",
+  "summary": "Gatineau and nearby Quebec communities, confirmed for your address.",
+  "meta": {
+    "title": "Service area: Gatineau and the Outaouais | Vitreva",
+    "description": "Mobile windshield replacement in Gatineau, Hull, Aylmer, Chelsea, Cantley, Val-des-Monts, La Pêche and nearby Quebec communities, within roughly 50 km."
+  },
+  "eyebrow": "Service area",
+  "title": "Mobile service across Gatineau and nearby communities.",
+  "intro": "We serve the Quebec side only, within roughly 50 km in a straight line. Send your city or postal code, and we’ll confirm travel to your location.",
+  "sections": [
+    {
+      "title": "How we confirm your address",
+      "body": [
+        "The radius is a straight-line estimate, not a road distance, and a town being listed doesn’t guarantee every address in its territory. That’s why each location and appointment is confirmed with you individually."
+      ],
+      "list": []
+    },
+    {
+      "title": "Near the boundary",
+      "body": [
+        "Val-des-Bois sits near the limit of our area, so it depends on your exact address. Our service stays in Quebec, so addresses in Ottawa and elsewhere in Ontario aren’t covered."
+      ],
+      "list": []
+    }
+  ]
+}

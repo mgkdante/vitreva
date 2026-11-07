@@ -2,12 +2,12 @@
 // Run after reordering the contract, so the next editor save only shows what really changed.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { canonicalJson } from '@yesid/content-contract';
-import { pagesContract, siteTextContract } from '../src/lib/content/contract.ts';
-import { locales } from '../src/lib/content/index.ts';
+import { contentGroups } from '../src/lib/content/cms.ts';
+import { locales } from '../src/lib/content/locales.ts';
 
-for (const locale of locales) {
-  for (const [file, contract] of [[`${locale}.json`, siteTextContract], [`pages.${locale}.json`, pagesContract]] as const) {
-    const path = `src/lib/content/${file}`;
+for (const { file, contract } of contentGroups.flatMap((group) => group.files)) {
+  for (const locale of locales) {
+    const path = file.replace('{{locale}}', locale);
     writeFileSync(path, canonicalJson(contract, readFileSync(path, 'utf8')));
   }
 }

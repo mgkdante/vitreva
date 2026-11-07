@@ -1,0 +1,59 @@
+{
+  "label": "Remplacement de pare-brise",
+  "summary": "Un remplacement sur place, avec soumission gratuite et aucuns frais supplémentaires pour le service mobile.",
+  "meta": {
+    "title": "Remplacement de pare-brise mobile à Gatineau | Vitreva",
+    "description": "Remplacement de pare-brise sur place à Gatineau et dans les environs, au Québec. Soumission gratuite, aucuns frais supplémentaires pour le mobile, réponse sous 24 h."
+  },
+  "eyebrow": "Le service",
+  "title": "Le remplacement de pare-brise, là où votre véhicule est stationné.",
+  "intro": "Vitreva remplace les pare-brise sur place à Gatineau et dans les environs, au Québec. La soumission est gratuite, le service mobile n’entraîne aucuns frais supplémentaires et vous approuvez le prix avant le début des travaux.",
+  "sections": [
+    {
+      "title": "Ce qui est inclus",
+      "body": [
+        "Un seul service, réalisé là où se trouve votre véhicule : nous retirons le pare-brise endommagé et installons le nouveau au lieu convenu."
+      ],
+      "list": [
+        "Une soumission gratuite pour votre véhicule",
+        "Aucuns frais supplémentaires pour le service mobile",
+        "Des consignes propres à votre installation",
+        "Une garantie sur votre remplacement, expliquée avec votre soumission"
+      ]
+    },
+    {
+      "title": "Ce qu’il nous faut",
+      "body": [
+        "Quelques renseignements suffisent pour commencer. S’il vous manque quelque chose, envoyez ce que vous avez : nous ferons le point ensemble."
+      ],
+      "list": [
+        "L’année, la marque et le modèle du véhicule",
+        "L’endroit où il sera stationné",
+        "Une photo du dommage, par texto si possible",
+        "Le NIV (VIN) si vous l’avez : sur l’immatriculation, l’assurance ou généralement au bas du pare-brise côté conducteur",
+        "Les caméras ou aides à la conduite"
+      ]
+    },
+    {
+      "title": "Où ça se passe",
+      "body": [
+        "Indiquez-nous où sera le véhicule. Nous confirmons avec vous le lieu et les conditions d’intervention avant le rendez-vous, pour éviter les surprises le jour même."
+      ],
+      "list": []
+    },
+    {
+      "title": "Après la pose",
+      "body": [
+        "Nous expliquons quand reprendre la route et quelles précautions suivre pour le lavage et l’utilisation du véhicule. Ces consignes dépendent de votre installation : n’hésitez pas à nous poser vos questions."
+      ],
+      "list": []
+    },
+    {
+      "title": "Réparation ou remplacement?",
+      "body": [
+        "Notre service est le remplacement. Si vous n’êtes pas certain que votre pare-brise doit être remplacé, textez-nous une photo ou décrivez le dommage : nous vous aiderons à clarifier la prochaine étape avant de convenir des travaux."
+      ],
+      "list": []
+    }
+  ]
+}

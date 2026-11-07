@@ -1,0 +1,39 @@
+{
+  "label": "Cámaras y ADAS",
+  "summary": "Qué decirnos sobre cámaras y sensores, y cómo se maneja la calibración.",
+  "meta": {
+    "title": "Parabrisas con cámaras y ADAS en Gatineau | Vitreva",
+    "description": "¿Tu parabrisas tiene cámara o sensores? Cuéntanos desde el principio. Si se necesita una calibración ADAS, Vitreva te orienta hacia un proveedor adecuado."
+  },
+  "eyebrow": "Cámaras y ADAS",
+  "title": "Parabrisas con cámaras y sensores de asistencia a la conducción.",
+  "intro": "Muchos vehículos recientes tienen una cámara o sensores montados en el parabrisas. Cuéntanos desde el principio, para que este paso quede claro antes de confirmar el reemplazo.",
+  "sections": [
+    {
+      "title": "Por qué importa",
+      "body": [
+        "Los sistemas de asistencia a la conducción pueden depender de una cámara montada en el parabrisas. Después de un reemplazo, algunos vehículos necesitan calibrar ese sistema, lo que se conoce como calibración ADAS."
+      ],
+      "list": []
+    },
+    {
+      "title": "Qué hace Vitreva",
+      "body": [
+        "Vitreva reemplaza parabrisas y no realiza la calibración ADAS. Si tu vehículo la necesita, te orientamos hacia un proveedor adecuado y te ayudamos a aclarar ese paso antes de confirmar el reemplazo."
+      ],
+      "list": []
+    },
+    {
+      "title": "Qué decirnos",
+      "body": [
+        "No necesitas conocer los detalles técnicos. Solo cuéntanos lo que ves o lo que ya sabes de tu vehículo."
+      ],
+      "list": [
+        "El año, la marca y el modelo de tu vehículo",
+        "Si hay una cámara o un sensor cerca del retrovisor",
+        "Los sistemas de asistencia que conozcas",
+        "Una foto de la zona detrás del retrovisor, si tienes dudas"
+      ]
+    }
+  ]
+}

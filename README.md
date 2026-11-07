@@ -24,7 +24,7 @@ The static site is written to `build/`. There is no server to run in production.
 
 ## Edit content
 
-- `src/lib/content/fr.json`, `en.json` and `es.json`: site copy, metadata, FAQs and form labels. `pages.fr.json`, `pages.en.json` and `pages.es.json`: page copy and legal text.
+- `src/lib/content/<name>.<locale>.json`: one file per place on the site and per language, such as `home.fr.json` or `quote.en.json`. `contentGroups` in `cms.ts` lists them all and lays out the editor: Pages, Partout sur le site, Textes légaux.
 - `src/lib/content/contract.ts`: what can be edited, with its labels and checks. It gives the code its types, the tests their checks and the CMS its fields. After changing it, run `bun run cms:config`, and `bun run content:format` if the order changed.
 - `src/lib/content/index.ts`: typed locale selection.
 - `src/lib/config/site.ts`: public business contact details and shared settings.

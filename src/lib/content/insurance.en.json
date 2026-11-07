@@ -1,0 +1,43 @@
+{
+  "label": "Insurance",
+  "summary": "A free quote you can add to your claim, while your insurer confirms your coverage.",
+  "meta": {
+    "title": "Windshield replacement and insurance in Gatineau | Vitreva",
+    "description": "Your insurer confirms your coverage and deductible. Vitreva prepares a free quote you can add to your claim, for mobile windshield replacement in Gatineau."
+  },
+  "eyebrow": "Insurance",
+  "title": "Replacing your windshield with insurance.",
+  "intro": "Your insurer decides what your policy covers. We give you a clear, free quote so you can check with them what you would need to pay.",
+  "sections": [
+    {
+      "title": "What your insurer confirms",
+      "body": [
+        "Coverage and deductibles differ from one policy to another, so your insurer is the right place for these answers. A few questions worth asking:"
+      ],
+      "list": [
+        "Is windshield replacement covered by my policy?",
+        "What is my deductible for this kind of damage?",
+        "Do you need anything from me before the work is done?"
+      ]
+    },
+    {
+      "title": "What Vitreva provides",
+      "body": [
+        "A quote for your vehicle and the windshield it needs, which you can add to your claim. The quote is free, and you decide whether to go ahead once you know where you stand."
+      ],
+      "list": []
+    },
+    {
+      "title": "How it usually goes",
+      "body": [
+        "Each insurer has its own process, but these are the steps on our side."
+      ],
+      "list": [
+        "Send us your vehicle details and a photo of the damage",
+        "Get a reply within 24 hours, then your free quote",
+        "Check your coverage and deductible with your insurer",
+        "Confirm the location and appointment with us"
+      ]
+    }
+  ]
+}

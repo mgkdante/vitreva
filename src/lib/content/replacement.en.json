@@ -1,0 +1,59 @@
+{
+  "label": "Windshield replacement",
+  "summary": "On-site replacement with a free quote and no extra charge for mobile service.",
+  "meta": {
+    "title": "Mobile windshield replacement in Gatineau | Vitreva",
+    "description": "Windshield replacement on site in Gatineau and nearby Quebec communities. Free quote, no extra charge for mobile service, reply within 24 hours."
+  },
+  "eyebrow": "The service",
+  "title": "Windshield replacement, right where your vehicle is parked.",
+  "intro": "Vitreva replaces windshields on site in Gatineau and nearby Quebec communities. The quote is free, there’s no extra charge for mobile service, and you approve the price before any work starts.",
+  "sections": [
+    {
+      "title": "What’s included",
+      "body": [
+        "One service, done where your vehicle is: we remove the damaged windshield and install the new one at the location we agreed on."
+      ],
+      "list": [
+        "A free quote for your vehicle",
+        "No extra charge for mobile service",
+        "Instructions specific to your installation",
+        "A warranty on your replacement, explained with your quote"
+      ]
+    },
+    {
+      "title": "What we need from you",
+      "body": [
+        "A few details are enough to get started. If you don’t have everything, send what you have and we’ll work through the rest together."
+      ],
+      "list": [
+        "Your vehicle’s year, make and model",
+        "Where the vehicle will be parked",
+        "A photo of the damage, by text if you can",
+        "Your VIN, if you have it: on your registration or insurance documents, or usually at the lower driver-side windshield",
+        "Any cameras or driver-assist features"
+      ]
+    },
+    {
+      "title": "Where it happens",
+      "body": [
+        "Tell us where the vehicle will be. We confirm the location and working conditions with you before the appointment, so there are no surprises on the day."
+      ],
+      "list": []
+    },
+    {
+      "title": "After the installation",
+      "body": [
+        "We explain when you can drive again and what precautions to take when washing and using your vehicle. These instructions depend on your particular installation, so ask us if anything is unclear."
+      ],
+      "list": []
+    },
+    {
+      "title": "Repair or replacement?",
+      "body": [
+        "Our service is replacement. If you’re not sure your windshield needs replacing, text us a photo or describe the damage, and we’ll help you understand the next step before agreeing on any work."
+      ],
+      "list": []
+    }
+  ]
+}

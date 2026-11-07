@@ -1,0 +1,40 @@
+{
+  "label": "À propos de Vitreva",
+  "summary": "Une entreprise de Gatineau avec une seule priorité : remplacer les pare-brise là où se trouve le véhicule.",
+  "meta": {
+    "title": "À propos de Vitreva | Remplacement de pare-brise mobile à Gatineau",
+    "description": "Vitreva est un service mobile de remplacement de pare-brise à Gatineau, au Québec. Soumission gratuite, réponse sous 24 h et prix convenu avant le début des travaux."
+  },
+  "eyebrow": "À propos",
+  "title": "Un seul service, pensé pour venir à vous.",
+  "intro": "Vitreva est une entreprise établie à Gatineau avec une seule priorité : remplacer les pare-brise là où se trouve le véhicule, pour qu’un pare-brise fissuré ne prenne pas toute votre journée.",
+  "sections": [
+    {
+      "title": "Notre façon de travailler",
+      "body": [
+        "Quelques engagements simples guident chaque demande."
+      ],
+      "list": [
+        "Une soumission gratuite, même quand on se déplace",
+        "Une réponse dans les 24 heures suivant votre demande",
+        "Le travail, le prix et le lieu convenus avant de commencer",
+        "Aucuns frais supplémentaires pour le service mobile",
+        "Une garantie sur votre remplacement"
+      ]
+    },
+    {
+      "title": "Notre clientèle",
+      "body": [
+        "Les particuliers et les entreprises de Gatineau et des environs, au Québec, du lundi au samedi, de 9 h à 21 h."
+      ],
+      "list": []
+    },
+    {
+      "title": "Une note sur nos photos",
+      "body": [
+        "Les images de ce site sont des illustrations du service. Les photos de vrais travaux s’en viennent."
+      ],
+      "list": []
+    }
+  ]
+}

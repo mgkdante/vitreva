@@ -1,0 +1,24 @@
+{
+  "navigation": {
+    "process": "Cómo funciona",
+    "faq": "Preguntas",
+    "contact": "Cotización",
+    "freeQuote": "Cotización gratis",
+    "call": "Llamar",
+    "text": "Mensaje",
+    "menu": "Menú",
+    "home": "Inicio de Vitreva",
+    "language": "Cambiar de idioma",
+    "skip": "Ir al contenido"
+  },
+  "banner": {
+    "quote": "Cotización gratis",
+    "mobile": "Sin cargo adicional por el servicio móvil",
+    "reply": "Respuesta en 24 horas",
+    "hours": "Lun. a sáb., 9 a. m. a 9 p. m."
+  },
+  "pagesUi": {
+    "related": "Ver también",
+    "communities": "Sectores y municipios"
+  }
+}

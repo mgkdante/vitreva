@@ -1,0 +1,59 @@
+{
+  "label": "Reemplazo de parabrisas",
+  "summary": "Reemplazo en el lugar, con cotización gratis y sin cargo adicional por el servicio móvil.",
+  "meta": {
+    "title": "Reemplazo móvil de parabrisas en Gatineau | Vitreva",
+    "description": "Reemplazo de parabrisas en el lugar en Gatineau y sus alrededores, en Québec. Cotización gratis, sin cargo adicional por el servicio móvil, respuesta en 24 horas."
+  },
+  "eyebrow": "El servicio",
+  "title": "El reemplazo de parabrisas, justo donde está estacionado tu vehículo.",
+  "intro": "Vitreva reemplaza parabrisas en el lugar en Gatineau y sus alrededores, en Québec. La cotización es gratis, no hay cargo adicional por el servicio móvil y apruebas el precio antes de que empiece el trabajo.",
+  "sections": [
+    {
+      "title": "Qué incluye",
+      "body": [
+        "Un solo servicio, realizado donde está tu vehículo: retiramos el parabrisas dañado e instalamos el nuevo en el lugar acordado."
+      ],
+      "list": [
+        "Una cotización gratis para tu vehículo",
+        "Sin cargo adicional por el servicio móvil",
+        "Indicaciones específicas para tu instalación",
+        "Una garantía en tu reemplazo, explicada con tu cotización"
+      ]
+    },
+    {
+      "title": "Qué necesitamos de ti",
+      "body": [
+        "Con unos pocos datos basta para empezar. Si no tienes todo, envía lo que tengas y revisamos el resto juntos."
+      ],
+      "list": [
+        "El año, la marca y el modelo de tu vehículo",
+        "Dónde estará estacionado",
+        "Una foto del daño, por mensaje si puedes",
+        "El VIN si lo tienes: en los documentos de registro o del seguro, o normalmente en la parte inferior del parabrisas, del lado del conductor",
+        "Las cámaras o los sistemas de asistencia a la conducción"
+      ]
+    },
+    {
+      "title": "Dónde se hace",
+      "body": [
+        "Indícanos dónde estará el vehículo. Confirmamos contigo el lugar y las condiciones de trabajo antes de la cita, para evitar sorpresas ese día."
+      ],
+      "list": []
+    },
+    {
+      "title": "Después de la instalación",
+      "body": [
+        "Te explicamos cuándo puedes volver a conducir y qué precauciones tomar al lavar y usar tu vehículo. Estas indicaciones dependen de tu instalación, así que pregúntanos si algo no queda claro."
+      ],
+      "list": []
+    },
+    {
+      "title": "¿Reparación o reemplazo?",
+      "body": [
+        "Nuestro servicio es el reemplazo. Si no sabes si tu parabrisas debe reemplazarse, envíanos una foto o describe el daño, y te ayudaremos a entender el siguiente paso antes de acordar el trabajo."
+      ],
+      "list": []
+    }
+  ]
+}

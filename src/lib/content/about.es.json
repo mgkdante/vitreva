@@ -1,0 +1,40 @@
+{
+  "label": "Sobre Vitreva",
+  "summary": "Una empresa de Gatineau con un solo enfoque: reemplazar parabrisas donde está el vehículo.",
+  "meta": {
+    "title": "Sobre Vitreva | Reemplazo móvil de parabrisas en Gatineau",
+    "description": "Vitreva es un servicio móvil de reemplazo de parabrisas en Gatineau, Québec. Cotización gratis, respuesta en 24 horas y precio acordado antes de empezar el trabajo."
+  },
+  "eyebrow": "Sobre nosotros",
+  "title": "Un solo servicio, pensado para ir hasta ti.",
+  "intro": "Vitreva es una empresa con base en Gatineau y un solo enfoque: reemplazar parabrisas donde está el vehículo, para que un parabrisas agrietado no te ocupe todo el día.",
+  "sections": [
+    {
+      "title": "Cómo trabajamos",
+      "body": [
+        "Unos compromisos simples guían cada solicitud."
+      ],
+      "list": [
+        "Una cotización gratis, incluso cuando vamos hasta ti",
+        "Una respuesta dentro de las 24 horas siguientes a tu solicitud",
+        "El trabajo, el precio y el lugar acordados antes de empezar",
+        "Sin cargo adicional por el servicio móvil",
+        "Una garantía en tu reemplazo"
+      ]
+    },
+    {
+      "title": "A quién atendemos",
+      "body": [
+        "Particulares y empresas de Gatineau y sus alrededores, en Québec, de lunes a sábado, de 9 a. m. a 9 p. m."
+      ],
+      "list": []
+    },
+    {
+      "title": "Una nota sobre nuestras fotos",
+      "body": [
+        "Las imágenes de este sitio son ilustraciones del servicio. Pronto habrá fotos de trabajos reales."
+      ],
+      "list": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "label": "Privacy",
+  "summary": "How the details you send are used.",
+  "meta": {
+    "title": "Privacy | Vitreva",
+    "description": "How Vitreva uses the details you send when you request a windshield replacement quote."
+  },
+  "eyebrow": "Legal",
+  "title": "Privacy",
+  "intro": "",
+  "sections": [
+    {
+      "title": "Browsing this site",
+      "body": [
+        "You can browse this site without creating an account. The site does not use audience analytics or store your request in your browser."
+      ],
+      "list": []
+    },
+    {
+      "title": "When you submit a request",
+      "body": [
+        "When you submit a request, the details you enter are sent to Vitreva through Web3Forms, the form provider used on this site. They are used to understand your needs, prepare a quote and respond to you. Web3Forms also processes the data needed to deliver the form according to its own practices."
+      ],
+      "list": []
+    },
+    {
+      "title": "What to send",
+      "body": [
+        "Please do not send sensitive information that is unnecessary for your request. Your VIN is optional."
+      ],
+      "list": []
+    },
+    {
+      "title": "Your personal information",
+      "body": [
+        "For questions about your personal information, or to request its correction or deletion, email contact@vitreva.ca."
+      ],
+      "list": []
+    }
+  ]
+}

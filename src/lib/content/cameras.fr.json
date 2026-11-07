@@ -1,0 +1,39 @@
+{
+  "label": "Caméras et ADAS",
+  "summary": "Ce qu’il faut nous dire au sujet des caméras et capteurs, et comment la calibration est traitée.",
+  "meta": {
+    "title": "Pare-brise avec caméras et ADAS à Gatineau | Vitreva",
+    "description": "Votre pare-brise a une caméra ou des capteurs? Dites-le-nous dès le départ. Si une calibration ADAS est nécessaire, Vitreva vous oriente vers un fournisseur approprié."
+  },
+  "eyebrow": "Caméras et ADAS",
+  "title": "Les pare-brise avec caméras et aides à la conduite.",
+  "intro": "Bien des véhicules récents ont une caméra ou des capteurs fixés au pare-brise. Signalez-les dès le départ, pour que cette étape soit claire avant de confirmer le remplacement.",
+  "sections": [
+    {
+      "title": "Pourquoi c’est important",
+      "body": [
+        "Les aides à la conduite peuvent dépendre d’une caméra fixée au pare-brise. Après un remplacement, certains véhicules ont besoin d’une calibration de ce système, appelée calibration ADAS."
+      ],
+      "list": []
+    },
+    {
+      "title": "Ce que fait Vitreva",
+      "body": [
+        "Vitreva remplace les pare-brise et n’effectue pas la calibration ADAS. Si votre véhicule en a besoin, nous vous orientons vers un fournisseur approprié et vous aidons à clarifier cette étape avant de confirmer le remplacement."
+      ],
+      "list": []
+    },
+    {
+      "title": "Ce qu’il faut nous dire",
+      "body": [
+        "Pas besoin de connaître les détails techniques. Dites-nous simplement ce que vous voyez ou ce que vous savez de votre véhicule."
+      ],
+      "list": [
+        "L’année, la marque et le modèle du véhicule",
+        "S’il y a une caméra ou un capteur près du rétroviseur",
+        "Les aides à la conduite que vous connaissez",
+        "Une photo de la zone derrière le rétroviseur, si vous hésitez"
+      ]
+    }
+  ]
+}

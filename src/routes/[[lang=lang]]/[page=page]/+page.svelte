@@ -39,7 +39,7 @@
         <div class="actions">
           <a class="button button-white" href={site.phoneHref}>{content.navigation.call} {site.phoneDisplay}</a>
           <a class="button button-clear" href={site.smsHref}>{content.quote.ways.text}</a>
-          <a class="button button-clear" href="#quote">{content.hero.freeQuote}</a>
+          <a class="button button-clear" href="#quote">{content.navigation.freeQuote}</a>
         </div>
       {/if}
     </div>

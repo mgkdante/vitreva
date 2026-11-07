@@ -10,7 +10,7 @@ import type { PageKey } from './slugs.ts';
 const titleAndBody = (titleLabel: string, bodyLabel: string) =>
   z.strictObject({ title: line(titleLabel), body: paragraph(bodyLabel) });
 
-export const siteTextContract = z.strictObject({
+const sections = {
   hero: group(
     'Haut de page',
     {
@@ -20,7 +20,6 @@ export const siteTextContract = z.strictObject({
         before: line('Avant le défilement'),
         after: line('Après le défilement')
       }),
-      freeQuote: line('Bouton de soumission'),
       mirrorNote: line('Texte du rétroviseur'),
       radio: group('Écran de la radio', { label: line('Titre'), text: line('Message') }),
       cue: line('Invitation à défiler')
@@ -115,6 +114,7 @@ export const siteTextContract = z.strictObject({
     process: line('Comment ça marche'),
     faq: line('Questions'),
     contact: line('Soumission'),
+    freeQuote: line('Bouton de soumission', 'Affiché dans le menu, le pied de page et les pages.'),
     call: line('Appeler'),
     text: line('Texto'),
     menu: line('Menu'),
@@ -150,7 +150,17 @@ export const siteTextContract = z.strictObject({
     notFound: group('Page introuvable', { eyebrow: line('Surtitre'), title: line('Titre'), body: paragraph('Texte') }),
     unavailable: group('Page indisponible', { eyebrow: line('Surtitre'), title: line('Titre'), body: paragraph('Texte') })
   })
-});
+};
+
+const { hero, panel, process, information, situations, area, faq, images, meta, navigation, banner, pagesUi } = sections;
+
+/** The home page, in the order its sections appear when scrolling. */
+export const homeContract = z.strictObject({ hero, panel, process, information, situations, area, faq, images, meta });
+/** What every page shares at its top, along with the titles and buttons repeated across pages. */
+export const menuContract = z.strictObject({ navigation, banner, pagesUi });
+export const quoteContract = sections.quote;
+export const footerContract = sections.footer;
+export const errorContract = sections.error;
 
 const fixedPage = (label: string) =>
   group(label, {
@@ -170,27 +180,12 @@ const fixedPage = (label: string) =>
     )
   });
 
-const pageLabels = {
-  replacement: 'Remplacement de pare-brise',
-  insurance: 'Assurance',
-  fleets: 'Flottes',
-  cameras: 'Caméras et ADAS',
-  area: 'Zone desservie',
-  about: 'À propos',
-  privacy: 'Confidentialité',
-  terms: 'Conditions d’utilisation'
-} as const satisfies Record<PageKey, string>;
+export const pageContract = fixedPage('Page');
 
-export const pagesContract = z.strictObject({
-  replacement: fixedPage(pageLabels.replacement),
-  insurance: fixedPage(pageLabels.insurance),
-  fleets: fixedPage(pageLabels.fleets),
-  cameras: fixedPage(pageLabels.cameras),
-  area: fixedPage(pageLabels.area),
-  about: fixedPage(pageLabels.about),
-  privacy: fixedPage(pageLabels.privacy),
-  terms: fixedPage(pageLabels.terms)
-});
-
-export type SiteText = z.infer<typeof siteTextContract>;
-export type Pages = z.infer<typeof pagesContract>;
+export type SiteText = z.infer<typeof homeContract> &
+  z.infer<typeof menuContract> & {
+    quote: z.infer<typeof quoteContract>;
+    footer: z.infer<typeof footerContract>;
+    error: z.infer<typeof errorContract>;
+  };
+export type Pages = Record<PageKey, z.infer<typeof pageContract>>;

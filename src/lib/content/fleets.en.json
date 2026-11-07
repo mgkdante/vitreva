@@ -1,0 +1,39 @@
+{
+  "label": "Business fleets",
+  "summary": "Replacement for business vehicles, at the location that suits your operations.",
+  "meta": {
+    "title": "Windshield replacement for business fleets in Gatineau | Vitreva",
+    "description": "Mobile windshield replacement for business vehicles and fleets in Gatineau and nearby Quebec communities. Tell us about your vehicles for a free quote."
+  },
+  "eyebrow": "Business fleets",
+  "title": "Windshield replacement for business vehicles.",
+  "intro": "Vitreva serves individuals and fleets. Because we come to you, your vehicle doesn’t have to make a trip to a shop for us to look after it.",
+  "sections": [
+    {
+      "title": "What to send us",
+      "body": [
+        "These details let us talk about your needs with something concrete in front of us."
+      ],
+      "list": [
+        "How many vehicles, and what type",
+        "Where they are located",
+        "A photo of the damage, if you have one",
+        "Any cameras or driver-assist features"
+      ]
+    },
+    {
+      "title": "How we work with businesses",
+      "body": [
+        "We discuss your needs and confirm together whether we can take on the work. The price, location and availability are agreed with you before anything is scheduled, and the quote is free."
+      ],
+      "list": []
+    },
+    {
+      "title": "Where we can go",
+      "body": [
+        "Our mobile service covers Gatineau and nearby communities, in Quebec only. Each address is confirmed individually, which matters if your vehicles are spread across several sites."
+      ],
+      "list": []
+    }
+  ]
+}
