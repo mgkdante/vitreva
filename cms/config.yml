@@ -889,6 +889,11 @@ collections:
                 i18n: true
                 hint: "Remplace {hoursShort} dans les textes du site."
                 widget: string
+              - name: and
+                label: Le mot « et »
+                i18n: true
+                hint: Sert à écrire les listes de secteurs dans cette langue.
+                widget: string
           - name: serviceArea
             label: Zone desservie
             i18n: duplicate
@@ -914,13 +919,24 @@ collections:
                   - name: name
                     label: Nom
                     i18n: duplicate
-                    hint: "Les phrases qui nomment des secteurs, comme dans la FAQ, se modifient dans leurs textes."
                     widget: string
                   - name: region
                     label: Région
                     i18n: duplicate
                     hint: Regroupe les secteurs sur la page de la zone desservie. Écrivez-la toujours de la même façon.
                     widget: string
+                  - name: kind
+                    label: Type
+                    i18n: duplicate
+                    hint: Un secteur s’affiche entre parenthèses après la municipalité qui le précède dans la liste. Les villages forment leur propre liste.
+                    widget: select
+                    options:
+                      - label: Municipalité
+                        value: municipality
+                      - label: Secteur
+                        value: sector
+                      - label: Village
+                        value: village
               - name: boundary
                 label: "Secteurs en limite, à confirmer selon l’adresse"
                 widget: list
@@ -931,6 +947,7 @@ collections:
                   name: value
                   label: Nom
                   i18n: duplicate
+                  hint: "Remplace {boundary} dans les textes du site. Si la liste change, relisez les phrases qui en parlent."
                   widget: string
       - name: menu
         label: Menu et bandeau

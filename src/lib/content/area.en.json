@@ -19,7 +19,7 @@
     {
       "title": "Near the boundary",
       "body": [
-        "Val-des-Bois sits near the limit of our area, so it depends on your exact address. Our service stays in Quebec, so addresses in Ottawa and elsewhere in Ontario aren’t covered."
+        "{boundary} sits near the limit of our area, so it depends on your exact address. Our service stays in Quebec, so addresses in Ottawa and elsewhere in Ontario aren’t covered."
       ],
       "list": []
     }

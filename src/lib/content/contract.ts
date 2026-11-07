@@ -215,7 +215,8 @@ export const businessContract = z.strictObject({
     days: line('Jours', 'Remplace {days} et {Days} dans les textes du site.'),
     daysShort: line('Jours, version courte', 'Remplace {daysShort} dans les textes du site.'),
     hours: line('Heures', 'Remplace {hours} dans les textes du site.'),
-    hoursShort: line('Heures, version courte', 'Remplace {hoursShort} dans les textes du site.')
+    hoursShort: line('Heures, version courte', 'Remplace {hoursShort} dans les textes du site.'),
+    and: line('Le mot « et »', 'Sert à écrire les listes de secteurs dans cette langue.')
   }),
   serviceArea: shared(
     group('Zone desservie', {
@@ -232,12 +233,27 @@ export const businessContract = z.strictObject({
         list(
           'Secteurs et municipalités',
           z.strictObject({
-            name: shared(line('Nom', 'Les phrases qui nomment des secteurs, comme dans la FAQ, se modifient dans leurs textes.')),
-            region: shared(line('Région', 'Regroupe les secteurs sur la page de la zone desservie. Écrivez-la toujours de la même façon.'))
+            name: shared(line('Nom')),
+            region: shared(line('Région', 'Regroupe les secteurs sur la page de la zone desservie. Écrivez-la toujours de la même façon.')),
+            kind: shared(
+              z.enum(['municipality', 'sector', 'village']).meta({
+                label: 'Type',
+                widget: 'string',
+                hint: 'Un secteur s’affiche entre parenthèses après la municipalité qui le précède dans la liste. Les villages forment leur propre liste.',
+                options: {
+                  widget: 'select',
+                  options: [
+                    { label: 'Municipalité', value: 'municipality' },
+                    { label: 'Secteur', value: 'sector' },
+                    { label: 'Village', value: 'village' }
+                  ]
+                }
+              })
+            )
           })
         )
       ),
-      boundary: shared(list('Secteurs en limite, à confirmer selon l’adresse', shared(line('Nom')), { optional: true }))
+      boundary: shared(list('Secteurs en limite, à confirmer selon l’adresse', shared(line('Nom', 'Remplace {boundary} dans les textes du site. Si la liste change, relisez les phrases qui en parlent.')), { optional: true }))
     })
   )
 });
