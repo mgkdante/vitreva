@@ -84,7 +84,7 @@
         <a href={homeAnchor('process')}>{content.navigation.process}</a>
         {#each [...servicePageKeys, ...companyPageKeys] as key}<a href={localHref(locale, key)} aria-current={key === pageKey ? 'page' : undefined}>{pages[key].label}</a>{/each}
         <a href={homeAnchor('faq')}>{content.navigation.faq}</a>
-        <a href={quoteHref}>{content.hero.freeQuote}</a>
+        <a href={quoteHref}>{content.navigation.freeQuote}</a>
         <a class="button button-white" href={site.phoneHref}>{site.phoneDisplay}</a>
       </nav>
     </details>
@@ -100,7 +100,7 @@
 >
   <a href={site.phoneHref}>{content.navigation.call}</a>
   <a href={site.smsHref}>{content.navigation.text}</a>
-  <a href={quoteHref}>{content.hero.freeQuote}</a>
+  <a href={quoteHref}>{content.navigation.freeQuote}</a>
 </aside>
 
 <style>

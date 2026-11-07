@@ -1,15 +1,15 @@
-import fr from './pages.fr.json';
-import en from './pages.en.json';
-import es from './pages.es.json';
 import type { Pages } from './contract.ts';
-import type { Locale } from './index.ts';
+import { readContent } from './files.ts';
+import { locales, type Locale } from './locales.ts';
 import { pageKeys, slugs, type PageKey } from './slugs.ts';
 
 export { companyPageKeys, legalPageKeys, pageKeys, servicePageKeys, slugs, type PageKey } from './slugs.ts';
 
 export type PageContent = Pages[PageKey];
 
-const pages: Record<Locale, Pages> = { fr, en, es };
+const pagesFor = (locale: Locale) => Object.fromEntries(pageKeys.map((key) => [key, readContent<PageContent>(key, locale)])) as Pages;
+
+const pages = Object.fromEntries(locales.map((locale) => [locale, pagesFor(locale)])) as Record<Locale, Pages>;
 
 export const findPageKey = (locale: Locale, slug: string) => pageKeys.find((key) => slugs[locale][key] === slug);
 

@@ -1,0 +1,48 @@
+{
+  "label": "Condiciones de uso",
+  "summary": "Las condiciones de uso de este sitio.",
+  "meta": {
+    "title": "Condiciones de uso | Vitreva",
+    "description": "Las condiciones de uso del sitio de Vitreva y de la solicitud de cotización para un reemplazo de parabrisas."
+  },
+  "eyebrow": "Información legal",
+  "title": "Condiciones de uso",
+  "intro": "",
+  "sections": [
+    {
+      "title": "Sobre este sitio",
+      "body": [
+        "Este sitio presenta el servicio móvil de reemplazo de parabrisas de Vitreva en Gatineau y te permite solicitar una cotización."
+      ],
+      "list": []
+    },
+    {
+      "title": "Cotizaciones y citas",
+      "body": [
+        "Enviar una solicitud no confirma un precio ni una cita. El trabajo, el precio, el lugar y la disponibilidad deben confirmarse directamente con Vitreva."
+      ],
+      "list": []
+    },
+    {
+      "title": "Calibración e indicaciones",
+      "body": [
+        "Si se necesita una calibración ADAS, te orientamos hacia un proveedor adecuado. Las indicaciones de cuidado después de la instalación se proporcionan según tu instalación."
+      ],
+      "list": []
+    },
+    {
+      "title": "Fotografías",
+      "body": [
+        "Las fotografías ilustrativas muestran el servicio; no constituyen evidencia de trabajos realizados."
+      ],
+      "list": []
+    },
+    {
+      "title": "Contacto",
+      "body": [
+        "Si tienes preguntas, comunícate con Vitreva en contact@vitreva.ca."
+      ],
+      "list": []
+    }
+  ]
+}

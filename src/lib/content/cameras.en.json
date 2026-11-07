@@ -1,0 +1,39 @@
+{
+  "label": "Cameras and ADAS",
+  "summary": "What to tell us about cameras and sensors, and how calibration is handled.",
+  "meta": {
+    "title": "Windshields with cameras and ADAS in Gatineau | Vitreva",
+    "description": "Does your windshield have a camera or sensors? Tell us up front. If ADAS calibration is needed, Vitreva refers you to an appropriate provider."
+  },
+  "eyebrow": "Cameras and ADAS",
+  "title": "Windshields with cameras and driver-assist sensors.",
+  "intro": "Many recent vehicles have a camera or sensors mounted at the windshield. Tell us about them up front, so this step is clear before your replacement is confirmed.",
+  "sections": [
+    {
+      "title": "Why it matters",
+      "body": [
+        "Driver-assist features can rely on a camera mounted at the windshield. After a replacement, some vehicles need that system calibrated, which is known as ADAS calibration."
+      ],
+      "list": []
+    },
+    {
+      "title": "What Vitreva does",
+      "body": [
+        "Vitreva replaces windshields and does not perform ADAS calibration. If your vehicle needs it, we refer you to an appropriate provider and help clarify that step before confirming the replacement."
+      ],
+      "list": []
+    },
+    {
+      "title": "What to tell us",
+      "body": [
+        "You don’t need to know the technical details. Just share what you can see or what you already know about your vehicle."
+      ],
+      "list": [
+        "Your vehicle’s year, make and model",
+        "Whether there’s a camera or sensor near the rearview mirror",
+        "Any driver-assist features you know of",
+        "A photo of the area behind the rearview mirror, if you’re not sure"
+      ]
+    }
+  ]
+}

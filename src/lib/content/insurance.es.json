@@ -1,0 +1,43 @@
+{
+  "label": "Seguro",
+  "summary": "Una cotización gratis para agregar a tu reclamación, mientras tu aseguradora confirma la cobertura.",
+  "meta": {
+    "title": "Reemplazo de parabrisas y seguro en Gatineau | Vitreva",
+    "description": "Tu aseguradora confirma la cobertura y el deducible. Vitreva prepara una cotización gratis para agregar a tu reclamación, para un reemplazo móvil de parabrisas en Gatineau."
+  },
+  "eyebrow": "Seguro",
+  "title": "Reemplazar tu parabrisas con tu seguro.",
+  "intro": "Tu aseguradora decide qué cubre tu póliza. Te damos una cotización clara y gratis para que consultes con ella cuánto tendrías que pagar.",
+  "sections": [
+    {
+      "title": "Qué confirma tu aseguradora",
+      "body": [
+        "La cobertura y el deducible varían de una póliza a otra, así que tu aseguradora es quien puede responder. Algunas preguntas útiles:"
+      ],
+      "list": [
+        "¿Mi póliza cubre el reemplazo del parabrisas?",
+        "¿Cuál es mi deducible para este tipo de daño?",
+        "¿Necesitan algo de mi parte antes del trabajo?"
+      ]
+    },
+    {
+      "title": "Qué ofrece Vitreva",
+      "body": [
+        "Una cotización para tu vehículo y el parabrisas que necesita, para agregar a tu reclamación. Es gratis, y decides si seguir adelante una vez que conozcas tu situación."
+      ],
+      "list": []
+    },
+    {
+      "title": "Cómo suele funcionar",
+      "body": [
+        "Cada aseguradora tiene su propio proceso, pero estos son los pasos de nuestro lado."
+      ],
+      "list": [
+        "Envíanos los datos de tu vehículo y una foto del daño",
+        "Recibe una respuesta en 24 horas y luego tu cotización gratis",
+        "Revisa la cobertura y el deducible con tu aseguradora",
+        "Confirma con nosotros el lugar y la cita"
+      ]
+    }
+  ]
+}

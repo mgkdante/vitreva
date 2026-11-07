@@ -1,0 +1,24 @@
+{
+  "navigation": {
+    "process": "Comment ça marche",
+    "faq": "Questions",
+    "contact": "Soumission",
+    "freeQuote": "Soumission gratuite",
+    "call": "Appeler",
+    "text": "Texto",
+    "menu": "Menu",
+    "home": "Accueil Vitreva",
+    "language": "Changer de langue",
+    "skip": "Aller au contenu"
+  },
+  "banner": {
+    "quote": "Soumission gratuite",
+    "mobile": "Aucuns frais supplémentaires pour le service mobile",
+    "reply": "Réponse sous 24 h",
+    "hours": "Lun. au sam., 9 h à 21 h"
+  },
+  "pagesUi": {
+    "related": "À voir aussi",
+    "communities": "Secteurs et municipalités"
+  }
+}

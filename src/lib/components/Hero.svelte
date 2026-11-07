@@ -120,7 +120,7 @@
       </a>
       <a class="mirror mirror-right" href="#quote">
         <svg viewBox="0 0 240 210" aria-hidden="true"><use href="#m-art" /></svg>
-        <span class="mirror-text"><span class="mirror-label">{content.hero.freeQuote}</span><span class="mirror-sub">{content.hero.mirrorNote}</span></span>
+        <span class="mirror-text"><span class="mirror-label">{content.navigation.freeQuote}</span><span class="mirror-sub">{content.hero.mirrorNote}</span></span>
       </a>
       <div class="dash-stage">
         <div class="dash-art" aria-hidden="true">{@html dashArt}</div>

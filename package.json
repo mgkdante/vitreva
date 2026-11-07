@@ -31,7 +31,7 @@
     "@sveltejs/kit": "^3.1.0",
     "@sveltejs/vite-plugin-svelte": "^7.3.1",
     "@types/node": "^24.0.0",
-    "@yesid/content-contract": "https://github.com/mgkdante/yesid.content-contract/releases/download/v0.2.0/yesid-content-contract-0.2.0.tgz",
+    "@yesid/content-contract": "https://github.com/mgkdante/yesid.content-contract/releases/download/v0.3.0/yesid-content-contract-0.3.0.tgz",
     "playwright-core": "1.65.0",
     "sharp": "^0.35.5",
     "svelte": "^5.57.2",

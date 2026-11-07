@@ -1,0 +1,30 @@
+{
+  "eyebrow": "Cotización gratis",
+  "title": "Recuperemos tu vista despejada.",
+  "intro": "Elige lo que te resulte más fácil. Respondemos en 24 horas y la cotización es gratis.",
+  "call": "Llamar",
+  "ways": {
+    "text": "Enviar una foto",
+    "textNote": "La forma más fácil de mostrar el daño",
+    "email": "Correo"
+  },
+  "fields": {
+    "name": "Nombre",
+    "contact": "Teléfono o correo electrónico",
+    "vehicle": "Año, marca y modelo",
+    "vin": "VIN (opcional)",
+    "location": "Ciudad o código postal",
+    "message": "Qué necesitas"
+  },
+  "vinHelp": "Si lo tienes. Aparece en los documentos de registro o del seguro, o normalmente en la parte inferior del parabrisas, del lado del conductor.",
+  "consent": "Acepto que Vitreva utilice estos datos para atender mi solicitud y responderme.",
+  "privacyNote": "Los datos que envías se utilizan para atender tu solicitud y responderte.",
+  "privacyLabel": "Privacidad",
+  "submit": "Obtener mi cotización gratis",
+  "submitting": "Enviando…",
+  "note": "Este envío no reserva nada. Primero confirmamos contigo el precio y la cita.",
+  "success": "Tu solicitud se ha enviado. Vitreva se comunicará contigo para precisar los detalles. En esta etapa todavía no se ha confirmado ninguna cita.",
+  "error": "No se pudo enviar tu solicitud. Inténtalo de nuevo o comunícate con Vitreva por teléfono o correo electrónico.",
+  "unconfigured": "El envío del formulario aún no está disponible. Tu solicitud no se ha enviado. Comunícate con Vitreva por teléfono o correo electrónico.",
+  "subject": "Solicitud de cotización de Vitreva"
+}

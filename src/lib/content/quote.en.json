@@ -1,0 +1,30 @@
+{
+  "eyebrow": "Free quote",
+  "title": "Let’s get you a clear view.",
+  "intro": "Pick what’s easiest. We reply within 24 hours, and the quote is free.",
+  "call": "Call",
+  "ways": {
+    "text": "Text a photo",
+    "textNote": "Easiest way to show the damage",
+    "email": "Email"
+  },
+  "fields": {
+    "name": "Name",
+    "contact": "Phone or email",
+    "vehicle": "Year, make and model",
+    "vin": "VIN (optional)",
+    "location": "City or postal code",
+    "message": "What you need"
+  },
+  "vinHelp": "If available. On registration or insurance documents, or usually at the lower driver-side windshield.",
+  "consent": "I agree that Vitreva may use these details to handle my request and respond to me.",
+  "privacyNote": "The details you send are used to handle your request and respond to you.",
+  "privacyLabel": "Privacy",
+  "submit": "Get my free quote",
+  "submitting": "Sending…",
+  "note": "Sending this doesn’t book anything. We confirm the price and appointment with you first.",
+  "success": "Your request has been sent. Vitreva will contact you to clarify the details. No appointment is confirmed at this stage.",
+  "error": "Your request could not be sent. Try again or contact Vitreva by phone or email.",
+  "unconfigured": "Form submission is not available yet. Your request has not been sent. Contact Vitreva by phone or email.",
+  "subject": "Vitreva quote request"
+}

@@ -1,0 +1,43 @@
+{
+  "label": "Assurance",
+  "summary": "Une soumission gratuite à joindre à votre dossier, pendant que votre assureur confirme la couverture.",
+  "meta": {
+    "title": "Remplacement de pare-brise et assurance à Gatineau | Vitreva",
+    "description": "Votre assureur confirme la couverture et la franchise. Vitreva prépare une soumission gratuite à joindre à votre dossier, pour un remplacement de pare-brise mobile à Gatineau."
+  },
+  "eyebrow": "Assurance",
+  "title": "Remplacer votre pare-brise avec votre assurance.",
+  "intro": "Votre assureur détermine ce que votre contrat couvre. Nous vous remettons une soumission claire et gratuite pour que vous puissiez vérifier avec lui ce qui resterait à votre charge.",
+  "sections": [
+    {
+      "title": "Ce que votre assureur confirme",
+      "body": [
+        "La couverture et la franchise varient d’un contrat à l’autre : votre assureur est le mieux placé pour répondre. Quelques questions à lui poser :"
+      ],
+      "list": [
+        "Mon contrat couvre-t-il le remplacement du pare-brise?",
+        "Quelle est ma franchise pour ce type de dommage?",
+        "Avez-vous besoin de quelque chose de ma part avant les travaux?"
+      ]
+    },
+    {
+      "title": "Ce que Vitreva fournit",
+      "body": [
+        "Une soumission pour votre véhicule et le pare-brise nécessaire, à joindre à votre dossier. Elle est gratuite, et vous décidez d’aller de l’avant une fois votre situation connue."
+      ],
+      "list": []
+    },
+    {
+      "title": "Comment ça se passe habituellement",
+      "body": [
+        "Chaque assureur a sa façon de faire, mais voici les étapes de notre côté."
+      ],
+      "list": [
+        "Envoyez-nous les renseignements du véhicule et une photo du dommage",
+        "Recevez une réponse dans les 24 heures, puis votre soumission gratuite",
+        "Vérifiez la couverture et la franchise avec votre assureur",
+        "Confirmez avec nous le lieu et le rendez-vous"
+      ]
+    }
+  ]
+}

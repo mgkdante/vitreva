@@ -1,0 +1,39 @@
+{
+  "label": "Flottes d’entreprise",
+  "summary": "Le remplacement pour vos véhicules d’entreprise, au lieu qui convient à vos activités.",
+  "meta": {
+    "title": "Remplacement de pare-brise pour flottes à Gatineau | Vitreva",
+    "description": "Remplacement de pare-brise mobile pour véhicules d’entreprise et flottes à Gatineau et dans les environs, au Québec. Parlez-nous de vos véhicules pour une soumission gratuite."
+  },
+  "eyebrow": "Flottes d’entreprise",
+  "title": "Le remplacement de pare-brise pour vos véhicules d’entreprise.",
+  "intro": "Vitreva s’adresse aux particuliers et aux flottes. Comme nous nous déplaçons, votre véhicule n’a pas à se rendre dans un atelier pour que nous nous en occupions.",
+  "sections": [
+    {
+      "title": "Ce qu’il faut nous envoyer",
+      "body": [
+        "Ces renseignements nous permettent de parler de votre besoin avec du concret."
+      ],
+      "list": [
+        "Le nombre et le type de véhicules",
+        "Leur emplacement",
+        "Une photo du dommage, si vous en avez une",
+        "Les caméras ou aides à la conduite"
+      ]
+    },
+    {
+      "title": "Notre façon de travailler avec les entreprises",
+      "body": [
+        "Nous discutons de votre besoin et confirmons ensemble la prise en charge. Le prix, le lieu et les disponibilités sont convenus avec vous avant toute planification, et la soumission est gratuite."
+      ],
+      "list": []
+    },
+    {
+      "title": "Où nous pouvons aller",
+      "body": [
+        "Notre service mobile couvre Gatineau et les environs, au Québec seulement. Chaque adresse est confirmée individuellement, ce qui compte si vos véhicules sont répartis sur plusieurs sites."
+      ],
+      "list": []
+    }
+  ]
+}

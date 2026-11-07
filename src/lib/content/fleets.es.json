@@ -1,0 +1,39 @@
+{
+  "label": "Flotas de empresa",
+  "summary": "Reemplazo para vehículos de empresa, en el lugar que mejor se adapte a tu operación.",
+  "meta": {
+    "title": "Reemplazo de parabrisas para flotas en Gatineau | Vitreva",
+    "description": "Reemplazo móvil de parabrisas para vehículos de empresa y flotas en Gatineau y sus alrededores, en Québec. Cuéntanos sobre tus vehículos para una cotización gratis."
+  },
+  "eyebrow": "Flotas de empresa",
+  "title": "Reemplazo de parabrisas para vehículos de empresa.",
+  "intro": "Vitreva atiende a particulares y flotas. Como vamos hasta ti, tu vehículo no tiene que ir a un taller para que nos ocupemos de él.",
+  "sections": [
+    {
+      "title": "Qué enviarnos",
+      "body": [
+        "Estos datos nos permiten hablar de lo que necesitas con algo concreto."
+      ],
+      "list": [
+        "Cuántos vehículos tienes y de qué tipo",
+        "Dónde están",
+        "Una foto del daño, si la tienes",
+        "Las cámaras o los sistemas de asistencia a la conducción"
+      ]
+    },
+    {
+      "title": "Cómo trabajamos con empresas",
+      "body": [
+        "Conversamos sobre lo que necesitas y confirmamos juntos si podemos realizar el trabajo. El precio, el lugar y la disponibilidad se acuerdan contigo antes de programar nada, y la cotización es gratis."
+      ],
+      "list": []
+    },
+    {
+      "title": "A dónde podemos ir",
+      "body": [
+        "Nuestro servicio móvil cubre Gatineau y sus alrededores, únicamente en Québec. Cada dirección se confirma de forma individual, algo importante si tus vehículos están repartidos en varios sitios."
+      ],
+      "list": []
+    }
+  ]
+}

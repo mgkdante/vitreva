@@ -1,0 +1,41 @@
+{
+  "label": "Privacidad",
+  "summary": "Cómo se usan los datos que envías.",
+  "meta": {
+    "title": "Privacidad | Vitreva",
+    "description": "Cómo utiliza Vitreva los datos que envías al solicitar una cotización de reemplazo de parabrisas."
+  },
+  "eyebrow": "Información legal",
+  "title": "Privacidad",
+  "intro": "",
+  "sections": [
+    {
+      "title": "Navegar por este sitio",
+      "body": [
+        "Puedes navegar por este sitio sin crear una cuenta. El sitio no utiliza herramientas de análisis de audiencia ni guarda tu solicitud en tu navegador."
+      ],
+      "list": []
+    },
+    {
+      "title": "Cuando envías una solicitud",
+      "body": [
+        "Cuando envías una solicitud, los datos que ingresas se transmiten a Vitreva a través de Web3Forms, el proveedor del formulario utilizado en este sitio. Se utilizan para entender lo que necesitas, preparar una cotización y responderte. Web3Forms también procesa los datos necesarios para entregar el formulario según sus propias prácticas."
+      ],
+      "list": []
+    },
+    {
+      "title": "Qué enviar",
+      "body": [
+        "No envíes información sensible que no sea necesaria para tu solicitud. El VIN es opcional."
+      ],
+      "list": []
+    },
+    {
+      "title": "Tus datos personales",
+      "body": [
+        "Si tienes preguntas sobre tus datos personales o quieres solicitar su corrección o eliminación, escribe a contact@vitreva.ca."
+      ],
+      "list": []
+    }
+  ]
+}

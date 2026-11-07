@@ -1,0 +1,41 @@
+{
+  "label": "Confidentialité",
+  "summary": "Comment les renseignements transmis sont utilisés.",
+  "meta": {
+    "title": "Confidentialité | Vitreva",
+    "description": "Comment Vitreva utilise les renseignements transmis lors d’une demande de soumission pour un remplacement de pare-brise."
+  },
+  "eyebrow": "Mentions légales",
+  "title": "Confidentialité",
+  "intro": "",
+  "sections": [
+    {
+      "title": "Consulter ce site",
+      "body": [
+        "Vous pouvez consulter ce site sans créer de compte. Le site n’utilise pas d’outil d’analyse d’audience et ne conserve pas votre demande dans votre navigateur."
+      ],
+      "list": []
+    },
+    {
+      "title": "Lorsque vous envoyez une demande",
+      "body": [
+        "Lorsque vous envoyez une demande, les renseignements saisis sont transmis à Vitreva par Web3Forms, le prestataire de formulaire utilisé sur ce site. Ils servent à comprendre votre besoin, préparer la soumission et vous répondre. Web3Forms traite aussi les données nécessaires à l’acheminement du formulaire selon ses propres pratiques."
+      ],
+      "list": []
+    },
+    {
+      "title": "Ce qu’il faut transmettre",
+      "body": [
+        "Ne transmettez pas de renseignements sensibles qui ne sont pas nécessaires à votre demande. Le NIV est facultatif."
+      ],
+      "list": []
+    },
+    {
+      "title": "Vos renseignements personnels",
+      "body": [
+        "Pour toute question sur vos renseignements personnels ou pour demander leur correction ou leur suppression, écrivez à contact@vitreva.ca."
+      ],
+      "list": []
+    }
+  ]
+}

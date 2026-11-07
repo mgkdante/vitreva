@@ -1,0 +1,30 @@
+{
+  "eyebrow": "Soumission gratuite",
+  "title": "Retrouvons votre vue dégagée.",
+  "intro": "Choisissez ce qui vous convient le mieux. Nous répondons dans les 24 heures et la soumission est gratuite.",
+  "call": "Appeler",
+  "ways": {
+    "text": "Texter une photo",
+    "textNote": "Le plus simple pour montrer le dommage",
+    "email": "Courriel"
+  },
+  "fields": {
+    "name": "Nom",
+    "contact": "Téléphone ou courriel",
+    "vehicle": "Année, marque et modèle",
+    "vin": "NIV (VIN, facultatif)",
+    "location": "Ville ou code postal",
+    "message": "Votre besoin"
+  },
+  "vinHelp": "Si disponible. Sur l’immatriculation, l’assurance ou généralement au bas du pare-brise côté conducteur.",
+  "consent": "J’accepte que Vitreva utilise ces renseignements pour traiter ma demande et me répondre.",
+  "privacyNote": "Les renseignements transmis servent à traiter votre demande et à vous répondre.",
+  "privacyLabel": "Confidentialité",
+  "submit": "Obtenir ma soumission gratuite",
+  "submitting": "Envoi en cours…",
+  "note": "Cet envoi ne réserve rien : nous confirmons d’abord le prix et le rendez-vous avec vous.",
+  "success": "Votre demande a été transmise. Vitreva vous contactera pour préciser les détails. Aucun rendez-vous n’est confirmé à cette étape.",
+  "error": "La demande n’a pas pu être transmise. Réessayez ou joignez Vitreva par téléphone ou par courriel.",
+  "unconfigured": "L’envoi du formulaire n’est pas encore disponible. Votre demande n’a pas été transmise. Joignez Vitreva par téléphone ou par courriel.",
+  "subject": "Demande de soumission Vitreva"
+}
