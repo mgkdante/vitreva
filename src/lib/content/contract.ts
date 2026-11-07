@@ -3,37 +3,9 @@
  * types, the build its checks and the CMS its fields, in the order they appear in each of those.
  * Only structure is checked here. What the owner chooses to say is theirs.
  */
+import { group, line, list, optionalParagraph, paragraph } from '@yesid/content-contract';
 import { z } from 'zod';
 import type { PageKey } from './slugs.ts';
-
-export interface FieldMeta {
-  label: string;
-  hint?: string;
-  widget: 'string' | 'text' | 'object' | 'list';
-  /** The owner may leave it empty. */
-  optional?: boolean;
-  /** The layout depends on this many items, so the CMS locks adding, removing and reordering. */
-  count?: number;
-  /** Starts closed in the CMS, to keep long forms readable. */
-  collapsed?: boolean;
-}
-
-const withMeta = <T extends z.ZodType>(schema: T, meta: FieldMeta): T => schema.meta(meta as unknown as Record<string, unknown>) as T;
-
-const required = z.string().refine((value) => value.trim().length > 0, 'This text cannot be empty');
-
-const line = (label: string, hint?: string) => withMeta(required, { label, hint, widget: 'string' });
-const paragraph = (label: string, hint?: string) => withMeta(required, { label, hint, widget: 'text' });
-const optionalParagraph = (label: string, hint?: string) => withMeta(z.string(), { label, hint, widget: 'text', optional: true });
-
-const group = <Shape extends z.ZodRawShape>(label: string, shape: Shape, collapsed = true) =>
-  withMeta(z.strictObject(shape), { label, widget: 'object', collapsed });
-
-const list = <Item extends z.ZodType>(label: string, item: Item, options: { count?: number; optional?: boolean } = {}) => {
-  const { count, optional } = options;
-  const schema = count === undefined ? (optional ? z.array(item) : z.array(item).min(1)) : z.array(item).length(count);
-  return withMeta(schema, { label, widget: 'list', count, optional });
-};
 
 const titleAndBody = (titleLabel: string, bodyLabel: string) =>
   z.strictObject({ title: line(titleLabel), body: paragraph(bodyLabel) });
