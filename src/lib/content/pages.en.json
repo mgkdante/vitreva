@@ -12,27 +12,48 @@
     "sections": [
       {
         "title": "What’s included",
-        "body": ["One service, done where your vehicle is: we remove the damaged windshield and install the new one at the location we agreed on."],
-        "list": ["A free quote for your vehicle", "No extra charge for mobile service", "Instructions specific to your installation", "A warranty on your replacement, explained with your quote"]
+        "body": [
+          "One service, done where your vehicle is: we remove the damaged windshield and install the new one at the location we agreed on."
+        ],
+        "list": [
+          "A free quote for your vehicle",
+          "No extra charge for mobile service",
+          "Instructions specific to your installation",
+          "A warranty on your replacement, explained with your quote"
+        ]
       },
       {
         "title": "What we need from you",
-        "body": ["A few details are enough to get started. If you don’t have everything, send what you have and we’ll work through the rest together."],
-        "list": ["Your vehicle’s year, make and model", "Where the vehicle will be parked", "A photo of the damage, by text if you can", "Your VIN, if you have it: on your registration or insurance documents, or usually at the lower driver-side windshield", "Any cameras or driver-assist features"]
+        "body": [
+          "A few details are enough to get started. If you don’t have everything, send what you have and we’ll work through the rest together."
+        ],
+        "list": [
+          "Your vehicle’s year, make and model",
+          "Where the vehicle will be parked",
+          "A photo of the damage, by text if you can",
+          "Your VIN, if you have it: on your registration or insurance documents, or usually at the lower driver-side windshield",
+          "Any cameras or driver-assist features"
+        ]
       },
       {
         "title": "Where it happens",
-        "body": ["Tell us where the vehicle will be. We confirm the location and working conditions with you before the appointment, so there are no surprises on the day."],
+        "body": [
+          "Tell us where the vehicle will be. We confirm the location and working conditions with you before the appointment, so there are no surprises on the day."
+        ],
         "list": []
       },
       {
         "title": "After the installation",
-        "body": ["We explain when you can drive again and what precautions to take when washing and using your vehicle. These instructions depend on your particular installation, so ask us if anything is unclear."],
+        "body": [
+          "We explain when you can drive again and what precautions to take when washing and using your vehicle. These instructions depend on your particular installation, so ask us if anything is unclear."
+        ],
         "list": []
       },
       {
         "title": "Repair or replacement?",
-        "body": ["Our service is replacement. If you’re not sure your windshield needs replacing, text us a photo or describe the damage, and we’ll help you understand the next step before agreeing on any work."],
+        "body": [
+          "Our service is replacement. If you’re not sure your windshield needs replacing, text us a photo or describe the damage, and we’ll help you understand the next step before agreeing on any work."
+        ],
         "list": []
       }
     ]
@@ -50,18 +71,33 @@
     "sections": [
       {
         "title": "What your insurer confirms",
-        "body": ["Coverage and deductibles differ from one policy to another, so your insurer is the right place for these answers. A few questions worth asking:"],
-        "list": ["Is windshield replacement covered by my policy?", "What is my deductible for this kind of damage?", "Do you need anything from me before the work is done?"]
+        "body": [
+          "Coverage and deductibles differ from one policy to another, so your insurer is the right place for these answers. A few questions worth asking:"
+        ],
+        "list": [
+          "Is windshield replacement covered by my policy?",
+          "What is my deductible for this kind of damage?",
+          "Do you need anything from me before the work is done?"
+        ]
       },
       {
         "title": "What Vitreva provides",
-        "body": ["A quote for your vehicle and the windshield it needs, which you can add to your claim. The quote is free, and you decide whether to go ahead once you know where you stand."],
+        "body": [
+          "A quote for your vehicle and the windshield it needs, which you can add to your claim. The quote is free, and you decide whether to go ahead once you know where you stand."
+        ],
         "list": []
       },
       {
         "title": "How it usually goes",
-        "body": ["Each insurer has its own process, but these are the steps on our side."],
-        "list": ["Send us your vehicle details and a photo of the damage", "Get a reply within 24 hours, then your free quote", "Check your coverage and deductible with your insurer", "Confirm the location and appointment with us"]
+        "body": [
+          "Each insurer has its own process, but these are the steps on our side."
+        ],
+        "list": [
+          "Send us your vehicle details and a photo of the damage",
+          "Get a reply within 24 hours, then your free quote",
+          "Check your coverage and deductible with your insurer",
+          "Confirm the location and appointment with us"
+        ]
       }
     ]
   },
@@ -78,17 +114,28 @@
     "sections": [
       {
         "title": "What to send us",
-        "body": ["These details let us talk about your needs with something concrete in front of us."],
-        "list": ["How many vehicles, and what type", "Where they are located", "A photo of the damage, if you have one", "Any cameras or driver-assist features"]
+        "body": [
+          "These details let us talk about your needs with something concrete in front of us."
+        ],
+        "list": [
+          "How many vehicles, and what type",
+          "Where they are located",
+          "A photo of the damage, if you have one",
+          "Any cameras or driver-assist features"
+        ]
       },
       {
         "title": "How we work with businesses",
-        "body": ["We discuss your needs and confirm together whether we can take on the work. The price, location and availability are agreed with you before anything is scheduled, and the quote is free."],
+        "body": [
+          "We discuss your needs and confirm together whether we can take on the work. The price, location and availability are agreed with you before anything is scheduled, and the quote is free."
+        ],
         "list": []
       },
       {
         "title": "Where we can go",
-        "body": ["Our mobile service covers Gatineau and nearby communities, in Quebec only. Each address is confirmed individually, which matters if your vehicles are spread across several sites."],
+        "body": [
+          "Our mobile service covers Gatineau and nearby communities, in Quebec only. Each address is confirmed individually, which matters if your vehicles are spread across several sites."
+        ],
         "list": []
       }
     ]
@@ -106,18 +153,29 @@
     "sections": [
       {
         "title": "Why it matters",
-        "body": ["Driver-assist features can rely on a camera mounted at the windshield. After a replacement, some vehicles need that system calibrated, which is known as ADAS calibration."],
+        "body": [
+          "Driver-assist features can rely on a camera mounted at the windshield. After a replacement, some vehicles need that system calibrated, which is known as ADAS calibration."
+        ],
         "list": []
       },
       {
         "title": "What Vitreva does",
-        "body": ["Vitreva replaces windshields and does not perform ADAS calibration. If your vehicle needs it, we refer you to an appropriate provider and help clarify that step before confirming the replacement."],
+        "body": [
+          "Vitreva replaces windshields and does not perform ADAS calibration. If your vehicle needs it, we refer you to an appropriate provider and help clarify that step before confirming the replacement."
+        ],
         "list": []
       },
       {
         "title": "What to tell us",
-        "body": ["You don’t need to know the technical details. Just share what you can see or what you already know about your vehicle."],
-        "list": ["Your vehicle’s year, make and model", "Whether there’s a camera or sensor near the rearview mirror", "Any driver-assist features you know of", "A photo of the area behind the rearview mirror, if you’re not sure"]
+        "body": [
+          "You don’t need to know the technical details. Just share what you can see or what you already know about your vehicle."
+        ],
+        "list": [
+          "Your vehicle’s year, make and model",
+          "Whether there’s a camera or sensor near the rearview mirror",
+          "Any driver-assist features you know of",
+          "A photo of the area behind the rearview mirror, if you’re not sure"
+        ]
       }
     ]
   },
@@ -134,12 +192,16 @@
     "sections": [
       {
         "title": "How we confirm your address",
-        "body": ["The radius is a straight-line estimate, not a road distance, and a town being listed doesn’t guarantee every address in its territory. That’s why each location and appointment is confirmed with you individually."],
+        "body": [
+          "The radius is a straight-line estimate, not a road distance, and a town being listed doesn’t guarantee every address in its territory. That’s why each location and appointment is confirmed with you individually."
+        ],
         "list": []
       },
       {
         "title": "Near the boundary",
-        "body": ["Val-des-Bois sits near the limit of our area, so it depends on your exact address. Our service stays in Quebec, so addresses in Ottawa and elsewhere in Ontario aren’t covered."],
+        "body": [
+          "Val-des-Bois sits near the limit of our area, so it depends on your exact address. Our service stays in Quebec, so addresses in Ottawa and elsewhere in Ontario aren’t covered."
+        ],
         "list": []
       }
     ]
@@ -157,17 +219,29 @@
     "sections": [
       {
         "title": "How we work",
-        "body": ["A few simple commitments guide every request."],
-        "list": ["A free quote, even when we come to you", "A reply within 24 hours of your request", "The work, price and location agreed before anything starts", "No extra charge for mobile service", "A warranty on your replacement"]
+        "body": [
+          "A few simple commitments guide every request."
+        ],
+        "list": [
+          "A free quote, even when we come to you",
+          "A reply within 24 hours of your request",
+          "The work, price and location agreed before anything starts",
+          "No extra charge for mobile service",
+          "A warranty on your replacement"
+        ]
       },
       {
         "title": "Who we serve",
-        "body": ["Individuals and businesses in Gatineau and nearby Quebec communities, Monday to Saturday from 9 am to 9 pm."],
+        "body": [
+          "Individuals and businesses in Gatineau and nearby Quebec communities, Monday to Saturday from 9 am to 9 pm."
+        ],
         "list": []
       },
       {
         "title": "A note on our photos",
-        "body": ["The images on this site are illustrations of the service. Photos of real jobs are coming soon."],
+        "body": [
+          "The images on this site are illustrations of the service. Photos of real jobs are coming soon."
+        ],
         "list": []
       }
     ]
@@ -185,22 +259,30 @@
     "sections": [
       {
         "title": "Browsing this site",
-        "body": ["You can browse this site without creating an account. The site does not use audience analytics or store your request in your browser."],
+        "body": [
+          "You can browse this site without creating an account. The site does not use audience analytics or store your request in your browser."
+        ],
         "list": []
       },
       {
         "title": "When you submit a request",
-        "body": ["When you submit a request, the details you enter are sent to Vitreva through Web3Forms, the form provider used on this site. They are used to understand your needs, prepare a quote and respond to you. Web3Forms also processes the data needed to deliver the form according to its own practices."],
+        "body": [
+          "When you submit a request, the details you enter are sent to Vitreva through Web3Forms, the form provider used on this site. They are used to understand your needs, prepare a quote and respond to you. Web3Forms also processes the data needed to deliver the form according to its own practices."
+        ],
         "list": []
       },
       {
         "title": "What to send",
-        "body": ["Please do not send sensitive information that is unnecessary for your request. Your VIN is optional."],
+        "body": [
+          "Please do not send sensitive information that is unnecessary for your request. Your VIN is optional."
+        ],
         "list": []
       },
       {
         "title": "Your personal information",
-        "body": ["For questions about your personal information, or to request its correction or deletion, email contact@vitreva.ca."],
+        "body": [
+          "For questions about your personal information, or to request its correction or deletion, email contact@vitreva.ca."
+        ],
         "list": []
       }
     ]
@@ -218,27 +300,37 @@
     "sections": [
       {
         "title": "About this site",
-        "body": ["This site presents Vitreva’s mobile windshield replacement service in Gatineau and lets you request a quote."],
+        "body": [
+          "This site presents Vitreva’s mobile windshield replacement service in Gatineau and lets you request a quote."
+        ],
         "list": []
       },
       {
         "title": "Quotes and appointments",
-        "body": ["Submitting a request does not confirm a price or an appointment. The work, price, location and availability must be confirmed directly with Vitreva."],
+        "body": [
+          "Submitting a request does not confirm a price or an appointment. The work, price, location and availability must be confirmed directly with Vitreva."
+        ],
         "list": []
       },
       {
         "title": "Calibration and aftercare",
-        "body": ["ADAS calibration needs are referred to an appropriate provider. Aftercare instructions are provided for your particular installation."],
+        "body": [
+          "ADAS calibration needs are referred to an appropriate provider. Aftercare instructions are provided for your particular installation."
+        ],
         "list": []
       },
       {
         "title": "Photographs",
-        "body": ["Illustrative photographs show the service; they are not evidence of completed jobs."],
+        "body": [
+          "Illustrative photographs show the service; they are not evidence of completed jobs."
+        ],
         "list": []
       },
       {
         "title": "Contact",
-        "body": ["For any questions, contact Vitreva at contact@vitreva.ca."],
+        "body": [
+          "For any questions, contact Vitreva at contact@vitreva.ca."
+        ],
         "list": []
       }
     ]

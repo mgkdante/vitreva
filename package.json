@@ -18,7 +18,9 @@
     "test": "bun test tests",
     "images": "bun scripts/prepare-images.mjs",
     "prepare": "svelte-kit sync",
-    "share-images": "bun scripts/generate-share-images.mjs"
+    "share-images": "bun scripts/generate-share-images.mjs",
+    "cms:config": "bun scripts/generate-cms-config.ts",
+    "content:format": "bun scripts/format-content.ts"
   },
   "dependencies": {
     "@fontsource-variable/manrope": "^5.3.0",
@@ -34,6 +36,7 @@
     "svelte": "^5.57.2",
     "svelte-check": "^4.7.7",
     "typescript": "~6.0.3",
-    "vite": "^8.3.5"
+    "vite": "^8.3.5",
+    "zod": "4.6.7"
   }
 }

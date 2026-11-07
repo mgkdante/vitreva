@@ -1,10 +1,11 @@
 import fr from './fr.json';
 import en from './en.json';
 import es from './es.json';
+import type { SiteText } from './contract.ts';
 
 export const locales = ['fr', 'en', 'es'] as const;
 export type Locale = (typeof locales)[number];
-export type Content = typeof fr;
+export type Content = SiteText;
 
 const content: Record<Locale, Content> = { fr, en, es };
 

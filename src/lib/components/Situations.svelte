@@ -5,7 +5,9 @@
 
   let { content, locale }: { content: Content['situations']; locale: Locale } = $props();
 
-  const href = (target: string) => target === 'insurance' || target === 'fleets' || target === 'cameras' ? localHref(locale, target) : site.smsHref;
+  // Where each card leads. The contract keeps these four cards in this order.
+  const targets = ['insurance', 'fleets', 'cameras', 'text'] as const;
+  const href = (target: (typeof targets)[number]) => target === 'text' ? site.smsHref : localHref(locale, target);
 </script>
 
 <section class="situations" aria-labelledby="situations-title">
@@ -13,8 +15,8 @@
     <p class="eyebrow">{content.eyebrow}</p>
     <h2 id="situations-title">{content.title}</h2>
     <div class="cards">
-      {#each content.cards as card}
-        <a class="card" href={href(card.target)}>
+      {#each content.cards as card, index}
+        <a class="card" href={href(targets[index])}>
           <h3>{card.title}</h3>
           <p>{card.body}</p>
           <span class="link">{card.cta} →</span>

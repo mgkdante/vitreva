@@ -12,27 +12,48 @@
     "sections": [
       {
         "title": "Qué incluye",
-        "body": ["Un solo servicio, realizado donde está tu vehículo: retiramos el parabrisas dañado e instalamos el nuevo en el lugar acordado."],
-        "list": ["Una cotización gratis para tu vehículo", "Sin cargo adicional por el servicio móvil", "Indicaciones específicas para tu instalación", "Una garantía en tu reemplazo, explicada con tu cotización"]
+        "body": [
+          "Un solo servicio, realizado donde está tu vehículo: retiramos el parabrisas dañado e instalamos el nuevo en el lugar acordado."
+        ],
+        "list": [
+          "Una cotización gratis para tu vehículo",
+          "Sin cargo adicional por el servicio móvil",
+          "Indicaciones específicas para tu instalación",
+          "Una garantía en tu reemplazo, explicada con tu cotización"
+        ]
       },
       {
         "title": "Qué necesitamos de ti",
-        "body": ["Con unos pocos datos basta para empezar. Si no tienes todo, envía lo que tengas y revisamos el resto juntos."],
-        "list": ["El año, la marca y el modelo de tu vehículo", "Dónde estará estacionado", "Una foto del daño, por mensaje si puedes", "El VIN si lo tienes: en los documentos de registro o del seguro, o normalmente en la parte inferior del parabrisas, del lado del conductor", "Las cámaras o los sistemas de asistencia a la conducción"]
+        "body": [
+          "Con unos pocos datos basta para empezar. Si no tienes todo, envía lo que tengas y revisamos el resto juntos."
+        ],
+        "list": [
+          "El año, la marca y el modelo de tu vehículo",
+          "Dónde estará estacionado",
+          "Una foto del daño, por mensaje si puedes",
+          "El VIN si lo tienes: en los documentos de registro o del seguro, o normalmente en la parte inferior del parabrisas, del lado del conductor",
+          "Las cámaras o los sistemas de asistencia a la conducción"
+        ]
       },
       {
         "title": "Dónde se hace",
-        "body": ["Indícanos dónde estará el vehículo. Confirmamos contigo el lugar y las condiciones de trabajo antes de la cita, para evitar sorpresas ese día."],
+        "body": [
+          "Indícanos dónde estará el vehículo. Confirmamos contigo el lugar y las condiciones de trabajo antes de la cita, para evitar sorpresas ese día."
+        ],
         "list": []
       },
       {
         "title": "Después de la instalación",
-        "body": ["Te explicamos cuándo puedes volver a conducir y qué precauciones tomar al lavar y usar tu vehículo. Estas indicaciones dependen de tu instalación, así que pregúntanos si algo no queda claro."],
+        "body": [
+          "Te explicamos cuándo puedes volver a conducir y qué precauciones tomar al lavar y usar tu vehículo. Estas indicaciones dependen de tu instalación, así que pregúntanos si algo no queda claro."
+        ],
         "list": []
       },
       {
         "title": "¿Reparación o reemplazo?",
-        "body": ["Nuestro servicio es el reemplazo. Si no sabes si tu parabrisas debe reemplazarse, envíanos una foto o describe el daño, y te ayudaremos a entender el siguiente paso antes de acordar el trabajo."],
+        "body": [
+          "Nuestro servicio es el reemplazo. Si no sabes si tu parabrisas debe reemplazarse, envíanos una foto o describe el daño, y te ayudaremos a entender el siguiente paso antes de acordar el trabajo."
+        ],
         "list": []
       }
     ]
@@ -50,18 +71,33 @@
     "sections": [
       {
         "title": "Qué confirma tu aseguradora",
-        "body": ["La cobertura y el deducible varían de una póliza a otra, así que tu aseguradora es quien puede responder. Algunas preguntas útiles:"],
-        "list": ["¿Mi póliza cubre el reemplazo del parabrisas?", "¿Cuál es mi deducible para este tipo de daño?", "¿Necesitan algo de mi parte antes del trabajo?"]
+        "body": [
+          "La cobertura y el deducible varían de una póliza a otra, así que tu aseguradora es quien puede responder. Algunas preguntas útiles:"
+        ],
+        "list": [
+          "¿Mi póliza cubre el reemplazo del parabrisas?",
+          "¿Cuál es mi deducible para este tipo de daño?",
+          "¿Necesitan algo de mi parte antes del trabajo?"
+        ]
       },
       {
         "title": "Qué ofrece Vitreva",
-        "body": ["Una cotización para tu vehículo y el parabrisas que necesita, para agregar a tu reclamación. Es gratis, y decides si seguir adelante una vez que conozcas tu situación."],
+        "body": [
+          "Una cotización para tu vehículo y el parabrisas que necesita, para agregar a tu reclamación. Es gratis, y decides si seguir adelante una vez que conozcas tu situación."
+        ],
         "list": []
       },
       {
         "title": "Cómo suele funcionar",
-        "body": ["Cada aseguradora tiene su propio proceso, pero estos son los pasos de nuestro lado."],
-        "list": ["Envíanos los datos de tu vehículo y una foto del daño", "Recibe una respuesta en 24 horas y luego tu cotización gratis", "Revisa la cobertura y el deducible con tu aseguradora", "Confirma con nosotros el lugar y la cita"]
+        "body": [
+          "Cada aseguradora tiene su propio proceso, pero estos son los pasos de nuestro lado."
+        ],
+        "list": [
+          "Envíanos los datos de tu vehículo y una foto del daño",
+          "Recibe una respuesta en 24 horas y luego tu cotización gratis",
+          "Revisa la cobertura y el deducible con tu aseguradora",
+          "Confirma con nosotros el lugar y la cita"
+        ]
       }
     ]
   },
@@ -78,17 +114,28 @@
     "sections": [
       {
         "title": "Qué enviarnos",
-        "body": ["Estos datos nos permiten hablar de lo que necesitas con algo concreto."],
-        "list": ["Cuántos vehículos tienes y de qué tipo", "Dónde están", "Una foto del daño, si la tienes", "Las cámaras o los sistemas de asistencia a la conducción"]
+        "body": [
+          "Estos datos nos permiten hablar de lo que necesitas con algo concreto."
+        ],
+        "list": [
+          "Cuántos vehículos tienes y de qué tipo",
+          "Dónde están",
+          "Una foto del daño, si la tienes",
+          "Las cámaras o los sistemas de asistencia a la conducción"
+        ]
       },
       {
         "title": "Cómo trabajamos con empresas",
-        "body": ["Conversamos sobre lo que necesitas y confirmamos juntos si podemos realizar el trabajo. El precio, el lugar y la disponibilidad se acuerdan contigo antes de programar nada, y la cotización es gratis."],
+        "body": [
+          "Conversamos sobre lo que necesitas y confirmamos juntos si podemos realizar el trabajo. El precio, el lugar y la disponibilidad se acuerdan contigo antes de programar nada, y la cotización es gratis."
+        ],
         "list": []
       },
       {
         "title": "A dónde podemos ir",
-        "body": ["Nuestro servicio móvil cubre Gatineau y sus alrededores, únicamente en Québec. Cada dirección se confirma de forma individual, algo importante si tus vehículos están repartidos en varios sitios."],
+        "body": [
+          "Nuestro servicio móvil cubre Gatineau y sus alrededores, únicamente en Québec. Cada dirección se confirma de forma individual, algo importante si tus vehículos están repartidos en varios sitios."
+        ],
         "list": []
       }
     ]
@@ -106,18 +153,29 @@
     "sections": [
       {
         "title": "Por qué importa",
-        "body": ["Los sistemas de asistencia a la conducción pueden depender de una cámara montada en el parabrisas. Después de un reemplazo, algunos vehículos necesitan calibrar ese sistema, lo que se conoce como calibración ADAS."],
+        "body": [
+          "Los sistemas de asistencia a la conducción pueden depender de una cámara montada en el parabrisas. Después de un reemplazo, algunos vehículos necesitan calibrar ese sistema, lo que se conoce como calibración ADAS."
+        ],
         "list": []
       },
       {
         "title": "Qué hace Vitreva",
-        "body": ["Vitreva reemplaza parabrisas y no realiza la calibración ADAS. Si tu vehículo la necesita, te orientamos hacia un proveedor adecuado y te ayudamos a aclarar ese paso antes de confirmar el reemplazo."],
+        "body": [
+          "Vitreva reemplaza parabrisas y no realiza la calibración ADAS. Si tu vehículo la necesita, te orientamos hacia un proveedor adecuado y te ayudamos a aclarar ese paso antes de confirmar el reemplazo."
+        ],
         "list": []
       },
       {
         "title": "Qué decirnos",
-        "body": ["No necesitas conocer los detalles técnicos. Solo cuéntanos lo que ves o lo que ya sabes de tu vehículo."],
-        "list": ["El año, la marca y el modelo de tu vehículo", "Si hay una cámara o un sensor cerca del retrovisor", "Los sistemas de asistencia que conozcas", "Una foto de la zona detrás del retrovisor, si tienes dudas"]
+        "body": [
+          "No necesitas conocer los detalles técnicos. Solo cuéntanos lo que ves o lo que ya sabes de tu vehículo."
+        ],
+        "list": [
+          "El año, la marca y el modelo de tu vehículo",
+          "Si hay una cámara o un sensor cerca del retrovisor",
+          "Los sistemas de asistencia que conozcas",
+          "Una foto de la zona detrás del retrovisor, si tienes dudas"
+        ]
       }
     ]
   },
@@ -134,12 +192,16 @@
     "sections": [
       {
         "title": "Cómo confirmamos tu dirección",
-        "body": ["El radio es una estimación en línea recta, no una distancia por carretera, y que una localidad aparezca en la lista no garantiza todas las direcciones de su territorio. Por eso cada lugar y cita se confirman contigo de forma individual."],
+        "body": [
+          "El radio es una estimación en línea recta, no una distancia por carretera, y que una localidad aparezca en la lista no garantiza todas las direcciones de su territorio. Por eso cada lugar y cita se confirman contigo de forma individual."
+        ],
         "list": []
       },
       {
         "title": "Cerca del límite",
-        "body": ["Val-des-Bois está cerca del límite de nuestra zona, así que depende de tu dirección exacta. Nuestro servicio se mantiene en Québec, por lo que no atendemos direcciones en Ottawa ni en otras partes de Ontario."],
+        "body": [
+          "Val-des-Bois está cerca del límite de nuestra zona, así que depende de tu dirección exacta. Nuestro servicio se mantiene en Québec, por lo que no atendemos direcciones en Ottawa ni en otras partes de Ontario."
+        ],
         "list": []
       }
     ]
@@ -157,17 +219,29 @@
     "sections": [
       {
         "title": "Cómo trabajamos",
-        "body": ["Unos compromisos simples guían cada solicitud."],
-        "list": ["Una cotización gratis, incluso cuando vamos hasta ti", "Una respuesta dentro de las 24 horas siguientes a tu solicitud", "El trabajo, el precio y el lugar acordados antes de empezar", "Sin cargo adicional por el servicio móvil", "Una garantía en tu reemplazo"]
+        "body": [
+          "Unos compromisos simples guían cada solicitud."
+        ],
+        "list": [
+          "Una cotización gratis, incluso cuando vamos hasta ti",
+          "Una respuesta dentro de las 24 horas siguientes a tu solicitud",
+          "El trabajo, el precio y el lugar acordados antes de empezar",
+          "Sin cargo adicional por el servicio móvil",
+          "Una garantía en tu reemplazo"
+        ]
       },
       {
         "title": "A quién atendemos",
-        "body": ["Particulares y empresas de Gatineau y sus alrededores, en Québec, de lunes a sábado, de 9 a. m. a 9 p. m."],
+        "body": [
+          "Particulares y empresas de Gatineau y sus alrededores, en Québec, de lunes a sábado, de 9 a. m. a 9 p. m."
+        ],
         "list": []
       },
       {
         "title": "Una nota sobre nuestras fotos",
-        "body": ["Las imágenes de este sitio son ilustraciones del servicio. Pronto habrá fotos de trabajos reales."],
+        "body": [
+          "Las imágenes de este sitio son ilustraciones del servicio. Pronto habrá fotos de trabajos reales."
+        ],
         "list": []
       }
     ]
@@ -185,22 +259,30 @@
     "sections": [
       {
         "title": "Navegar por este sitio",
-        "body": ["Puedes navegar por este sitio sin crear una cuenta. El sitio no utiliza herramientas de análisis de audiencia ni guarda tu solicitud en tu navegador."],
+        "body": [
+          "Puedes navegar por este sitio sin crear una cuenta. El sitio no utiliza herramientas de análisis de audiencia ni guarda tu solicitud en tu navegador."
+        ],
         "list": []
       },
       {
         "title": "Cuando envías una solicitud",
-        "body": ["Cuando envías una solicitud, los datos que ingresas se transmiten a Vitreva a través de Web3Forms, el proveedor del formulario utilizado en este sitio. Se utilizan para entender lo que necesitas, preparar una cotización y responderte. Web3Forms también procesa los datos necesarios para entregar el formulario según sus propias prácticas."],
+        "body": [
+          "Cuando envías una solicitud, los datos que ingresas se transmiten a Vitreva a través de Web3Forms, el proveedor del formulario utilizado en este sitio. Se utilizan para entender lo que necesitas, preparar una cotización y responderte. Web3Forms también procesa los datos necesarios para entregar el formulario según sus propias prácticas."
+        ],
         "list": []
       },
       {
         "title": "Qué enviar",
-        "body": ["No envíes información sensible que no sea necesaria para tu solicitud. El VIN es opcional."],
+        "body": [
+          "No envíes información sensible que no sea necesaria para tu solicitud. El VIN es opcional."
+        ],
         "list": []
       },
       {
         "title": "Tus datos personales",
-        "body": ["Si tienes preguntas sobre tus datos personales o quieres solicitar su corrección o eliminación, escribe a contact@vitreva.ca."],
+        "body": [
+          "Si tienes preguntas sobre tus datos personales o quieres solicitar su corrección o eliminación, escribe a contact@vitreva.ca."
+        ],
         "list": []
       }
     ]
@@ -218,27 +300,37 @@
     "sections": [
       {
         "title": "Sobre este sitio",
-        "body": ["Este sitio presenta el servicio móvil de reemplazo de parabrisas de Vitreva en Gatineau y te permite solicitar una cotización."],
+        "body": [
+          "Este sitio presenta el servicio móvil de reemplazo de parabrisas de Vitreva en Gatineau y te permite solicitar una cotización."
+        ],
         "list": []
       },
       {
         "title": "Cotizaciones y citas",
-        "body": ["Enviar una solicitud no confirma un precio ni una cita. El trabajo, el precio, el lugar y la disponibilidad deben confirmarse directamente con Vitreva."],
+        "body": [
+          "Enviar una solicitud no confirma un precio ni una cita. El trabajo, el precio, el lugar y la disponibilidad deben confirmarse directamente con Vitreva."
+        ],
         "list": []
       },
       {
         "title": "Calibración e indicaciones",
-        "body": ["Si se necesita una calibración ADAS, te orientamos hacia un proveedor adecuado. Las indicaciones de cuidado después de la instalación se proporcionan según tu instalación."],
+        "body": [
+          "Si se necesita una calibración ADAS, te orientamos hacia un proveedor adecuado. Las indicaciones de cuidado después de la instalación se proporcionan según tu instalación."
+        ],
         "list": []
       },
       {
         "title": "Fotografías",
-        "body": ["Las fotografías ilustrativas muestran el servicio; no constituyen evidencia de trabajos realizados."],
+        "body": [
+          "Las fotografías ilustrativas muestran el servicio; no constituyen evidencia de trabajos realizados."
+        ],
         "list": []
       },
       {
         "title": "Contacto",
-        "body": ["Si tienes preguntas, comunícate con Vitreva en contact@vitreva.ca."],
+        "body": [
+          "Si tienes preguntas, comunícate con Vitreva en contact@vitreva.ca."
+        ],
         "list": []
       }
     ]
