@@ -43,6 +43,6 @@ test('cards carry the saved phone number and page titles, with no placeholder le
 
 test('cards are made by each build, so they are not kept in the repository', () => {
   const { scripts } = JSON.parse(read('package.json'));
-  assert.match(scripts.build, /^bun run share-images && vite build$/);
+  assert.match(scripts.build, /bun run share-images && vite build/);
   assert.ok(read('.gitignore').split('\n').includes('/static/images/og/'));
 });

@@ -9,6 +9,19 @@ backend:
   graphql_api_root: https://login.yesid.dev/vitreva
 media_folder: static/images/uploads
 public_folder: /images/uploads
+slug:
+  encoding: ascii
+  clean_accents: true
+media_libraries:
+  default:
+    config:
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 2048
+          height: 2048
 i18n:
   structure: multiple_files
   locales:
@@ -949,6 +962,40 @@ collections:
                   i18n: duplicate
                   hint: "Remplace {boundary} dans les textes du site. Si la liste change, relisez les phrases qui en parlent."
                   widget: string
+      - name: photos
+        label: Photos
+        file: "src/lib/content/photos.{{locale}}.json"
+        format: json
+        i18n: true
+        fields:
+          - name: van
+            label: Véhicule
+            i18n: duplicate
+            hint: "En haut de l’accueil, sur les pages Flottes et À propos, et sur les images de partage. Revoyez sa description dans Accueil. Laissez vide pour garder la photo actuelle."
+            widget: image
+            required: false
+            accept: "image/jpeg,image/png,image/webp,image/avif,image/heic,image/heif"
+          - name: installation
+            label: Installation
+            i18n: duplicate
+            hint: Dans la section Le service de l’accueil et sur la page Remplacement. Revoyez sa description dans Accueil. Laissez vide pour garder la photo actuelle.
+            widget: image
+            required: false
+            accept: "image/jpeg,image/png,image/webp,image/avif,image/heic,image/heif"
+          - name: aftercare
+            label: Après la pose
+            i18n: duplicate
+            hint: "Dans la zone desservie de l’accueil et sur les pages Assurance, Caméras et Zone desservie. Laissez vide pour garder la photo actuelle."
+            widget: image
+            required: false
+            accept: "image/jpeg,image/png,image/webp,image/avif,image/heic,image/heif"
+          - name: quote
+            label: Fond du formulaire
+            i18n: duplicate
+            hint: Floue derrière le formulaire de soumission. Laissez vide pour garder la photo actuelle.
+            widget: image
+            required: false
+            accept: "image/jpeg,image/png,image/webp,image/avif,image/heic,image/heif"
       - name: menu
         label: Menu et bandeau
         file: "src/lib/content/menu.{{locale}}.json"

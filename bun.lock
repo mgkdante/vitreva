@@ -13,7 +13,7 @@
         "@sveltejs/kit": "^3.1.0",
         "@sveltejs/vite-plugin-svelte": "^7.3.1",
         "@types/node": "^24.0.0",
-        "@yesid/content-contract": "https://github.com/mgkdante/yesid.content-contract/releases/download/v0.3.0/yesid-content-contract-0.3.0.tgz",
+        "@yesid/content-contract": "https://github.com/mgkdante/yesid.content-contract/releases/download/v0.4.0/yesid-content-contract-0.4.0.tgz",
         "playwright-core": "1.65.0",
         "sharp": "^0.35.5",
         "svelte": "^5.57.2",
@@ -224,7 +224,7 @@
 
     "@types/node": ["@types/node@24.19.2", "", { "dependencies": { "undici-types": ">=7.24.0 <7.24.7" } }, "sha512-93d49wCWJkCyN87MxLpNN6KXPCwFw7bVUg79mGUV1OS40JGWwVCr8n61DXCSqz7CV6/VfPkb7xec7uP2M+QHWQ=="],
 
-    "@yesid/content-contract": ["@yesid/content-contract@https://github.com/mgkdante/yesid.content-contract/releases/download/v0.3.0/yesid-content-contract-0.3.0.tgz", { "peerDependencies": { "zod": "^4.6.0" } }, "sha512-kyh4rZKuAgytuVeXK5F3/q1bPyB/O7bEtHKu/SGzHe0U3EM4QhFxQz6MhwlsgF0HBYINbS4oIJWEvIsb/AfTxQ=="],
+    "@yesid/content-contract": ["@yesid/content-contract@https://github.com/mgkdante/yesid.content-contract/releases/download/v0.4.0/yesid-content-contract-0.4.0.tgz", { "peerDependencies": { "zod": "^4.6.0" } }, "sha512-P3+cr8LYOAiYb8muJcX/Ivx/zYzulF1jQXtCbptoh6IJpvK9tbr1wFOh5zK4Rwr5v8ClEhLsKcZdtwbem4FFqQ=="],
 
     "acorn": ["acorn@8.19.0", "", { "bin": "bin/acorn" }, "sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw=="],
 

@@ -129,8 +129,8 @@ test('every CMS field has a label and is translatable', () => {
       assert.equal(i18n, true);
       walk(fields, (field) => {
         assert.ok(field.label?.trim(), `${field.name} has no label`);
-        // Facts are shared across languages on purpose, except their wording. See business.test.ts.
-        if (name !== 'business') assert.equal(field.i18n, true, `${field.name} is not translatable`);
+        // Facts and photos are shared across languages on purpose, except the facts' wording. See business.test.ts and photos.test.ts.
+        if (name !== 'business' && name !== 'photos') assert.equal(field.i18n, true, `${field.name} is not translatable`);
       });
     }
   }

@@ -24,7 +24,7 @@
 </script>
 
 <section id="quote" class="quote-section" aria-labelledby="quote-title">
-  <Photo image="bokeh" class="quote-photo" sizes="100vw" />
+  <Photo image="quote" class="quote-photo" sizes="100vw" />
   <div class="quote-tint"></div>
   <div class="container quote-layout">
     <div class="quote-introduction">

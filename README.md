@@ -79,7 +79,7 @@ Without overrides, the workflow uses GitHub Pages metadata for origin and base p
 
 The site emits complete localized HTML for the home page and eight translated pages, canonical and reciprocal language links, social metadata with a share card per page and language, structured business data with known facts, `sitemap.xml`, `robots.txt` and an optional `llms.txt`.
 
-`bun run build` makes the share cards in `static/images/og/` first, so they always match the saved titles, banner and phone number; they are not committed, and the build needs Microsoft Edge or Google Chrome. Other generated assets are committed: `bun run images` regenerates photos and icons, and `bun scripts/generate-crack.mjs` regenerates the crack drawing.
+`bun run build` first makes the photos chosen in the editor, in the sizes the site serves and without metadata, then the share cards in `static/images/og/`, so they always match the saved titles, banner, phone number and van photo. Neither is committed, the build needs Microsoft Edge or Google Chrome, and it removes `build/images/uploads` so no original is published. Other generated assets are committed: `bun run images` regenerates photos and icons, and `bun scripts/generate-crack.mjs` regenerates the crack drawing.
 
 ## Review and launch
 

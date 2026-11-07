@@ -3,7 +3,7 @@
  * types, the build its checks and the CMS its fields, in the order they appear in each of those.
  * Only structure is checked here. What the owner chooses to say is theirs.
  */
-import { group, line, list, optionalParagraph, paragraph } from '@yesid/content-contract';
+import { group, image, line, list, optionalParagraph, paragraph } from '@yesid/content-contract';
 import { z } from 'zod';
 import type { PageKey } from './slugs.ts';
 
@@ -198,6 +198,17 @@ const openDaysGroup = group('Jours ouverts', {
   friday: dayOpen('Vendredi'),
   saturday: dayOpen('Samedi'),
   sunday: dayOpen('Dimanche')
+});
+
+const photo = (label: string, where: string) =>
+  image(label, { optional: true, shared: true, hint: `${where} Laissez vide pour garder la photo actuelle.` });
+
+/** The photo shown in each place. Their descriptions are translated, so they stay with the home page's text. */
+export const photosContract = z.strictObject({
+  van: photo('Véhicule', 'En haut de l’accueil, sur les pages Flottes et À propos, et sur les images de partage. Revoyez sa description dans Accueil.'),
+  installation: photo('Installation', 'Dans la section Le service de l’accueil et sur la page Remplacement. Revoyez sa description dans Accueil.'),
+  aftercare: photo('Après la pose', 'Dans la zone desservie de l’accueil et sur les pages Assurance, Caméras et Zone desservie.'),
+  quote: photo('Fond du formulaire', 'Floue derrière le formulaire de soumission.')
 });
 
 export const businessContract = z.strictObject({
