@@ -1,6 +1,7 @@
 import { absoluteUrl, site } from '#lib/config/site.ts';
 import { locales, getContent, type Locale } from '#lib/content/index.ts';
-import { getPage, legalPageKeys, pagePath, type PageKey } from '#lib/content/pages.ts';
+import { getPage, pagePath, type PageKey } from '#lib/content/pages.ts';
+import { shareImagePath } from '#lib/content/share.ts';
 
 const langTag = (locale: Locale) => `${locale}-CA`;
 const ogLocaleOf = (locale: Locale) => locale === 'es' ? 'es_LA' : `${locale}_CA`;
@@ -20,11 +21,6 @@ export const languagePages = (key?: PageKey) => locales.map((locale) => ({
   locale,
   href: absoluteUrl(pagePath(locale, key))
 }));
-
-const isLegal = (key?: PageKey) => (legalPageKeys as readonly string[]).includes(key ?? '');
-
-/** Legal pages share the home page's card; every other page has one per language. */
-export const shareImagePath = (locale: Locale, key?: PageKey) => `images/og/${locale}-${key && !isLegal(key) ? key : 'home'}.jpg`;
 
 function businessNode(locale: Locale, description: string) {
   return {

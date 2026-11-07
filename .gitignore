@@ -4,6 +4,7 @@ node_modules/
 .svelte-kit/
 build/
 .wrangler/
+/static/images/og/
 *.log
 /qa-artifacts/
 /test-results/

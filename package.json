@@ -12,13 +12,13 @@
   },
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "bun run share-images && vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "test": "bun test tests",
     "images": "bun scripts/prepare-images.mjs",
     "prepare": "svelte-kit sync",
-    "share-images": "bun scripts/generate-share-images.mjs",
+    "share-images": "bun scripts/generate-share-images.ts",
     "cms:config": "bun scripts/generate-cms-config.ts",
     "content:format": "bun scripts/format-content.ts"
   },
