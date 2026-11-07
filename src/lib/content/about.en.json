@@ -25,7 +25,7 @@
     {
       "title": "Who we serve",
       "body": [
-        "Individuals and businesses in Gatineau and nearby Quebec communities, Monday to Saturday from 9 am to 9 pm."
+        "Individuals and businesses in Gatineau and nearby Quebec communities, {days} from {hours}."
       ],
       "list": []
     },

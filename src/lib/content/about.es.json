@@ -25,7 +25,7 @@
     {
       "title": "A quién atendemos",
       "body": [
-        "Particulares y empresas de Gatineau y sus alrededores, en Québec, de lunes a sábado, de 9 a. m. a 9 p. m."
+        "Particulares y empresas de Gatineau y sus alrededores, en Québec, {days}, de {hours}"
       ],
       "list": []
     },

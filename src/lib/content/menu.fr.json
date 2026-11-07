@@ -15,7 +15,7 @@
     "quote": "Soumission gratuite",
     "mobile": "Aucuns frais supplémentaires pour le service mobile",
     "reply": "Réponse sous 24 h",
-    "hours": "Lun. au sam., 9 h à 21 h"
+    "hours": "{daysShort}, {hours}"
   },
   "pagesUi": {
     "related": "À voir aussi",

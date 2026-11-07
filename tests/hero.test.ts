@@ -55,6 +55,6 @@ test('public images are generated without the maker badge', () => {
 
 test('contact links expose call and text on the same number', () => {
   const site = read('src/lib/config/site.ts');
-  assert.ok(site.includes("phoneHref: 'tel:+18192098023'"));
-  assert.ok(site.includes("smsHref: 'sms:+18192098023'"));
+  assert.ok(site.includes('phoneHref: `tel:${phone}`'));
+  assert.ok(site.includes('smsHref: `sms:${phone}`'));
 });

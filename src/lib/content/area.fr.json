@@ -3,11 +3,11 @@
   "summary": "Gatineau et les environs, au Québec, avec confirmation selon votre adresse.",
   "meta": {
     "title": "Zone desservie : Gatineau et l’Outaouais | Vitreva",
-    "description": "Remplacement de pare-brise mobile à Gatineau, Hull, Aylmer, Chelsea, Cantley, Val-des-Monts, La Pêche et dans les environs au Québec, dans un rayon d’environ 50 km."
+    "description": "Remplacement de pare-brise mobile à Gatineau, Hull, Aylmer, Chelsea, Cantley, Val-des-Monts, La Pêche et dans les environs au Québec, dans un rayon d’environ {radiusKm} km."
   },
   "eyebrow": "Zone desservie",
   "title": "Un service mobile à Gatineau et dans les environs.",
-  "intro": "Nous desservons le côté québécois seulement, dans un rayon d’environ 50 km à vol d’oiseau. Envoyez votre ville ou votre code postal : nous confirmerons le déplacement jusqu’à vous.",
+  "intro": "Nous desservons le côté québécois seulement, dans un rayon d’environ {radiusKm} km à vol d’oiseau. Envoyez votre ville ou votre code postal : nous confirmerons le déplacement jusqu’à vous.",
   "sections": [
     {
       "title": "Comment nous confirmons votre adresse",

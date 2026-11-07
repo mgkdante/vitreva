@@ -4,7 +4,7 @@
   "companyTitle": "Vitreva",
   "contactTitle": "Contacto",
   "hoursTitle": "Horario",
-  "days": "De lunes a sábado",
-  "hours": "De 9 a. m. a 9 p. m.",
+  "days": "{Days}",
+  "hours": "De {hours}",
   "creditPrefix": "Powered by"
 }

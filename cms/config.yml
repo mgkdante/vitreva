@@ -778,6 +778,160 @@ collections:
     format: json
     i18n: true
     files:
+      - name: business
+        label: Entreprise
+        file: "src/lib/content/business.{{locale}}.json"
+        format: json
+        i18n: true
+        fields:
+          - name: phone
+            label: Téléphone
+            i18n: duplicate
+            hint: Affiché tel quel. Les liens d’appel et de texto suivent.
+            widget: string
+            pattern:
+              - "^\\D*(\\d\\D*){10}$"
+              - Le numéro doit avoir dix chiffres.
+          - name: email
+            label: Courriel
+            i18n: duplicate
+            hint: Affiché sur le site et dans les textes légaux.
+            widget: string
+            pattern:
+              - "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$"
+              - Écrivez une adresse comme nom@domaine.ca.
+          - name: hours
+            label: Heures d’ouverture
+            i18n: duplicate
+            widget: object
+            collapsed: true
+            fields:
+              - name: days
+                label: Jours ouverts
+                i18n: duplicate
+                widget: object
+                collapsed: true
+                fields:
+                  - name: monday
+                    label: Lundi
+                    i18n: duplicate
+                    widget: boolean
+                    default: false
+                  - name: tuesday
+                    label: Mardi
+                    i18n: duplicate
+                    widget: boolean
+                    default: false
+                  - name: wednesday
+                    label: Mercredi
+                    i18n: duplicate
+                    widget: boolean
+                    default: false
+                  - name: thursday
+                    label: Jeudi
+                    i18n: duplicate
+                    widget: boolean
+                    default: false
+                  - name: friday
+                    label: Vendredi
+                    i18n: duplicate
+                    widget: boolean
+                    default: false
+                  - name: saturday
+                    label: Samedi
+                    i18n: duplicate
+                    widget: boolean
+                    default: false
+                  - name: sunday
+                    label: Dimanche
+                    i18n: duplicate
+                    widget: boolean
+                    default: false
+              - name: opens
+                label: Ouverture
+                i18n: duplicate
+                hint: "Sur 24 heures. Changez aussi « Les heures en toutes lettres », affichées sur le site."
+                widget: string
+                pattern:
+                  - "^([01]\\d|2[0-3]):[0-5]\\d$"
+                  - Écrivez l’heure comme 09:00 ou 21:00.
+              - name: closes
+                label: Fermeture
+                i18n: duplicate
+                hint: "Sur 24 heures. Changez aussi « Les heures en toutes lettres », affichées sur le site."
+                widget: string
+                pattern:
+                  - "^([01]\\d|2[0-3]):[0-5]\\d$"
+                  - Écrivez l’heure comme 09:00 ou 21:00.
+          - name: wording
+            label: Les heures en toutes lettres
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: days
+                label: Jours
+                i18n: true
+                hint: "Remplace {days} et {Days} dans les textes du site."
+                widget: string
+              - name: daysShort
+                label: "Jours, version courte"
+                i18n: true
+                hint: "Remplace {daysShort} dans les textes du site."
+                widget: string
+              - name: hours
+                label: Heures
+                i18n: true
+                hint: "Remplace {hours} dans les textes du site."
+                widget: string
+              - name: hoursShort
+                label: "Heures, version courte"
+                i18n: true
+                hint: "Remplace {hoursShort} dans les textes du site."
+                widget: string
+          - name: serviceArea
+            label: Zone desservie
+            i18n: duplicate
+            widget: object
+            collapsed: true
+            fields:
+              - name: province
+                label: Province
+                i18n: duplicate
+                widget: string
+              - name: radiusKm
+                label: Rayon approximatif en km
+                i18n: duplicate
+                hint: "Remplace {radiusKm} dans les textes du site."
+                widget: number
+                value_type: int
+              - name: towns
+                label: Secteurs et municipalités
+                widget: list
+                i18n: duplicate
+                collapsed: true
+                fields:
+                  - name: name
+                    label: Nom
+                    i18n: duplicate
+                    hint: "Les phrases qui nomment des secteurs, comme dans la FAQ, se modifient dans leurs textes."
+                    widget: string
+                  - name: region
+                    label: Région
+                    i18n: duplicate
+                    hint: Regroupe les secteurs sur la page de la zone desservie. Écrivez-la toujours de la même façon.
+                    widget: string
+              - name: boundary
+                label: "Secteurs en limite, à confirmer selon l’adresse"
+                widget: list
+                i18n: duplicate
+                collapsed: true
+                required: false
+                field:
+                  name: value
+                  label: Nom
+                  i18n: duplicate
+                  widget: string
       - name: menu
         label: Menu et bandeau
         file: "src/lib/content/menu.{{locale}}.json"

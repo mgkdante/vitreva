@@ -35,8 +35,8 @@
         "body": "Sur place, une fois le rendez-vous confirmé."
       },
       {
-        "value": "9 h à 21 h",
-        "title": "Du lundi au samedi",
+        "value": "{hoursShort}",
+        "title": "{Days}",
         "body": "Par téléphone, texto ou courriel."
       }
     ]
@@ -124,7 +124,7 @@
   "faq": {
     "eyebrow": "Questions",
     "title": "Bon à savoir avant d’appeler.",
-    "intro": "Vous ne trouvez pas votre question? Textez-nous ou appelez, du lundi au samedi, de 9 h à 21 h.",
+    "intro": "Vous ne trouvez pas votre question? Textez-nous ou appelez, {days}, de {hours}.",
     "cta": "Nous texter",
     "items": [
       {
@@ -133,7 +133,7 @@
       },
       {
         "question": "Dans quels secteurs vous déplacez-vous?",
-        "answer": "Nous desservons Gatineau (Hull, Aylmer, Buckingham et Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts, La Pêche, Pontiac, Notre-Dame-de-la-Salette, Thurso, Mayo, Lochaber, Lochaber-Partie-Ouest, Denholm, Low, Saint-Sixte, Bowman, Mulgrave-et-Derry et Plaisance, selon votre adresse dans un rayon d’environ 50 km au Québec. Les villages de Perkins, Saint-Pierre-de-Wakefield, Poltimore, Wakefield, Sainte-Cécile-de-Masham, Lascelles, Duclos, Lac-des-Loups, Luskville et Quyon font aussi partie des secteurs visés. Pour les adresses près de la limite, notamment à Val-des-Bois, envoyez votre ville ou votre code postal : nous confirmerons le déplacement et le rendez-vous avec vous."
+        "answer": "Nous desservons Gatineau (Hull, Aylmer, Buckingham et Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts, La Pêche, Pontiac, Notre-Dame-de-la-Salette, Thurso, Mayo, Lochaber, Lochaber-Partie-Ouest, Denholm, Low, Saint-Sixte, Bowman, Mulgrave-et-Derry et Plaisance, selon votre adresse dans un rayon d’environ {radiusKm} km au Québec. Les villages de Perkins, Saint-Pierre-de-Wakefield, Poltimore, Wakefield, Sainte-Cécile-de-Masham, Lascelles, Duclos, Lac-des-Loups, Luskville et Quyon font aussi partie des secteurs visés. Pour les adresses près de la limite, notamment à Val-des-Bois, envoyez votre ville ou votre code postal : nous confirmerons le déplacement et le rendez-vous avec vous."
       },
       {
         "question": "Combien coûte un remplacement?",
@@ -172,6 +172,6 @@
   },
   "meta": {
     "title": "Vitreva | Remplacement de pare-brise mobile à Gatineau",
-    "description": "Remplacement de pare-brise mobile à Gatineau et dans l’Outaouais, au Québec, dans un rayon d’environ 50 km. Demandez votre soumission."
+    "description": "Remplacement de pare-brise mobile à Gatineau et dans l’Outaouais, au Québec, dans un rayon d’environ {radiusKm} km. Demandez votre soumission."
   }
 }

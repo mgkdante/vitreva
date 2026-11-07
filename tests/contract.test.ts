@@ -125,11 +125,12 @@ test('text repeated across pages is edited with the shared items', () => {
 
 test('every CMS field has a label and is translatable', () => {
   for (const group of groups) {
-    for (const { fields, i18n } of group.files) {
+    for (const { fields, i18n, name } of group.files) {
       assert.equal(i18n, true);
       walk(fields, (field) => {
         assert.ok(field.label?.trim(), `${field.name} has no label`);
-        assert.equal(field.i18n, true, `${field.name} is not translatable`);
+        // Facts are shared across languages on purpose, except their wording. See business.test.ts.
+        if (name !== 'business') assert.equal(field.i18n, true, `${field.name} is not translatable`);
       });
     }
   }

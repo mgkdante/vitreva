@@ -33,7 +33,7 @@
     {
       "title": "Vos renseignements personnels",
       "body": [
-        "Pour toute question sur vos renseignements personnels ou pour demander leur correction ou leur suppression, écrivez à contact@vitreva.ca."
+        "Pour toute question sur vos renseignements personnels ou pour demander leur correction ou leur suppression, écrivez à {email}."
       ],
       "list": []
     }

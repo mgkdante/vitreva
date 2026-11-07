@@ -15,7 +15,7 @@
     "quote": "Free quote",
     "mobile": "No extra charge for mobile service",
     "reply": "Reply within 24 hours",
-    "hours": "Mon to Sat, 9 am to 9 pm"
+    "hours": "{daysShort}, {hours}"
   },
   "pagesUi": {
     "related": "See also",

@@ -33,7 +33,7 @@
     {
       "title": "Your personal information",
       "body": [
-        "For questions about your personal information, or to request its correction or deletion, email contact@vitreva.ca."
+        "For questions about your personal information, or to request its correction or deletion, email {email}."
       ],
       "list": []
     }
