@@ -1,233 +1,25 @@
 {
-  "error": {
-    "statusLabel": "Error",
-    "illustrationAlt": "Ilustración de la Ford Transit Connect 2010 negra de Vitreva, una furgoneta de carga compacta.",
-    "home": "Volver al inicio",
-    "email": "Escríbenos",
-    "footer": "Vitreva · Reemplazo móvil de parabrisas en Gatineau",
-    "notFound": {
-      "eyebrow": "Parece que tomamos la salida equivocada.",
-      "title": "No encontramos esta página.",
-      "body": "Es posible que el enlace haya cambiado o que la página ya no exista. Volvamos al inicio."
-    },
-    "unavailable": {
-      "eyebrow": "Una pequeña parada en el camino.",
-      "title": "Esta página no está disponible.",
-      "body": "Un problema impide que se cargue esta página. Inténtalo más tarde o vuelve al inicio."
-    }
-  },
-  "meta": {
-    "title": "Vitreva | Reemplazo móvil de parabrisas en Gatineau",
-    "description": "Reemplazo móvil de parabrisas en Gatineau y la región de Outaouais, en Québec, dentro de un radio de unos 50 km. Solicita tu cotización gratis."
-  },
-  "banner": {
-    "quote": "Cotización gratis",
-    "mobile": "Sin cargo adicional por el servicio móvil",
-    "reply": "Respuesta en 24 horas",
-    "hours": "Lun. a sáb., 9 a. m. a 9 p. m."
-  },
-  "navigation": {
-    "service": "El servicio",
-    "process": "Cómo funciona",
-    "faq": "Preguntas",
-    "contact": "Cotización",
-    "call": "Llamar",
-    "home": "Inicio de Vitreva",
-    "language": "Cambiar de idioma",
-    "skip": "Ir al contenido",
-    "menu": "Menú",
-    "text": "Mensaje",
-    "area": "Zona de servicio"
-  },
   "hero": {
+    "subtitle": "Reemplazo móvil de parabrisas en Gatineau y la región de Outaouais.",
+    "freeQuote": "Cotización gratis",
+    "cue": "Desliza para reemplazar el vidrio",
     "lines": [
       "Tu parabrisas.",
       "Vamos hasta ti."
     ],
-    "subtitle": "Reemplazo móvil de parabrisas en Gatineau y la región de Outaouais.",
-    "status": {
-      "before": "¿Parabrisas agrietado?",
-      "after": "Vidrio nuevo. Camino despejado."
-    },
-    "freeQuote": "Cotización gratis",
     "mirrorNote": "Más cerca de lo que parece",
     "radio": {
       "label": "Mensajes",
       "text": "Envíanos una foto del daño por mensaje"
     },
-    "cue": "Desliza para reemplazar el vidrio"
-  },
-  "panel": {
-    "label": "Lo esencial",
-    "items": [
-      {
-        "value": "$0",
-        "level": 1,
-        "title": "Cotización gratis",
-        "body": "Gratis, incluso cuando vamos hasta ti."
-      },
-      {
-        "value": "24 h",
-        "level": 0.8,
-        "title": "Tiempo de respuesta",
-        "body": "Una respuesta dentro de las 24 horas siguientes a tu solicitud."
-      },
-      {
-        "value": "1 h",
-        "level": 0.62,
-        "title": "Reemplazo en menos de 1 hora",
-        "body": "En el lugar, una vez confirmada la cita."
-      },
-      {
-        "value": "9 a 9",
-        "level": 0.5,
-        "title": "De lunes a sábado",
-        "body": "Por teléfono, mensaje o correo, de 9 a. m. a 9 p. m."
-      }
-    ]
-  },
-  "area": {
-    "title": "En Gatineau, donde estés.",
-    "body": "Servicio móvil en Québec. Envíanos tu ciudad o código postal para confirmar el traslado hasta tu ubicación.",
-    "note": "Con línea punteada: cerca del límite, se confirma según la dirección.",
-    "boundaryHint": "cerca del límite, se confirma según la dirección",
-    "link": "Ver toda la zona de servicio"
-  },
-  "information": {
-    "eyebrow": "El servicio",
-    "title": "Bien hecho, dondequiera que estés estacionado.",
-    "caption": "Ilustración. Pronto, fotos de trabajos reales.",
-    "items": [
-      {
-        "title": "Un parabrisas adecuado para tu vehículo",
-        "body": "El año, la marca, el modelo y el VIN nos ayudan a identificar el parabrisas correcto y sus características."
-      },
-      {
-        "title": "Un lugar que funcione",
-        "body": "Indica dónde estará el vehículo. Confirmamos contigo el lugar y las condiciones de trabajo."
-      },
-      {
-        "title": "Indicaciones claras",
-        "body": "Recibes las indicaciones para tu instalación: cuándo conducir, lavar y volver a usar el vehículo."
-      },
-      {
-        "title": "Una garantía en tu reemplazo",
-        "body": "Te explicamos qué cubre cuando te enviamos la cotización."
-      }
-    ]
-  },
-  "situations": {
-    "eyebrow": "Tu situación",
-    "title": "Cada parabrisas trae sus propias preguntas.",
-    "cards": [
-      {
-        "title": "Una reclamación al seguro",
-        "body": "Tu aseguradora confirma la cobertura y el deducible. Preparamos una cotización para agregar a tu reclamación.",
-        "cta": "Solicitar una cotización",
-        "target": "insurance"
-      },
-      {
-        "title": "Vehículos de empresa y flotas",
-        "body": "Indica cuántos vehículos tienes, de qué tipo y dónde están. Confirmaremos juntos cómo podemos ayudarte.",
-        "cta": "Hablar de tu flota",
-        "target": "fleets"
-      },
-      {
-        "title": "Cámaras y sensores",
-        "body": "Menciónalos desde el principio. Si se necesita una calibración ADAS, te orientamos hacia un proveedor adecuado.",
-        "cta": "Leer más",
-        "target": "cameras"
-      },
-      {
-        "title": "¿No sabes qué necesitas?",
-        "body": "Nuestro servicio es el reemplazo. Envíanos una foto y una descripción, y te ayudaremos a ver el siguiente paso.",
-        "cta": "Enviar una foto",
-        "target": "text"
-      }
-    ]
-  },
-  "process": {
-    "eyebrow": "Cómo funciona",
-    "title": "Cuatro paradas, de la grieta al camino despejado.",
-    "textCta": "Enviar una foto",
-    "quoteCta": "Cotización gratis",
-    "steps": [
-      {
-        "id": "request",
-        "title": "Cuéntanos sobre el daño",
-        "body": "Envía una foto por mensaje o completa el formulario: año, marca y modelo del vehículo, dónde está estacionado y el VIN si lo tienes."
-      },
-      {
-        "id": "quote",
-        "title": "Recibe tu cotización gratis",
-        "body": "Respondemos en 24 horas y confirmamos contigo el trabajo, el precio y el lugar. Menciona las cámaras y los sistemas de asistencia a la conducción."
-      },
-      {
-        "id": "visit",
-        "title": "Vamos hasta ti",
-        "body": "Primero apruebas el precio y la hora. Luego nos encontramos en el lugar acordado, sin cargo adicional por el servicio móvil."
-      },
-      {
-        "id": "road",
-        "title": "De vuelta en el camino",
-        "body": "Te explicamos cuándo puedes volver a conducir y cómo cuidar el parabrisas nuevo. Tu reemplazo está cubierto por nuestra garantía."
-      }
-    ]
-  },
-  "quote": {
-    "call": "Llamar",
-    "submitting": "Enviando…",
-    "privacyNote": "Los datos que envías se utilizan para atender tu solicitud y responderte.",
-    "privacyLabel": "Privacidad",
-    "success": "Tu solicitud se ha enviado. Vitreva se comunicará contigo para precisar los detalles. En esta etapa todavía no se ha confirmado ninguna cita.",
-    "error": "No se pudo enviar tu solicitud. Inténtalo de nuevo o comunícate con Vitreva por teléfono o correo electrónico.",
-    "unconfigured": "El envío del formulario aún no está disponible. Tu solicitud no se ha enviado. Comunícate con Vitreva por teléfono o correo electrónico.",
-    "consent": "Acepto que Vitreva utilice estos datos para atender mi solicitud y responderme.",
-    "required": "Obligatorio",
-    "subject": "Solicitud de cotización de Vitreva",
-    "title": "Recuperemos tu vista despejada.",
-    "intro": "Elige lo que te resulte más fácil. Respondemos en 24 horas y la cotización es gratis.",
-    "vinHelp": "Si lo tienes. Aparece en los documentos de registro o del seguro, o normalmente en la parte inferior del parabrisas, del lado del conductor.",
-    "submit": "Obtener mi cotización gratis",
-    "note": "Este envío no reserva nada. Primero confirmamos contigo el precio y la cita.",
-    "fields": {
-      "name": "Nombre",
-      "contact": "Teléfono o correo electrónico",
-      "vehicle": "Año, marca y modelo",
-      "vin": "VIN (opcional)",
-      "location": "Ciudad o código postal",
-      "message": "Qué necesitas"
-    },
-    "eyebrow": "Cotización gratis",
-    "ways": {
-      "text": "Enviar una foto",
-      "textNote": "La forma más fácil de mostrar el daño",
-      "email": "Correo"
+    "status": {
+      "after": "Vidrio nuevo. Camino despejado.",
+      "before": "¿Parabrisas agrietado?"
     }
   },
-  "footer": {
-    "privacy": "Privacidad",
-    "terms": "Condiciones de uso",
-    "language": "Idioma",
-    "creditPrefix": "Powered by",
-    "description": "Reemplazo móvil de parabrisas en Gatineau y la región de Outaouais, Québec.",
-    "serviceTitle": "Servicio",
-    "contactTitle": "Contacto",
-    "hoursTitle": "Horario",
-    "days": "De lunes a sábado",
-    "hours": "De 9 a. m. a 9 p. m.",
-    "companyTitle": "Vitreva"
-  },
-  "images": {
-    "van": "Ilustración del vehículo de servicio móvil de Vitreva en Gatineau.",
-    "installation": "Ilustración de un reemplazo de parabrisas al aire libre.",
-    "aftercare": "Ilustración de un parabrisas después de su instalación."
-  },
   "faq": {
-    "eyebrow": "Preguntas",
     "title": "Bueno saberlo antes de llamar.",
     "intro": "¿No ves tu pregunta? Escríbenos o llámanos, de lunes a sábado, de 9 a. m. a 9 p. m.",
-    "cta": "Escríbenos",
     "items": [
       {
         "question": "¿Qué necesito para una cotización y dónde encuentro el VIN?",
@@ -265,10 +57,218 @@
         "question": "¿Mi seguro puede cubrir el reemplazo?",
         "answer": "Tu aseguradora puede confirmar la cobertura y el deducible de tu póliza. Podemos preparar una cotización para tu reclamación, para que consultes con ella si tendrías que pagar algún monto y cuál sería."
       }
-    ]
+    ],
+    "cta": "Escríbenos",
+    "eyebrow": "Preguntas"
+  },
+  "area": {
+    "body": "Servicio móvil en Québec. Envíanos tu ciudad o código postal para confirmar el traslado hasta tu ubicación.",
+    "boundaryHint": "cerca del límite, se confirma según la dirección",
+    "link": "Ver toda la zona de servicio",
+    "note": "Con línea punteada: cerca del límite, se confirma según la dirección.",
+    "title": "En Gatineau, donde estés."
+  },
+  "banner": {
+    "hours": "Lun. a sáb., 9 a. m. a 9 p. m.",
+    "mobile": "Sin cargo adicional por el servicio móvil",
+    "quote": "Cotización gratis",
+    "reply": "Respuesta en 24 horas"
+  },
+  "error": {
+    "email": "Escríbenos",
+    "footer": "Vitreva · Reemplazo móvil de parabrisas en Gatineau",
+    "home": "Volver al inicio",
+    "illustrationAlt": "Ilustración de la Ford Transit Connect 2010 negra de Vitreva, una furgoneta de carga compacta.",
+    "notFound": {
+      "body": "Es posible que el enlace haya cambiado o que la página ya no exista. Volvamos al inicio.",
+      "eyebrow": "Parece que tomamos la salida equivocada.",
+      "title": "No encontramos esta página."
+    },
+    "statusLabel": "Error",
+    "unavailable": {
+      "body": "Un problema impide que se cargue esta página. Inténtalo más tarde o vuelve al inicio.",
+      "eyebrow": "Una pequeña parada en el camino.",
+      "title": "Esta página no está disponible."
+    }
+  },
+  "footer": {
+    "companyTitle": "Vitreva",
+    "contactTitle": "Contacto",
+    "creditPrefix": "Powered by",
+    "days": "De lunes a sábado",
+    "description": "Reemplazo móvil de parabrisas en Gatineau y la región de Outaouais, Québec.",
+    "hours": "De 9 a. m. a 9 p. m.",
+    "hoursTitle": "Horario",
+    "language": "Idioma",
+    "privacy": "Privacidad",
+    "serviceTitle": "Servicio",
+    "terms": "Condiciones de uso"
+  },
+  "images": {
+    "aftercare": "Ilustración de un parabrisas después de su instalación.",
+    "installation": "Ilustración de un reemplazo de parabrisas al aire libre.",
+    "van": "Ilustración del vehículo de servicio móvil de Vitreva en Gatineau."
+  },
+  "information": {
+    "caption": "Ilustración. Pronto, fotos de trabajos reales.",
+    "eyebrow": "El servicio",
+    "items": [
+      {
+        "body": "El año, la marca, el modelo y el VIN nos ayudan a identificar el parabrisas correcto y sus características.",
+        "title": "Un parabrisas adecuado para tu vehículo"
+      },
+      {
+        "body": "Indica dónde estará el vehículo. Confirmamos contigo el lugar y las condiciones de trabajo.",
+        "title": "Un lugar que funcione"
+      },
+      {
+        "body": "Recibes las indicaciones para tu instalación: cuándo conducir, lavar y volver a usar el vehículo.",
+        "title": "Indicaciones claras"
+      },
+      {
+        "body": "Te explicamos qué cubre cuando te enviamos la cotización.",
+        "title": "Una garantía en tu reemplazo"
+      }
+    ],
+    "title": "Bien hecho, dondequiera que estés estacionado."
+  },
+  "meta": {
+    "description": "Reemplazo móvil de parabrisas en Gatineau y la región de Outaouais, en Québec, dentro de un radio de unos 50 km. Solicita tu cotización gratis.",
+    "title": "Vitreva | Reemplazo móvil de parabrisas en Gatineau"
+  },
+  "navigation": {
+    "area": "Zona de servicio",
+    "call": "Llamar",
+    "contact": "Cotización",
+    "faq": "Preguntas",
+    "home": "Inicio de Vitreva",
+    "language": "Cambiar de idioma",
+    "menu": "Menú",
+    "process": "Cómo funciona",
+    "service": "El servicio",
+    "skip": "Ir al contenido",
+    "text": "Mensaje"
   },
   "pagesUi": {
-    "related": "Ver también",
-    "communities": "Sectores y municipios"
+    "communities": "Sectores y municipios",
+    "related": "Ver también"
+  },
+  "panel": {
+    "items": [
+      {
+        "body": "Gratis, incluso cuando vamos hasta ti.",
+        "level": 1,
+        "title": "Cotización gratis",
+        "value": "$0"
+      },
+      {
+        "body": "Una respuesta dentro de las 24 horas siguientes a tu solicitud.",
+        "level": 0.8,
+        "title": "Tiempo de respuesta",
+        "value": "24 h"
+      },
+      {
+        "body": "En el lugar, una vez confirmada la cita.",
+        "level": 0.62,
+        "title": "Reemplazo en menos de 1 hora",
+        "value": "1 h"
+      },
+      {
+        "body": "Por teléfono, mensaje o correo, de 9 a. m. a 9 p. m.",
+        "level": 0.5,
+        "title": "De lunes a sábado",
+        "value": "9 a 9"
+      }
+    ],
+    "label": "Lo esencial"
+  },
+  "process": {
+    "eyebrow": "Cómo funciona",
+    "quoteCta": "Cotización gratis",
+    "steps": [
+      {
+        "body": "Envía una foto por mensaje o completa el formulario: año, marca y modelo del vehículo, dónde está estacionado y el VIN si lo tienes.",
+        "id": "request",
+        "title": "Cuéntanos sobre el daño"
+      },
+      {
+        "body": "Respondemos en 24 horas y confirmamos contigo el trabajo, el precio y el lugar. Menciona las cámaras y los sistemas de asistencia a la conducción.",
+        "id": "quote",
+        "title": "Recibe tu cotización gratis"
+      },
+      {
+        "body": "Primero apruebas el precio y la hora. Luego nos encontramos en el lugar acordado, sin cargo adicional por el servicio móvil.",
+        "id": "visit",
+        "title": "Vamos hasta ti"
+      },
+      {
+        "body": "Te explicamos cuándo puedes volver a conducir y cómo cuidar el parabrisas nuevo. Tu reemplazo está cubierto por nuestra garantía.",
+        "id": "road",
+        "title": "De vuelta en el camino"
+      }
+    ],
+    "textCta": "Enviar una foto",
+    "title": "Cuatro paradas, de la grieta al camino despejado."
+  },
+  "quote": {
+    "call": "Llamar",
+    "consent": "Acepto que Vitreva utilice estos datos para atender mi solicitud y responderme.",
+    "error": "No se pudo enviar tu solicitud. Inténtalo de nuevo o comunícate con Vitreva por teléfono o correo electrónico.",
+    "eyebrow": "Cotización gratis",
+    "fields": {
+      "contact": "Teléfono o correo electrónico",
+      "location": "Ciudad o código postal",
+      "message": "Qué necesitas",
+      "name": "Nombre",
+      "vehicle": "Año, marca y modelo",
+      "vin": "VIN (opcional)"
+    },
+    "intro": "Elige lo que te resulte más fácil. Respondemos en 24 horas y la cotización es gratis.",
+    "note": "Este envío no reserva nada. Primero confirmamos contigo el precio y la cita.",
+    "privacyLabel": "Privacidad",
+    "privacyNote": "Los datos que envías se utilizan para atender tu solicitud y responderte.",
+    "required": "Obligatorio",
+    "subject": "Solicitud de cotización de Vitreva",
+    "submit": "Obtener mi cotización gratis",
+    "submitting": "Enviando…",
+    "success": "Tu solicitud se ha enviado. Vitreva se comunicará contigo para precisar los detalles. En esta etapa todavía no se ha confirmado ninguna cita.",
+    "title": "Recuperemos tu vista despejada.",
+    "unconfigured": "El envío del formulario aún no está disponible. Tu solicitud no se ha enviado. Comunícate con Vitreva por teléfono o correo electrónico.",
+    "vinHelp": "Si lo tienes. Aparece en los documentos de registro o del seguro, o normalmente en la parte inferior del parabrisas, del lado del conductor.",
+    "ways": {
+      "email": "Correo",
+      "text": "Enviar una foto",
+      "textNote": "La forma más fácil de mostrar el daño"
+    }
+  },
+  "situations": {
+    "cards": [
+      {
+        "body": "Tu aseguradora confirma la cobertura y el deducible. Preparamos una cotización para agregar a tu reclamación.",
+        "cta": "Solicitar una cotización",
+        "target": "insurance",
+        "title": "Una reclamación al seguro"
+      },
+      {
+        "body": "Indica cuántos vehículos tienes, de qué tipo y dónde están. Confirmaremos juntos cómo podemos ayudarte.",
+        "cta": "Hablar de tu flota",
+        "target": "fleets",
+        "title": "Vehículos de empresa y flotas"
+      },
+      {
+        "body": "Menciónalos desde el principio. Si se necesita una calibración ADAS, te orientamos hacia un proveedor adecuado.",
+        "cta": "Leer más",
+        "target": "cameras",
+        "title": "Cámaras y sensores"
+      },
+      {
+        "body": "Nuestro servicio es el reemplazo. Envíanos una foto y una descripción, y te ayudaremos a ver el siguiente paso.",
+        "cta": "Enviar una foto",
+        "target": "text",
+        "title": "¿No sabes qué necesitas?"
+      }
+    ],
+    "eyebrow": "Tu situación",
+    "title": "Cada parabrisas trae sus propias preguntas."
   }
 }
