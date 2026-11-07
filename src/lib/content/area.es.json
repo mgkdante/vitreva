@@ -19,7 +19,7 @@
     {
       "title": "Cerca del límite",
       "body": [
-        "Val-des-Bois está cerca del límite de nuestra zona, así que depende de tu dirección exacta. Nuestro servicio se mantiene en Québec, por lo que no atendemos direcciones en Ottawa ni en otras partes de Ontario."
+        "{boundary} está cerca del límite de nuestra zona, así que depende de tu dirección exacta. Nuestro servicio se mantiene en Québec, por lo que no atendemos direcciones en Ottawa ni en otras partes de Ontario."
       ],
       "list": []
     }

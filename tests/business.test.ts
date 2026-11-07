@@ -63,6 +63,41 @@ test('at least one day must be open', () => {
   assert.ok(!businessContract.safeParse(facts).success);
 });
 
+const towns = (...list: [string, 'municipality' | 'sector' | 'village'][]) => list.map(([name, kind]) => ({ name, kind, region: 'R' }));
+const withTowns = (locale: string, list: ReturnType<typeof towns>, boundary = ['Limite']) => {
+  const facts = clone(business(locale));
+  return { ...facts, serviceArea: { ...facts.serviceArea, towns: list, boundary } };
+};
+
+test('town sentences follow the list, with sectors after their municipality and villages apart', () => {
+  const list = towns(['Gatineau', 'municipality'], ['Hull', 'sector'], ['Aylmer', 'sector'], ['Cantley', 'municipality'], ['Low', 'municipality'], ['Quyon', 'village'], ['Duclos', 'village']);
+  const fr = factTokens(withTowns('fr', list));
+  assert.equal(fr.municipalities, 'Gatineau (Hull et Aylmer), Cantley et Low');
+  assert.equal(fr.villages, 'Quyon et Duclos');
+  assert.equal(fr.boundary, 'Limite');
+  assert.equal(factTokens(withTowns('en', list)).municipalities, 'Gatineau (Hull and Aylmer), Cantley and Low');
+  assert.equal(factTokens(withTowns('es', list)).villages, 'Quyon y Duclos');
+});
+
+test('a list of one has no connecting word, and an empty one is empty', () => {
+  const fr = factTokens(withTowns('fr', towns(['Gatineau', 'municipality']), []));
+  assert.equal(fr.municipalities, 'Gatineau');
+  assert.equal(fr.villages, '');
+  assert.equal(fr.boundary, '');
+});
+
+test('the word for "and" is not offered as a placeholder', () => {
+  assert.ok(!('and' in factTokens(business('fr'))));
+});
+
+test('town lists are only written in the business facts, apart from the area page description', () => {
+  for (const name of readdirSync(contentDir).filter((file) => file.endsWith('.json') && !file.startsWith('business.'))) {
+    const content = JSON.parse(read(name));
+    if (name.startsWith('area.')) delete content.meta;
+    assert.ok(!/Masson-Angers|Val-des-Bois|Luskville|Quyon|Cantley/.test(JSON.stringify(content)), `${name} repeats a town`);
+  }
+});
+
 test('{Days} starts a sentence with the same words as {days}', () => {
   assert.equal(factTokens(business('fr')).Days, 'Du lundi au samedi');
   assert.equal(factTokens(business('es')).Days, 'De lunes a sábado');
@@ -81,8 +116,8 @@ test('open days keep their week order and skip closed days', () => {
 });
 
 test('towns group by region, in the order they are listed', () => {
-  const towns = [{ name: 'A', region: 'R1' }, { name: 'B', region: 'R2' }, { name: 'C', region: 'R1' }];
-  assert.deepEqual(townGroups(towns), [{ name: 'R1', towns: ['A', 'C'] }, { name: 'R2', towns: ['B'] }]);
+  const list = [{ name: 'A', region: 'R1' }, { name: 'B', region: 'R2' }, { name: 'C', region: 'R1' }];
+  assert.deepEqual(townGroups(list), [{ name: 'R1', towns: ['A', 'C'] }, { name: 'R2', towns: ['B'] }]);
 });
 
 test('in the editor, facts are edited once and only their wording is translated', () => {

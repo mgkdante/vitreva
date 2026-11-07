@@ -18,7 +18,8 @@
     "days": "de lunes a sábado",
     "daysShort": "Lun. a sáb.",
     "hours": "9 a. m. a 9 p. m.",
-    "hoursShort": "9 a 9"
+    "hoursShort": "9 a 9",
+    "and": "y"
   },
   "serviceArea": {
     "province": "Québec",
@@ -26,131 +27,163 @@
     "towns": [
       {
         "name": "Gatineau",
-        "region": "Gatineau"
+        "region": "Gatineau",
+        "kind": "municipality"
       },
       {
         "name": "Hull",
-        "region": "Gatineau"
+        "region": "Gatineau",
+        "kind": "sector"
       },
       {
         "name": "Aylmer",
-        "region": "Gatineau"
+        "region": "Gatineau",
+        "kind": "sector"
       },
       {
         "name": "Buckingham",
-        "region": "Gatineau"
+        "region": "Gatineau",
+        "kind": "sector"
       },
       {
         "name": "Masson-Angers",
-        "region": "Gatineau"
+        "region": "Gatineau",
+        "kind": "sector"
       },
       {
         "name": "Cantley",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "municipality"
       },
       {
         "name": "Chelsea",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "municipality"
       },
       {
         "name": "L’Ange-Gardien",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "municipality"
       },
       {
         "name": "Val-des-Monts",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "municipality"
       },
       {
         "name": "Perkins",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "Saint-Pierre-de-Wakefield",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "Poltimore",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "La Pêche",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "municipality"
       },
       {
         "name": "Wakefield",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "Sainte-Cécile-de-Masham",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "Lascelles",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "Duclos",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "Lac-des-Loups",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "Pontiac",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "municipality"
       },
       {
         "name": "Luskville",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "Quyon",
-        "region": "Les Collines-de-l’Outaouais"
+        "region": "Les Collines-de-l’Outaouais",
+        "kind": "village"
       },
       {
         "name": "Notre-Dame-de-la-Salette",
-        "region": "Papineau"
+        "region": "Papineau",
+        "kind": "municipality"
       },
       {
         "name": "Thurso",
-        "region": "Papineau"
+        "region": "Papineau",
+        "kind": "municipality"
       },
       {
         "name": "Mayo",
-        "region": "Papineau"
+        "region": "Papineau",
+        "kind": "municipality"
       },
       {
         "name": "Lochaber",
-        "region": "Papineau"
+        "region": "Papineau",
+        "kind": "municipality"
       },
       {
         "name": "Lochaber-Partie-Ouest",
-        "region": "Papineau"
+        "region": "Papineau",
+        "kind": "municipality"
       },
       {
         "name": "Denholm",
-        "region": "La Vallée-de-la-Gatineau"
+        "region": "La Vallée-de-la-Gatineau",
+        "kind": "municipality"
       },
       {
         "name": "Low",
-        "region": "La Vallée-de-la-Gatineau"
+        "region": "La Vallée-de-la-Gatineau",
+        "kind": "municipality"
       },
       {
         "name": "Saint-Sixte",
-        "region": "Papineau"
+        "region": "Papineau",
+        "kind": "municipality"
       },
       {
         "name": "Bowman",
-        "region": "Papineau"
+        "region": "Papineau",
+        "kind": "municipality"
       },
       {
         "name": "Mulgrave-et-Derry",
-        "region": "Papineau"
+        "region": "Papineau",
+        "kind": "municipality"
       },
       {
         "name": "Plaisance",
-        "region": "Papineau"
+        "region": "Papineau",
+        "kind": "municipality"
       }
     ],
     "boundary": [

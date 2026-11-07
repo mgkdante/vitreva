@@ -21,12 +21,30 @@ const SCHEMA_DAYS: Record<keyof WeekDays, string> = {
 
 const capitalized = (text: string) => text.charAt(0).toLocaleUpperCase('fr-CA') + text.slice(1);
 
-export const factTokens = ({ phone, email, wording, serviceArea }: BusinessFacts): Record<string, string> => ({
+const joined = (items: readonly string[], and: string) =>
+  items.length < 2 ? items.join('') : `${items.slice(0, -1).join(', ')} ${and} ${items.at(-1)}`;
+
+type Town = BusinessFacts['serviceArea']['towns'][number];
+
+/** Municipalities in listed order, each followed by the sectors listed after it, in parentheses. */
+function municipalityList(towns: readonly Town[], and: string) {
+  const places = towns.reduce<{ name: string; sectors: string[] }[]>((list, town) => {
+    if (town.kind === 'municipality') return [...list, { name: town.name, sectors: [] }];
+    if (town.kind !== 'sector' || !list.length) return list;
+    return [...list.slice(0, -1), { ...list[list.length - 1], sectors: [...list[list.length - 1].sectors, town.name] }];
+  }, []);
+  return joined(places.map(({ name, sectors }) => (sectors.length ? `${name} (${joined(sectors, and)})` : name)), and);
+}
+
+export const factTokens = ({ phone, email, wording: { and, ...wording }, serviceArea }: BusinessFacts): Record<string, string> => ({
   phone,
   email,
   ...wording,
   Days: capitalized(wording.days),
-  radiusKm: String(serviceArea.radiusKm)
+  radiusKm: String(serviceArea.radiusKm),
+  municipalities: municipalityList(serviceArea.towns, and),
+  villages: joined(serviceArea.towns.filter((town) => town.kind === 'village').map((town) => town.name), and),
+  boundary: joined(serviceArea.boundary, and)
 });
 
 const fillText = (text: string, tokens: Record<string, string>, where: string) =>

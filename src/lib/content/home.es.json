@@ -133,7 +133,7 @@
       },
       {
         "question": "¿Qué zonas atienden?",
-        "answer": "Atendemos Gatineau (Hull, Aylmer, Buckingham y Masson-Angers), Cantley, Chelsea, L’Ange-Gardien, Val-des-Monts, La Pêche, Pontiac, Notre-Dame-de-la-Salette, Thurso, Mayo, Lochaber, Lochaber-Partie-Ouest, Denholm, Low, Saint-Sixte, Bowman, Mulgrave-et-Derry y Plaisance, según tu dirección dentro de un radio aproximado de {radiusKm} km, únicamente en Québec. También se incluyen las localidades de Perkins, Saint-Pierre-de-Wakefield, Poltimore, Wakefield, Sainte-Cécile-de-Masham, Lascelles, Duclos, Lac-des-Loups, Luskville y Quyon. Para las direcciones cercanas al límite, incluidas las de Val-des-Bois, envíanos tu ciudad o código postal para confirmar contigo el traslado y la cita."
+        "answer": "Atendemos {municipalities}, según tu dirección dentro de un radio aproximado de {radiusKm} km, únicamente en Québec. También se incluyen las localidades de {villages}. Para las direcciones cercanas al límite, incluidas las de {boundary}, envíanos tu ciudad o código postal para confirmar contigo el traslado y la cita."
       },
       {
         "question": "¿Cuánto cuesta el reemplazo?",

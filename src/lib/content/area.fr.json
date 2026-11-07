@@ -19,7 +19,7 @@
     {
       "title": "Près de la limite",
       "body": [
-        "Val-des-Bois se trouve près de la limite de notre zone : tout dépend de votre adresse exacte. Notre service reste au Québec; les adresses à Ottawa et ailleurs en Ontario ne sont donc pas desservies."
+        "{boundary} se trouve près de la limite de notre zone : tout dépend de votre adresse exacte. Notre service reste au Québec; les adresses à Ottawa et ailleurs en Ontario ne sont donc pas desservies."
       ],
       "list": []
     }
