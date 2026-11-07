@@ -2,6 +2,13 @@ name: Deploy GitHub Pages
 
 on:
   workflow_dispatch:
+  # A save in the CMS publishes itself. These are the only files the login service lets it change,
+  # so code merged to main still waits for a manual run.
+  push:
+    branches: [main]
+    paths:
+      - 'src/lib/content/*.json'
+      - 'static/images/uploads/**'
 
 permissions:
   contents: read
