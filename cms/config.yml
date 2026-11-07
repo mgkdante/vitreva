@@ -1,0 +1,1221 @@
+# Generated from src/lib/content/contract.ts. Run `bun run cms:config` instead of editing.
+backend:
+  name: github
+  repo: mgkdante/vitreva
+  branch: main
+  base_url: https://login.yesid.dev
+  auth_endpoint: auth/popup
+  api_root: https://login.yesid.dev
+  graphql_api_root: https://login.yesid.dev
+media_folder: static/images/uploads
+public_folder: /images/uploads
+i18n:
+  structure: multiple_files
+  locales:
+    - fr
+    - en
+    - es
+  default_locale: fr
+singletons:
+  - name: site-text
+    label: Texte du site
+    file: "src/lib/content/{{locale}}.json"
+    format: json
+    i18n: true
+    fields:
+      - name: hero
+        label: Haut de page
+        i18n: true
+        widget: object
+        collapsed: false
+        fields:
+          - name: lines
+            label: "Grand titre, une ligne par entrée"
+            widget: list
+            i18n: true
+            collapsed: true
+            min: 2
+            max: 2
+            allow_add: false
+            allow_remove: false
+            allow_reorder: false
+            field:
+              name: value
+              label: Ligne
+              i18n: true
+              widget: string
+          - name: subtitle
+            label: Sous-titre
+            i18n: true
+            widget: string
+          - name: status
+            label: Message du tableau de bord
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: before
+                label: Avant le défilement
+                i18n: true
+                widget: string
+              - name: after
+                label: Après le défilement
+                i18n: true
+                widget: string
+          - name: freeQuote
+            label: Bouton de soumission
+            i18n: true
+            widget: string
+          - name: mirrorNote
+            label: Texte du rétroviseur
+            i18n: true
+            widget: string
+          - name: radio
+            label: Écran de la radio
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: label
+                label: Titre
+                i18n: true
+                widget: string
+              - name: text
+                label: Message
+                i18n: true
+                widget: string
+          - name: cue
+            label: Invitation à défiler
+            i18n: true
+            widget: string
+      - name: panel
+        label: Indicateurs
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: label
+            label: Nom de la section
+            i18n: true
+            hint: "Lu par les lecteurs d’écran, pas affiché."
+            widget: string
+          - name: items
+            label: Quatre indicateurs
+            widget: list
+            i18n: true
+            collapsed: true
+            min: 4
+            max: 4
+            allow_add: false
+            allow_remove: false
+            allow_reorder: false
+            fields:
+              - name: value
+                label: Valeur
+                i18n: true
+                widget: string
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Description
+                i18n: true
+                widget: text
+      - name: information
+        label: Le service
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: caption
+            label: Légende de la photo
+            i18n: true
+            widget: string
+          - name: items
+            label: Points clés
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Description
+                i18n: true
+                widget: text
+      - name: situations
+        label: Situations
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: cards
+            label: Quatre cartes
+            widget: list
+            i18n: true
+            collapsed: true
+            min: 4
+            max: 4
+            allow_add: false
+            allow_remove: false
+            allow_reorder: false
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Description
+                i18n: true
+                widget: text
+              - name: cta
+                label: Lien
+                i18n: true
+                widget: string
+      - name: process
+        label: Comment ça marche
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: textCta
+            label: Bouton texto
+            i18n: true
+            widget: string
+          - name: quoteCta
+            label: Bouton de soumission
+            i18n: true
+            widget: string
+          - name: steps
+            label: Quatre étapes
+            widget: list
+            i18n: true
+            collapsed: true
+            min: 4
+            max: 4
+            allow_add: false
+            allow_remove: false
+            allow_reorder: false
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Description
+                i18n: true
+                widget: text
+      - name: area
+        label: Zone desservie
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: body
+            label: Texte
+            i18n: true
+            widget: text
+          - name: note
+            label: Note de la carte
+            i18n: true
+            widget: string
+          - name: boundaryHint
+            label: Mention pour les secteurs en limite
+            i18n: true
+            widget: string
+          - name: link
+            label: Lien vers la page complète
+            i18n: true
+            widget: string
+      - name: faq
+        label: Questions fréquentes
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+          - name: cta
+            label: Bouton
+            i18n: true
+            widget: string
+          - name: items
+            label: Questions et réponses
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: question
+                label: Question
+                i18n: true
+                widget: string
+              - name: answer
+                label: Réponse
+                i18n: true
+                widget: text
+      - name: quote
+        label: Formulaire de soumission
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+          - name: call
+            label: Bouton d’appel
+            i18n: true
+            widget: string
+          - name: ways
+            label: Autres façons de nous joindre
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: text
+                label: Bouton texto
+                i18n: true
+                widget: string
+              - name: textNote
+                label: Précision sous le bouton texto
+                i18n: true
+                widget: string
+              - name: email
+                label: Bouton courriel
+                i18n: true
+                widget: string
+          - name: fields
+            label: Champs du formulaire
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: name
+                label: Nom
+                i18n: true
+                widget: string
+              - name: contact
+                label: Téléphone ou courriel
+                i18n: true
+                widget: string
+              - name: vehicle
+                label: Véhicule
+                i18n: true
+                widget: string
+              - name: vin
+                label: NIV
+                i18n: true
+                widget: string
+              - name: location
+                label: Lieu
+                i18n: true
+                widget: string
+              - name: message
+                label: Message
+                i18n: true
+                widget: string
+          - name: vinHelp
+            label: Aide pour trouver le NIV
+            i18n: true
+            widget: text
+          - name: consent
+            label: Consentement
+            i18n: true
+            widget: text
+          - name: privacyNote
+            label: Note de confidentialité
+            i18n: true
+            widget: text
+          - name: privacyLabel
+            label: Lien vers la confidentialité
+            i18n: true
+            widget: string
+          - name: submit
+            label: Bouton d’envoi
+            i18n: true
+            widget: string
+          - name: submitting
+            label: Pendant l’envoi
+            i18n: true
+            widget: string
+          - name: note
+            label: Note sous le bouton
+            i18n: true
+            widget: text
+          - name: success
+            label: Message de réussite
+            i18n: true
+            widget: text
+          - name: error
+            label: Message d’erreur
+            i18n: true
+            widget: text
+          - name: unconfigured
+            label: Message si le formulaire est indisponible
+            i18n: true
+            widget: text
+          - name: subject
+            label: Objet du courriel reçu
+            i18n: true
+            widget: string
+      - name: banner
+        label: Bandeau du haut
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: quote
+            label: Soumission
+            i18n: true
+            widget: string
+          - name: mobile
+            label: Service mobile
+            i18n: true
+            widget: string
+          - name: reply
+            label: Délai de réponse
+            i18n: true
+            widget: string
+          - name: hours
+            label: Heures
+            i18n: true
+            widget: string
+      - name: meta
+        label: Référencement de l’accueil
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: title
+            label: Titre dans Google
+            i18n: true
+            widget: string
+          - name: description
+            label: Description dans Google
+            i18n: true
+            widget: text
+      - name: navigation
+        label: Menu
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: process
+            label: Comment ça marche
+            i18n: true
+            widget: string
+          - name: faq
+            label: Questions
+            i18n: true
+            widget: string
+          - name: contact
+            label: Soumission
+            i18n: true
+            widget: string
+          - name: call
+            label: Appeler
+            i18n: true
+            widget: string
+          - name: text
+            label: Texto
+            i18n: true
+            widget: string
+          - name: menu
+            label: Menu
+            i18n: true
+            widget: string
+          - name: home
+            label: Lien vers l’accueil
+            i18n: true
+            hint: Lu par les lecteurs d’écran.
+            widget: string
+          - name: language
+            label: Changer de langue
+            i18n: true
+            hint: Lu par les lecteurs d’écran.
+            widget: string
+          - name: skip
+            label: Aller au contenu
+            i18n: true
+            hint: Lu par les lecteurs d’écran.
+            widget: string
+      - name: footer
+        label: Pied de page
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: description
+            label: Description
+            i18n: true
+            widget: text
+          - name: serviceTitle
+            label: Titre Service
+            i18n: true
+            widget: string
+          - name: companyTitle
+            label: Titre Entreprise
+            i18n: true
+            widget: string
+          - name: contactTitle
+            label: Titre Contact
+            i18n: true
+            widget: string
+          - name: hoursTitle
+            label: Titre Heures
+            i18n: true
+            widget: string
+          - name: days
+            label: Jours
+            i18n: true
+            widget: string
+          - name: hours
+            label: Heures
+            i18n: true
+            widget: string
+          - name: creditPrefix
+            label: Texte du crédit
+            i18n: true
+            widget: string
+      - name: images
+        label: Descriptions des images
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: van
+            label: Véhicule
+            i18n: true
+            widget: string
+          - name: installation
+            label: Installation
+            i18n: true
+            widget: string
+          - name: aftercare
+            label: Après la pose
+            i18n: true
+            widget: string
+      - name: pagesUi
+        label: Titres communs des pages
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: related
+            label: À voir aussi
+            i18n: true
+            widget: string
+          - name: communities
+            label: Secteurs et municipalités
+            i18n: true
+            widget: string
+      - name: error
+        label: Page d’erreur
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: statusLabel
+            label: Mot « Erreur »
+            i18n: true
+            widget: string
+          - name: illustrationAlt
+            label: Description de l’illustration
+            i18n: true
+            widget: string
+          - name: home
+            label: Retour à l’accueil
+            i18n: true
+            widget: string
+          - name: email
+            label: Écrire
+            i18n: true
+            widget: string
+          - name: footer
+            label: Pied de page
+            i18n: true
+            widget: string
+          - name: notFound
+            label: Page introuvable
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: eyebrow
+                label: Surtitre
+                i18n: true
+                widget: string
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Texte
+                i18n: true
+                widget: text
+          - name: unavailable
+            label: Page indisponible
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: eyebrow
+                label: Surtitre
+                i18n: true
+                widget: string
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Texte
+                i18n: true
+                widget: text
+  - name: pages
+    label: Pages
+    file: "src/lib/content/pages.{{locale}}.json"
+    format: json
+    i18n: true
+    fields:
+      - name: replacement
+        label: Remplacement de pare-brise
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: label
+            label: Nom de la page
+            i18n: true
+            hint: Affiché dans les menus.
+            widget: string
+          - name: summary
+            label: Résumé
+            i18n: true
+            hint: Affiché dans les liens vers cette page.
+            widget: text
+          - name: meta
+            label: Référencement
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre dans Google
+                i18n: true
+                widget: string
+              - name: description
+                label: Description dans Google
+                i18n: true
+                widget: text
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+            required: false
+          - name: sections
+            label: Sections
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Paragraphes
+                widget: list
+                i18n: true
+                collapsed: true
+                field:
+                  name: value
+                  label: Paragraphe
+                  i18n: true
+                  widget: text
+              - name: list
+                label: Liste à puces
+                widget: list
+                i18n: true
+                collapsed: true
+                required: false
+                field:
+                  name: value
+                  label: Élément
+                  i18n: true
+                  widget: string
+      - name: insurance
+        label: Assurance
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: label
+            label: Nom de la page
+            i18n: true
+            hint: Affiché dans les menus.
+            widget: string
+          - name: summary
+            label: Résumé
+            i18n: true
+            hint: Affiché dans les liens vers cette page.
+            widget: text
+          - name: meta
+            label: Référencement
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre dans Google
+                i18n: true
+                widget: string
+              - name: description
+                label: Description dans Google
+                i18n: true
+                widget: text
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+            required: false
+          - name: sections
+            label: Sections
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Paragraphes
+                widget: list
+                i18n: true
+                collapsed: true
+                field:
+                  name: value
+                  label: Paragraphe
+                  i18n: true
+                  widget: text
+              - name: list
+                label: Liste à puces
+                widget: list
+                i18n: true
+                collapsed: true
+                required: false
+                field:
+                  name: value
+                  label: Élément
+                  i18n: true
+                  widget: string
+      - name: fleets
+        label: Flottes
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: label
+            label: Nom de la page
+            i18n: true
+            hint: Affiché dans les menus.
+            widget: string
+          - name: summary
+            label: Résumé
+            i18n: true
+            hint: Affiché dans les liens vers cette page.
+            widget: text
+          - name: meta
+            label: Référencement
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre dans Google
+                i18n: true
+                widget: string
+              - name: description
+                label: Description dans Google
+                i18n: true
+                widget: text
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+            required: false
+          - name: sections
+            label: Sections
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Paragraphes
+                widget: list
+                i18n: true
+                collapsed: true
+                field:
+                  name: value
+                  label: Paragraphe
+                  i18n: true
+                  widget: text
+              - name: list
+                label: Liste à puces
+                widget: list
+                i18n: true
+                collapsed: true
+                required: false
+                field:
+                  name: value
+                  label: Élément
+                  i18n: true
+                  widget: string
+      - name: cameras
+        label: Caméras et ADAS
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: label
+            label: Nom de la page
+            i18n: true
+            hint: Affiché dans les menus.
+            widget: string
+          - name: summary
+            label: Résumé
+            i18n: true
+            hint: Affiché dans les liens vers cette page.
+            widget: text
+          - name: meta
+            label: Référencement
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre dans Google
+                i18n: true
+                widget: string
+              - name: description
+                label: Description dans Google
+                i18n: true
+                widget: text
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+            required: false
+          - name: sections
+            label: Sections
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Paragraphes
+                widget: list
+                i18n: true
+                collapsed: true
+                field:
+                  name: value
+                  label: Paragraphe
+                  i18n: true
+                  widget: text
+              - name: list
+                label: Liste à puces
+                widget: list
+                i18n: true
+                collapsed: true
+                required: false
+                field:
+                  name: value
+                  label: Élément
+                  i18n: true
+                  widget: string
+      - name: area
+        label: Zone desservie
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: label
+            label: Nom de la page
+            i18n: true
+            hint: Affiché dans les menus.
+            widget: string
+          - name: summary
+            label: Résumé
+            i18n: true
+            hint: Affiché dans les liens vers cette page.
+            widget: text
+          - name: meta
+            label: Référencement
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre dans Google
+                i18n: true
+                widget: string
+              - name: description
+                label: Description dans Google
+                i18n: true
+                widget: text
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+            required: false
+          - name: sections
+            label: Sections
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Paragraphes
+                widget: list
+                i18n: true
+                collapsed: true
+                field:
+                  name: value
+                  label: Paragraphe
+                  i18n: true
+                  widget: text
+              - name: list
+                label: Liste à puces
+                widget: list
+                i18n: true
+                collapsed: true
+                required: false
+                field:
+                  name: value
+                  label: Élément
+                  i18n: true
+                  widget: string
+      - name: about
+        label: À propos
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: label
+            label: Nom de la page
+            i18n: true
+            hint: Affiché dans les menus.
+            widget: string
+          - name: summary
+            label: Résumé
+            i18n: true
+            hint: Affiché dans les liens vers cette page.
+            widget: text
+          - name: meta
+            label: Référencement
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre dans Google
+                i18n: true
+                widget: string
+              - name: description
+                label: Description dans Google
+                i18n: true
+                widget: text
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+            required: false
+          - name: sections
+            label: Sections
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Paragraphes
+                widget: list
+                i18n: true
+                collapsed: true
+                field:
+                  name: value
+                  label: Paragraphe
+                  i18n: true
+                  widget: text
+              - name: list
+                label: Liste à puces
+                widget: list
+                i18n: true
+                collapsed: true
+                required: false
+                field:
+                  name: value
+                  label: Élément
+                  i18n: true
+                  widget: string
+      - name: privacy
+        label: Confidentialité
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: label
+            label: Nom de la page
+            i18n: true
+            hint: Affiché dans les menus.
+            widget: string
+          - name: summary
+            label: Résumé
+            i18n: true
+            hint: Affiché dans les liens vers cette page.
+            widget: text
+          - name: meta
+            label: Référencement
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre dans Google
+                i18n: true
+                widget: string
+              - name: description
+                label: Description dans Google
+                i18n: true
+                widget: text
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+            required: false
+          - name: sections
+            label: Sections
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Paragraphes
+                widget: list
+                i18n: true
+                collapsed: true
+                field:
+                  name: value
+                  label: Paragraphe
+                  i18n: true
+                  widget: text
+              - name: list
+                label: Liste à puces
+                widget: list
+                i18n: true
+                collapsed: true
+                required: false
+                field:
+                  name: value
+                  label: Élément
+                  i18n: true
+                  widget: string
+      - name: terms
+        label: Conditions d’utilisation
+        i18n: true
+        widget: object
+        collapsed: true
+        fields:
+          - name: label
+            label: Nom de la page
+            i18n: true
+            hint: Affiché dans les menus.
+            widget: string
+          - name: summary
+            label: Résumé
+            i18n: true
+            hint: Affiché dans les liens vers cette page.
+            widget: text
+          - name: meta
+            label: Référencement
+            i18n: true
+            widget: object
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre dans Google
+                i18n: true
+                widget: string
+              - name: description
+                label: Description dans Google
+                i18n: true
+                widget: text
+          - name: eyebrow
+            label: Surtitre
+            i18n: true
+            widget: string
+          - name: title
+            label: Titre
+            i18n: true
+            widget: string
+          - name: intro
+            label: Introduction
+            i18n: true
+            widget: text
+            required: false
+          - name: sections
+            label: Sections
+            widget: list
+            i18n: true
+            collapsed: true
+            fields:
+              - name: title
+                label: Titre
+                i18n: true
+                widget: string
+              - name: body
+                label: Paragraphes
+                widget: list
+                i18n: true
+                collapsed: true
+                field:
+                  name: value
+                  label: Paragraphe
+                  i18n: true
+                  widget: text
+              - name: list
+                label: Liste à puces
+                widget: list
+                i18n: true
+                collapsed: true
+                required: false
+                field:
+                  name: value
+                  label: Élément
+                  i18n: true
+                  widget: string

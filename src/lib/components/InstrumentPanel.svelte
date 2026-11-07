@@ -3,15 +3,18 @@
   import { reveal } from '#lib/reveal.ts';
 
   let { content }: { content: Content['panel'] } = $props();
+
+  // Part of the design, not content. The contract keeps these four items in this order.
+  const levels = [1, 0.8, 0.62, 0.5];
 </script>
 
 <section class="panel" aria-label={content.label} use:reveal>
   <div class="container panel-grid">
-    {#each content.items as item}
+    {#each content.items as item, index}
       <div class="gauge">
         <svg viewBox="0 0 104 60" aria-hidden="true">
           <path class="track" d="M6 54a46 46 0 0 1 92 0" />
-          <path class="level" pathLength="1" d="M6 54a46 46 0 0 1 92 0" style={`--level: ${item.level}`} />
+          <path class="level" pathLength="1" d="M6 54a46 46 0 0 1 92 0" style={`--level: ${levels[index]}`} />
         </svg>
         <p class="value">{item.value}</p>
         <h2>{item.title}</h2>
