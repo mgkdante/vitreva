@@ -53,7 +53,9 @@ Before launch, verify an actual message reaches the inbox, configure provider sp
 
 ## GitHub Pages
 
-The `Deploy GitHub Pages` workflow is manually started from the Actions tab. Enable **Settings → Pages → Source: GitHub Actions** first. It checks and builds the site, uploads `build/`, and deploys through the official Pages actions.
+The `Deploy GitHub Pages` workflow runs by itself when a CMS save changes `src/lib/content/*.json` or `static/images/uploads/` on `main`. Any other change is published by starting it from the Actions tab. Enable **Settings → Pages → Source: GitHub Actions** first. It checks and builds the site, uploads `build/`, and deploys through the official Pages actions. If a check fails, nothing is deployed and the previous site stays online.
+
+`/admin` on the site leads to the editor at `https://login.yesid.dev/admin/`.
 
 | Repository variable | Purpose |
 | --- | --- |
